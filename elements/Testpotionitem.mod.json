@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Testpotionitem",
+    "splashName": "Splash Potion of Testpotionitem",
+    "lingeringName": "Lingering Potion of Testpotionitem",
+    "arrowName": "Arrow of Testpotionitem",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

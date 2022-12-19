@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="pokey_and_alexs_mod"
+version="2.20.28.2"
+displayName="pokey and alex's mod"
+credits="Created using MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Pokey_yt , Alex super 199"
+description='''
+a neat little collab mod
+'''
+
+[[dependencies.pokey_and_alexs_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

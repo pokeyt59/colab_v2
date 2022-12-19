@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_and_alexs_mod:reinforcedtungsteningot"
+    },
+    "2": {
+      "item": "pokey_and_alexs_mod:reinforcedtungsteningot"
+    },
+    "3": {
+      "item": "pokey_and_alexs_mod:reinforcedtungsteningot"
+    },
+    "5": {
+      "item": "pokey_and_alexs_mod:reinforcedtungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_and_alexs_mod:reinforcedtungsten_armor_boots",
+    "count": 1
+  }
+}
