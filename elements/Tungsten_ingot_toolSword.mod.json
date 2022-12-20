@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "tungsten_ingot_tool_sword",
+    "customModelName": "Normal",
+    "name": "Tungsten Sword",
+    "specialInfo": [
+      "the axe is better but ok"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 20,
+    "efficiency": 24.0,
+    "attackSpeed": 0.8,
+    "enchantability": 140,
+    "damageVsEntity": 60.0,
+    "usageCount": 6280,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tungsteningot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

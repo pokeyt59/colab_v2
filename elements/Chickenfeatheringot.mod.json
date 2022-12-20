@@ -3,36 +3,34 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_tungsten_ingot",
+    "texture": "chicken_feather_ingot",
     "customModelName": "Normal",
-    "name": "Reinforced tungsten ingot",
-    "rarity": "EPIC",
+    "name": "Chicken Feather ingot",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:PAmod"
     },
     "stackSize": 64,
-    "enchantability": 110,
+    "enchantability": 1,
     "useDuration": 0,
-    "toolType": 4.0,
+    "toolType": 0.8,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
-    "destroyAnyBlock": true,
-    "immuneToFire": true,
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": true,
-    "damageVsEntity": 2.6,
-    "specialInfo": [
-      "2 times stronger then your regrets of the past"
-    ],
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onItemInUseTick": {
-      "name": "Heavy_like_regret"
+      "name": "Light_as_a_feather"
     },
     "isFood": false,
     "nutritionalValue": 4,

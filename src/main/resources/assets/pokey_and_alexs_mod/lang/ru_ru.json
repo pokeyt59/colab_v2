@@ -65,6 +65,7 @@
   "item.pokey_and_alexs_mod.reinforcedtungsten_armor_leggings": "Reinforcedtungsten Leggings",
   "item.test.luminisom_ingot": "Люминис",
   "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
+  "item.pokey_and_alexs_mod.tungsten_ingot_tool_axe": "Tungsten_ingot_tool Axe",
   "item.test.drip_armor_armor_leggings": "Drip_armor Leggings",
   "item.pokey_and_alexs_mod.leafy_armor_armor_leggings": "Leafy Leggings",
   "item.minecraft.lingering_potion.effect.testpotionitem": "Lingering Potion of Testpotionitem",
@@ -101,6 +102,7 @@
   "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
   "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
   "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
+  "item.pokey_and_alexs_mod.tungsten_ingot_tool_hoe": "Tungsten_ingot_tool Hoe",
   "item.pokey_and_alexs_mod.drip_armor_armor_chestplate": "Drip Chestplate",
   "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
   "item.test.thornreethhelm_boots": "Шиповые ботинки",
@@ -110,6 +112,7 @@
   "item.pokey_and_alexs__mc_mod.ricebowlfood": "Ricebowlfood",
   "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked_potato_armor_legacy Chestplate",
   "item.pokey_and_alexs__mc_mod.cookedimprovisedcake": "cooked Improvised cake",
+  "item.pokey_and_alexs_mod.tungsten_ingot_tool_pickaxe": "Tungsten_ingot_tool Pickaxe",
   "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
   "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
   "item.pokey_and_alexs_mod.tungsten_armor_armor_boots": "Tungsten_armor Boots",
@@ -136,6 +139,7 @@
   "subtitles.clasic_legacy_sounds_music": "awesome music",
   "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
   "block.pokey_and_alexs__mc_mod.luminisom_ore": "Luminisom Ore",
+  "item.pokey_and_alexs_mod.tungsten_ingot_tool_sword": "Tungsten_ingot_tool Sword",
   "item.test.luminisom_sword": "Luminisom Sword",
   "item.pokey_and_alexs_mod.cookedimprovisedcake": "cooked Improvised cake",
   "item.pokey_and_alexs__mc_mod.luminisom_armor_helmet": "Luminisom Helmet",
@@ -148,6 +152,7 @@
   "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
   "block.test.luminisom_ore": "Люминисовая руда",
   "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
+  "item.pokey_and_alexs_mod.tungsten_ingot_tool_shovel": "Tungsten_ingot_tool Shovel",
   "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
   "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom",
   "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
@@ -158,5 +163,6 @@
   "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
   "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
   "item.pokey_and_alexs_mod.test": "Test",
-  "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate"
+  "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate",
+  "item.pokey_and_alexs_mod.chickenfeatheringot": "Luminisom ingot"
 }

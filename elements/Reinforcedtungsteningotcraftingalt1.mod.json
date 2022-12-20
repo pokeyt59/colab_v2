@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 4,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Lightfluidbucket"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": "Items.COAL#0"
+        "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tungsteningot"
+      },
+      {
+        "value": "CUSTOM:Tungsteningot"
+      },
+      {
+        "value": "CUSTOM:Tungsteningot"
+      },
+      {
+        "value": "CUSTOM:Tungsteningot"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:Reinforcedtungsteningot"
     },
-    "name": "reinforced_tungsten_crafting",
+    "name": "reinforcedtungsteningotcraftingalt_1",
     "namespace": "mod"
   }
 }

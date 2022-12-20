@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 3,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Lightfluidbucket"
+        "value": "Items.FEATHER"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": "CUSTOM:Tungsteningot"
+        "value": "Items.SLIME_BALL"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": "Items.COAL#0"
+        "value": "Items.FEATHER"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Reinforcedtungsteningot"
+      "value": "CUSTOM:Chickenfeatheringot"
     },
-    "name": "reinforced_tungsten_crafting",
+    "name": "chicken_feather_ingot_crafting",
     "namespace": "mod"
   }
 }

@@ -1,6 +1,7 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.procedures.Heavy_like_regretProcedure;
 import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
 
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,6 +14,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
@@ -58,5 +60,12 @@ public class ReinforcedtungsteningotItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("2 times stronger then your regrets of the past"));
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			Heavy_like_regretProcedure.execute(entity);
 	}
 }

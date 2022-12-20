@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chickenfeatheringot"
+    },
+    "name": "chickenfeatheringotcraftingalt_1",
+    "namespace": "mod"
+  }
+}

@@ -6,6 +6,11 @@ package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.item.Wood_log_armorArmorItem;
 import pokey.alexs.mod.item.TungsteningotItem;
+import pokey.alexs.mod.item.Tungsten_ingot_toolSwordItem;
+import pokey.alexs.mod.item.Tungsten_ingot_toolShovelItem;
+import pokey.alexs.mod.item.Tungsten_ingot_toolPickaxeItem;
+import pokey.alexs.mod.item.Tungsten_ingot_toolHoeItem;
+import pokey.alexs.mod.item.Tungsten_ingot_toolAxeItem;
 import pokey.alexs.mod.item.Tungsten_armorArmorItem;
 import pokey.alexs.mod.item.TestItem;
 import pokey.alexs.mod.item.RicebowlfoodItem;
@@ -28,6 +33,7 @@ import pokey.alexs.mod.item.Drip_armorArmorItem;
 import pokey.alexs.mod.item.CookedimprovisedcakeItem;
 import pokey.alexs.mod.item.Cooked_potato_armor_legacyArmorItem;
 import pokey.alexs.mod.item.Cobble_stone_armorArmorItem;
+import pokey.alexs.mod.item.ChickenfeatheringotItem;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -134,6 +140,17 @@ public class PokeyAndAlexsModModItems {
 			() -> new ReinforcedtungstenArmorItem.Leggings());
 	public static final RegistryObject<Item> REINFORCEDTUNGSTEN_ARMOR_BOOTS = REGISTRY.register("reinforcedtungsten_armor_boots",
 			() -> new ReinforcedtungstenArmorItem.Boots());
+	public static final RegistryObject<Item> TUNGSTEN_INGOT_TOOL_PICKAXE = REGISTRY.register("tungsten_ingot_tool_pickaxe",
+			() -> new Tungsten_ingot_toolPickaxeItem());
+	public static final RegistryObject<Item> TUNGSTEN_INGOT_TOOL_AXE = REGISTRY.register("tungsten_ingot_tool_axe",
+			() -> new Tungsten_ingot_toolAxeItem());
+	public static final RegistryObject<Item> TUNGSTEN_INGOT_TOOL_SWORD = REGISTRY.register("tungsten_ingot_tool_sword",
+			() -> new Tungsten_ingot_toolSwordItem());
+	public static final RegistryObject<Item> TUNGSTEN_INGOT_TOOL_SHOVEL = REGISTRY.register("tungsten_ingot_tool_shovel",
+			() -> new Tungsten_ingot_toolShovelItem());
+	public static final RegistryObject<Item> TUNGSTEN_INGOT_TOOL_HOE = REGISTRY.register("tungsten_ingot_tool_hoe",
+			() -> new Tungsten_ingot_toolHoeItem());
+	public static final RegistryObject<Item> CHICKENFEATHERINGOT = REGISTRY.register("chickenfeatheringot", () -> new ChickenfeatheringotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
