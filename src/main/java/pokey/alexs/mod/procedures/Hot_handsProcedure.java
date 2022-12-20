@@ -10,8 +10,8 @@ public class Hot_handsProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 10, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 5, 3));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 5, 4));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 5, 4));
 	}
 }

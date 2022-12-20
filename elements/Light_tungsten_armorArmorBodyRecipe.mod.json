@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": "CUSTOM:Tungsteningot"
+        "value": ""
       },
       {
         "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": "CUSTOM:Tungsteningot"
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
         "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": "CUSTOM:Tungsteningot"
-      },
-      {
-        "value": "CUSTOM:Tungsteningot"
-      },
-      {
-        "value": "CUSTOM:Tungsteningot"
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
         "value": "CUSTOM:Tungsteningot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Reinforcedtungsteningot"
+      "value": "CUSTOM:Light_tungsten_armorArmor.body"
     },
-    "name": "reinforcedtungsteningotcraftingalt_1",
+    "name": "light_tungsten_armor_armor_body_recipe",
     "namespace": "mod"
   }
 }

@@ -17,5 +17,5 @@ import net.minecraft.world.effect.MobEffectInstance;
 public class PokeyAndAlexsModModPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, PokeyAndAlexsModMod.MODID);
 	public static final RegistryObject<Potion> TESTPOTIONITEM = REGISTRY.register("testpotionitem",
-			() -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 0, false, true)));
+			() -> new Potion(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3700, 9, false, true)));
 }

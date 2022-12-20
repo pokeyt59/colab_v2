@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
-        "value": "CUSTOM:Lightfluidbucket"
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Tungsteningot"
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.COAL#0"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Reinforcedtungsteningot"
+      "value": "CUSTOM:Light_tungsten_armorArmor.helmet"
     },
-    "name": "reinforced_tungsten_crafting",
+    "name": "light_tungsten_armor_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

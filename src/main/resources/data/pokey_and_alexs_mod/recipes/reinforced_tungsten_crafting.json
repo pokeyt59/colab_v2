@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
       "item": "pokey_and_alexs_mod:lightfluidbucket"
     },
-    {
+    "1": {
       "item": "pokey_and_alexs_mod:tungsteningot"
     },
-    {
+    "2": {
       "item": "minecraft:coal"
     }
-  ],
+  },
   "result": {
     "item": "pokey_and_alexs_mod:reinforcedtungsteningot",
     "count": 2

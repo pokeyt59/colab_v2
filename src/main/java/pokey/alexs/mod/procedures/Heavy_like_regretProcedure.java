@@ -12,6 +12,6 @@ public class Heavy_like_regretProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 3));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 5));
 	}
 }

@@ -5,8 +5,8 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 3,
-    "group": "improvised_cake",
+    "recipeRetstackSize": 1,
+    "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "Items.SUGAR"
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
-        "value": "Items.SUGAR"
+        "value": ""
       },
       {
-        "value": "Items.SUGAR"
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
-        "value": "Items.BREAD"
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
-        "value": "Items.COOKED_MUTTON"
+        "value": ""
       },
       {
-        "value": "Items.BREAD"
+        "value": "CUSTOM:Chickenfeatheringot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cookedimprovisedcake"
+      "value": "CUSTOM:Light_tungsten_armorArmor.boots"
     },
-    "name": "cookedimprovisedcakecraft",
+    "name": "light_tungsten_armor_armor_boots_recipe",
     "namespace": "mod"
   }
 }

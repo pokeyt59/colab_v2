@@ -1358,6 +1358,57 @@
         ]
       },
       "path": "~/ingot/procedures"
+    },
+    {
+      "name": "Light_tungsten_armorArmor",
+      "type": "armor",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_tungsten_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Light_tungsten_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_tungsten_armor_armor_helmet_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Light_tungsten_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_tungsten_armor_armor_body_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Light_tungsten_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_tungsten_armor_armor_leggings_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Light_tungsten_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_tungsten_armor_armor_boots_recipe",
+      "path": "~/armor"
     }
   ],
   "variable_elements": [
@@ -1408,6 +1459,7 @@
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
       "item.test.leafy_armor_armor_chestplate": "Leafy_armor Chestplate",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_leggings": "Light_tungsten_armor Leggings",
       "item.pokey_and_alexs_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
@@ -1430,6 +1482,7 @@
       "item.pokey_and_alexs__mc_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs_mod.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs__mc_mod.luminisom_sword": "Luminisom Sword",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_chestplate": "Light_tungsten_armor Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_chestplate": "Tungsten_armor Chestplate",
       "item.test.improvisedcake": "Сырой импровизированный торт",
@@ -1452,6 +1505,8 @@
       "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_leggings": "Reinforcedtungsten Leggings",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_helmet": "Light_tungsten_armor Helmet",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_boots": "Light_tungsten_armor Boots",
       "item.test.luminisom_ingot": "Люминис",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.pokey_and_alexs_mod.tungsten_ingot_tool_axe": "Tungsten_ingot_tool Axe",
@@ -1576,6 +1631,7 @@
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
       "item.test.leafy_armor_armor_chestplate": "Leafy Chestplate",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_leggings": "Light_tungsten_armor Leggings",
       "item.pokey_and_alexs_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
@@ -1598,6 +1654,7 @@
       "item.pokey_and_alexs__mc_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs_mod.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs__mc_mod.luminisom_sword": "Luminisom Sword",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_chestplate": "Light_tungsten_armor Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_chestplate": "Tungsten Chestplate",
       "item.test.improvisedcake": "raw Improvised cake",
@@ -1620,6 +1677,8 @@
       "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_leggings": "Reinforced tungsten Leggings",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_helmet": "Light_tungsten_armor Helmet",
+      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_boots": "Light_tungsten_armor Boots",
       "item.test.luminisom_ingot": "Luminisom",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.pokey_and_alexs_mod.tungsten_ingot_tool_axe": "Tungsten Axe",

@@ -11,8 +11,8 @@
         "effect": {
           "value": "SPEED"
         },
-        "duration": 3600,
-        "amplifier": 0,
+        "duration": 3700,
+        "amplifier": 9,
         "ambient": false,
         "showParticles": true
       }

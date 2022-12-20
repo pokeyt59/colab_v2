@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_and_alexs_mod:chickenfeatheringot"
+    },
+    "2": {
+      "item": "pokey_and_alexs_mod:chickenfeatheringot"
+    },
+    "3": {
+      "item": "pokey_and_alexs_mod:chickenfeatheringot"
+    },
+    "5": {
+      "item": "pokey_and_alexs_mod:chickenfeatheringot"
+    }
+  },
+  "result": {
+    "item": "pokey_and_alexs_mod:light_tungsten_armor_armor_boots",
+    "count": 1
+  }
+}
