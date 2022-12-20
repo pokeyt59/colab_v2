@@ -1341,6 +1341,23 @@
       "locked_code": false,
       "registry_name": "reinforcedtungsteningotcraftingalt_1",
       "path": "~/ingot/crafting"
+    },
+    {
+      "name": "Hot_hands",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_hands",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ingot/procedures"
     }
   ],
   "variable_elements": [
@@ -1375,16 +1392,16 @@
       "block.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
+      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.drip_armor_armor_boots": "Drip_armor Boots",
-      "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
+      "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_leggings": "Tungsten_armor Leggings",
-      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
-      "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_leggings": "Wood_log_armor Leggings",
+      "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
+      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
       "item.test.leafy_armor_armor_boots": "Leafy_armor Boots",
       "item.pokey_and_alexs__mc_mod.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -1543,16 +1560,16 @@
       "block.pokey_and_alexs_mod.lightfluidblock": "light fluid",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
+      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.drip_armor_armor_boots": "Drip Boots",
-      "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
+      "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_leggings": "Tungsten Leggings",
-      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
-      "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
+      "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
+      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
       "item.pokey_and_alexs__mc_mod.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.test.leafy_armor_armor_boots": "Leafy Boots",
       "item.test.luminisom_armor_boots": "Luminisom Boots",
@@ -1926,7 +1943,7 @@
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.20.29.2",
+    "version": "2.20.29.3",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
