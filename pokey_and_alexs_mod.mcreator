@@ -1381,7 +1381,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_tungsten_armor_armor_helmet_recipe",
-      "path": "~/armor"
+      "path": "~/armor/crafting"
     },
     {
       "name": "Light_tungsten_armorArmorBodyRecipe",
@@ -1390,7 +1390,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_tungsten_armor_armor_body_recipe",
-      "path": "~/armor"
+      "path": "~/armor/crafting"
     },
     {
       "name": "Light_tungsten_armorArmorLeggingsRecipe",
@@ -1399,7 +1399,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_tungsten_armor_armor_leggings_recipe",
-      "path": "~/armor"
+      "path": "~/armor/crafting"
     },
     {
       "name": "Light_tungsten_armorArmorBootsRecipe",
@@ -1408,7 +1408,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_tungsten_armor_armor_boots_recipe",
-      "path": "~/armor"
+      "path": "~/armor/crafting"
     }
   ],
   "variable_elements": [
@@ -1443,8 +1443,8 @@
       "block.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
+      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "item.test.drip_armor_armor_boots": "Drip_armor Boots",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
@@ -1615,8 +1615,8 @@
       "block.pokey_and_alexs_mod.lightfluidblock": "light fluid",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
+      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.drip_armor_armor_boots": "Drip Boots",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
