@@ -10,6 +10,18 @@
     "textureLeggings": "light_tungsten_armor_leggings",
     "enableBoots": true,
     "textureBoots": "light_tungsten_armor_boots",
+    "onHelmetTick": {
+      "name": "Light_as_a_feather"
+    },
+    "onBodyTick": {
+      "name": "Light_as_a_feather"
+    },
+    "onLeggingsTick": {
+      "name": "Light_as_a_feather"
+    },
+    "onBootsTick": {
+      "name": "Light_as_a_feather"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

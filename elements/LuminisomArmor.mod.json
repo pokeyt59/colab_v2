@@ -10,6 +10,18 @@
     "textureLeggings": "luminisom_leggings",
     "enableBoots": true,
     "textureBoots": "luminisom_boots",
+    "onHelmetTick": {
+      "name": "Hot_hands"
+    },
+    "onBodyTick": {
+      "name": "Hot_hands"
+    },
+    "onLeggingsTick": {
+      "name": "Hot_hands"
+    },
+    "onBootsTick": {
+      "name": "Hot_hands"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

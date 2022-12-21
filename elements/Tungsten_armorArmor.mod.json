@@ -10,6 +10,9 @@
     "textureLeggings": "tungsten_armor_leggings",
     "enableBoots": true,
     "textureBoots": "tungsten_armor_boots",
+    "onBodyTick": {
+      "name": "Hot_hands"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

@@ -1,16 +1,19 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.procedures.Light_as_a_featherProcedure;
 import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
@@ -70,6 +73,11 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "pokey_and_alexs_mod:textures/models/armor/light_tungsten_armor_layer_1.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			Light_as_a_featherProcedure.execute(entity);
+		}
 	}
 
 	public static class Chestplate extends Light_tungsten_armorArmorItem {
@@ -80,6 +88,11 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "pokey_and_alexs_mod:textures/models/armor/light_tungsten_armor_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			Light_as_a_featherProcedure.execute(entity);
 		}
 	}
 
@@ -92,6 +105,11 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "pokey_and_alexs_mod:textures/models/armor/light_tungsten_armor_layer_2.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			Light_as_a_featherProcedure.execute(entity);
+		}
 	}
 
 	public static class Boots extends Light_tungsten_armorArmorItem {
@@ -102,6 +120,11 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "pokey_and_alexs_mod:textures/models/armor/light_tungsten_armor_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			Light_as_a_featherProcedure.execute(entity);
 		}
 	}
 }

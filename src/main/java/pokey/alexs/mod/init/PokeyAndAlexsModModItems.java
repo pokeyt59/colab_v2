@@ -27,6 +27,10 @@ import pokey.alexs.mod.item.LuminisomHoeItem;
 import pokey.alexs.mod.item.LuminisomAxeItem;
 import pokey.alexs.mod.item.LuminisomArmorItem;
 import pokey.alexs.mod.item.LightfluidbucketItem;
+import pokey.alexs.mod.item.Light_tungsten_armorSwordItem;
+import pokey.alexs.mod.item.Light_tungsten_armorPickaxeItem;
+import pokey.alexs.mod.item.Light_tungsten_armorHoeItem;
+import pokey.alexs.mod.item.Light_tungsten_armorAxeItem;
 import pokey.alexs.mod.item.Light_tungsten_armorArmorItem;
 import pokey.alexs.mod.item.Leafy_armorArmorItem;
 import pokey.alexs.mod.item.ImprovisedcakeItem;
@@ -160,6 +164,14 @@ public class PokeyAndAlexsModModItems {
 			() -> new Light_tungsten_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_ARMOR_BOOTS = REGISTRY.register("light_tungsten_armor_armor_boots",
 			() -> new Light_tungsten_armorArmorItem.Boots());
+	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_PICKAXE = REGISTRY.register("light_tungsten_armor_pickaxe",
+			() -> new Light_tungsten_armorPickaxeItem());
+	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_AXE = REGISTRY.register("light_tungsten_armor_axe",
+			() -> new Light_tungsten_armorAxeItem());
+	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_SWORD = REGISTRY.register("light_tungsten_armor_sword",
+			() -> new Light_tungsten_armorSwordItem());
+	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_HOE = REGISTRY.register("light_tungsten_armor_hoe",
+			() -> new Light_tungsten_armorHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

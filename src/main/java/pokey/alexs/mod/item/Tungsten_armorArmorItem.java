@@ -1,16 +1,19 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.procedures.Hot_handsProcedure;
 import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
@@ -80,6 +83,11 @@ public abstract class Tungsten_armorArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "pokey_and_alexs_mod:textures/models/armor/tungsten_armor____layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			Hot_handsProcedure.execute(entity);
 		}
 	}
 
