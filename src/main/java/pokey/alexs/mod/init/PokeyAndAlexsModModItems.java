@@ -172,6 +172,7 @@ public class PokeyAndAlexsModModItems {
 			() -> new Light_tungsten_armorSwordItem());
 	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_HOE = REGISTRY.register("light_tungsten_armor_hoe",
 			() -> new Light_tungsten_armorHoeItem());
+	public static final RegistryObject<Item> CAPPACITORTALL = block(PokeyAndAlexsModModBlocks.CAPPACITORTALL, PokeyAndAlexsModModTabs.TAB_P_AMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

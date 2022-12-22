@@ -87,7 +87,7 @@ public abstract class Tungsten_armorArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Hot_handsProcedure.execute(entity);
+			Hot_handsProcedure.execute(world, entity);
 		}
 	}
 

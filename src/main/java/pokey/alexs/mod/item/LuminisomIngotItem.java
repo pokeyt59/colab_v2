@@ -19,6 +19,6 @@ public class LuminisomIngotItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			Hot_handsProcedure.execute(entity);
+			Hot_handsProcedure.execute(world, entity);
 	}
 }

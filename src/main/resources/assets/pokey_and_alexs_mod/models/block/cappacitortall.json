@@ -1,0 +1,17 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "pokey_and_alexs_mod:models/item/non_poralised_cappsaitor.obj",
+      "ambientToFullbright": true,
+      "textures": {
+        "#m_2c0d309d-df78-9779-0670-38b92e140827": "pokey_and_alexs_mod:blocks/"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pokey_and_alexs_mod:blocks/pasted"
+  }
+}
