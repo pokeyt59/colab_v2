@@ -1496,16 +1496,21 @@
       "path": "~/ingot"
     },
     {
-      "name": "Drop_it_like_its_a_ton",
-      "type": "procedure",
+      "name": "Testconfig",
+      "type": "config",
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "drop_it_like_its_a_ton",
-      "metadata": {
-        "dependencies": []
-      },
-      "path": "~/ingot/procedures"
+      "registry_name": "testconfig"
+    },
+    {
+      "name": "Supersmeltingblastfurnace",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supersmeltingblastfurnace",
+      "path": "~/block"
     }
   ],
   "variable_elements": [
@@ -1550,6 +1555,7 @@
       "item.test.wood_log_armor_armor_leggings": "Wood_log_armor Leggings",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
+      "block.pokey_and_alexs_mod.supersmeltingblastfurnace": "Super smelting blast furnace",
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
       "item.test.leafy_armor_armor_boots": "Leafy_armor Boots",
       "item.pokey_and_alexs__mc_mod.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -1695,6 +1701,7 @@
       "fluid.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "config.pokey_and_alexs_mod.testconfig": "pokey and alex\u0027s mod config",
       "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Люминисовая руда",
       "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
@@ -1727,6 +1734,7 @@
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
+      "block.pokey_and_alexs_mod.supersmeltingblastfurnace": "Super smelting blast furnace",
       "item.pokey_and_alexs__mc_mod.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.test.leafy_armor_armor_boots": "Leafy Boots",
       "item.test.luminisom_armor_boots": "Luminisom Boots",
@@ -1871,6 +1879,7 @@
       "fluid.pokey_and_alexs_mod.lightfluidblock": "light fluid",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "config.pokey_and_alexs_mod.testconfig": "pokey and alex\u0027s mod config",
       "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Luminisom Ore",
       "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
@@ -1901,6 +1910,14 @@
           },
           {
             "name": "ore",
+            "children": []
+          },
+          {
+            "name": "gui",
+            "children": []
+          },
+          {
+            "name": "procedures",
             "children": []
           }
         ]
@@ -2083,12 +2100,7 @@
       },
       {
         "name": "mobs",
-        "children": [
-          {
-            "name": "geko lib",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "name": "music disc",
@@ -2122,7 +2134,7 @@
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.20.32.5",
+    "version": "2.21.32.5",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
