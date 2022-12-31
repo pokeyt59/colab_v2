@@ -16,11 +16,11 @@ package pokey.alexs.mod;
 import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
 import pokey.alexs.mod.init.PokeyAndAlexsModModPotions;
 import pokey.alexs.mod.init.PokeyAndAlexsModModParticleTypes;
+import pokey.alexs.mod.init.PokeyAndAlexsModModMobEffects;
 import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 import pokey.alexs.mod.init.PokeyAndAlexsModModFluids;
 import pokey.alexs.mod.init.PokeyAndAlexsModModFeatures;
 import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlockEntities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -54,10 +54,10 @@ public class PokeyAndAlexsModMod {
 		PokeyAndAlexsModModBlocks.REGISTRY.register(bus);
 		PokeyAndAlexsModModItems.REGISTRY.register(bus);
 
-		PokeyAndAlexsModModBlockEntities.REGISTRY.register(bus);
 		PokeyAndAlexsModModFeatures.REGISTRY.register(bus);
 		PokeyAndAlexsModModFluids.REGISTRY.register(bus);
 
+		PokeyAndAlexsModModMobEffects.REGISTRY.register(bus);
 		PokeyAndAlexsModModPotions.REGISTRY.register(bus);
 
 		PokeyAndAlexsModModParticleTypes.REGISTRY.register(bus);

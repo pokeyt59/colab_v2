@@ -5,13 +5,11 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.block.TungstenoreBlock;
-import pokey.alexs.mod.block.SupersmeltingblastfurnaceBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.ReinforcedtungstenoreBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
 import pokey.alexs.mod.block.LightfluidblockBlock;
-import pokey.alexs.mod.block.CappacitortallBlock;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -34,16 +32,12 @@ public class PokeyAndAlexsModModBlocks {
 	public static final RegistryObject<Block> TUNGSTENORE = REGISTRY.register("tungstenore", () -> new TungstenoreBlock());
 	public static final RegistryObject<Block> REINFORCEDTUNGSTENORE = REGISTRY.register("reinforcedtungstenore",
 			() -> new ReinforcedtungstenoreBlock());
-	public static final RegistryObject<Block> CAPPACITORTALL = REGISTRY.register("cappacitortall", () -> new CappacitortallBlock());
-	public static final RegistryObject<Block> SUPERSMELTINGBLASTFURNACE = REGISTRY.register("supersmeltingblastfurnace",
-			() -> new SupersmeltingblastfurnaceBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			RiceplantBlock.registerRenderLayer();
-			CappacitortallBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent
