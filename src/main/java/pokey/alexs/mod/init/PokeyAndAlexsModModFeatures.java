@@ -5,7 +5,9 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.world.features.plants.RiceplantFeature;
+import pokey.alexs.mod.world.features.plants.CucumberplantFeature;
 import pokey.alexs.mod.world.features.ores.TungstenoreFeature;
+import pokey.alexs.mod.world.features.ores.SaltlyOreFeature;
 import pokey.alexs.mod.world.features.ores.ReinforcedtungstenoreFeature;
 import pokey.alexs.mod.world.features.ores.LuminisomOreFeature;
 import pokey.alexs.mod.world.features.lakes.LightfluidblockFeature;
@@ -33,17 +35,21 @@ import java.util.ArrayList;
 public class PokeyAndAlexsModModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, PokeyAndAlexsModMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
+	public static final RegistryObject<Feature<?>> LIGHTFLUIDBLOCK = register("lightfluidblock", LightfluidblockFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, LightfluidblockFeature.GENERATE_BIOMES, LightfluidblockFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> LUMINISOM_ORE = register("luminisom_ore", LuminisomOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, LuminisomOreFeature.GENERATE_BIOMES, LuminisomOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> RICEPLANT = register("riceplant", RiceplantFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, RiceplantFeature.GENERATE_BIOMES, RiceplantFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> LIGHTFLUIDBLOCK = register("lightfluidblock", LightfluidblockFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.LAKES, LightfluidblockFeature.GENERATE_BIOMES, LightfluidblockFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> TUNGSTENORE = register("tungstenore", TungstenoreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, TungstenoreFeature.GENERATE_BIOMES, TungstenoreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> REINFORCEDTUNGSTENORE = register("reinforcedtungstenore", ReinforcedtungstenoreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, ReinforcedtungstenoreFeature.GENERATE_BIOMES,
 					ReinforcedtungstenoreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CUCUMBERPLANT = register("cucumberplant", CucumberplantFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, CucumberplantFeature.GENERATE_BIOMES, CucumberplantFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SALTLY_ORE = register("saltly_ore", SaltlyOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SaltlyOreFeature.GENERATE_BIOMES, SaltlyOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

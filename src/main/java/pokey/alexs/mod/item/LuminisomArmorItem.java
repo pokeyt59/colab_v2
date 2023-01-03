@@ -78,7 +78,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Hot_handsProcedure.execute(world, entity);
+			Hot_handsProcedure.execute(entity);
 		}
 	}
 
@@ -94,7 +94,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Hot_handsProcedure.execute(world, entity);
+			Hot_handsProcedure.execute(entity);
 		}
 	}
 
@@ -110,7 +110,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Hot_handsProcedure.execute(world, entity);
+			Hot_handsProcedure.execute(entity);
 		}
 	}
 
@@ -126,7 +126,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Hot_handsProcedure.execute(world, entity);
+			Hot_handsProcedure.execute(entity);
 		}
 	}
 }

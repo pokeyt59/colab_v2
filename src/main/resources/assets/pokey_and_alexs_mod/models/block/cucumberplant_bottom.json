@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "pokey_and_alexs_mod:blocks/cucumber_plant_bottom",
+    "particle": "pokey_and_alexs_mod:blocks/cucumber_plant_bottom"
+  }
+}

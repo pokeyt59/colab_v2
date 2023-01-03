@@ -15,6 +15,12 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "Klh"
+    },
+    "onActiveTick": {
+      "name": "Klhcr"
+    },
+    "onExpired": {
+      "name": "Kls"
     }
   }
 }
