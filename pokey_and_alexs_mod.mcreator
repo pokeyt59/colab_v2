@@ -1612,6 +1612,14 @@
       "locked_code": false,
       "registry_name": "saltly_ore_smelting",
       "path": "~/smelting"
+    },
+    {
+      "name": "Ersm",
+      "type": "biome",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ersm"
     }
   ],
   "variable_elements": [
@@ -1821,7 +1829,8 @@
       "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs_mod.test": "Test",
       "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate",
-      "item.pokey_and_alexs_mod.chickenfeatheringot": "Luminisom ingot"
+      "item.pokey_and_alexs_mod.chickenfeatheringot": "Luminisom ingot",
+      "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines"
     },
     "en_us": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -2002,7 +2011,8 @@
       "itemGroup.tabp_amod": "pokey and alex",
       "item.pokey_and_alexs_mod.test": "Test",
       "item.test.wood_log_armor_armor_chestplate": "Wood log Chestplate",
-      "item.pokey_and_alexs_mod.chickenfeatheringot": "Chicken Feather ingot"
+      "item.pokey_and_alexs_mod.chickenfeatheringot": "Chicken Feather ingot",
+      "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines"
     }
   },
   "foldersRoot": {
@@ -2165,10 +2175,6 @@
       },
       {
         "name": "trades",
-        "children": []
-      },
-      {
-        "name": "cmds",
         "children": []
       },
       {
