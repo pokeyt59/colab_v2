@@ -5,11 +5,13 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.block.TungstenoreBlock;
+import pokey.alexs.mod.block.SaltoreBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.ReinforcedtungstenoreBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
 import pokey.alexs.mod.block.LightfluidblockBlock;
+import pokey.alexs.mod.block.CucumberplantBlock;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -25,19 +27,22 @@ import net.minecraft.world.level.block.Block;
 
 public class PokeyAndAlexsModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, PokeyAndAlexsModMod.MODID);
+	public static final RegistryObject<Block> LIGHTFLUIDBLOCK = REGISTRY.register("lightfluidblock", () -> new LightfluidblockBlock());
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
 	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
-	public static final RegistryObject<Block> LIGHTFLUIDBLOCK = REGISTRY.register("lightfluidblock", () -> new LightfluidblockBlock());
 	public static final RegistryObject<Block> TUNGSTENORE = REGISTRY.register("tungstenore", () -> new TungstenoreBlock());
 	public static final RegistryObject<Block> REINFORCEDTUNGSTENORE = REGISTRY.register("reinforcedtungstenore",
 			() -> new ReinforcedtungstenoreBlock());
+	public static final RegistryObject<Block> CUCUMBERPLANT = REGISTRY.register("cucumberplant", () -> new CucumberplantBlock());
+	public static final RegistryObject<Block> SALTORE = REGISTRY.register("saltore", () -> new SaltoreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			RiceplantBlock.registerRenderLayer();
+			CucumberplantBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

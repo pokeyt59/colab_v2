@@ -10,8 +10,10 @@ public class KlhProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 10, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 1000, 3));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 10, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 600, 3));
+		if (entity instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 1200, 20));
 	}
 }

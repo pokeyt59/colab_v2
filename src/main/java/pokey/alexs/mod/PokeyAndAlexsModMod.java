@@ -21,6 +21,7 @@ import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 import pokey.alexs.mod.init.PokeyAndAlexsModModFluids;
 import pokey.alexs.mod.init.PokeyAndAlexsModModFeatures;
 import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAndAlexsModModBiomes;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -59,7 +60,7 @@ public class PokeyAndAlexsModMod {
 
 		PokeyAndAlexsModModMobEffects.REGISTRY.register(bus);
 		PokeyAndAlexsModModPotions.REGISTRY.register(bus);
-
+		PokeyAndAlexsModModBiomes.REGISTRY.register(bus);
 		PokeyAndAlexsModModParticleTypes.REGISTRY.register(bus);
 	}
 

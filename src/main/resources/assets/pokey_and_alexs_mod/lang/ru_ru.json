@@ -71,6 +71,7 @@
   "item.pokey_and_alexs_mod.light_tungsten_armor_armor_helmet": "Light_tungsten_armor Helmet",
   "item.pokey_and_alexs_mod.light_tungsten_armor_armor_boots": "Light_tungsten_armor Boots",
   "item.test.luminisom_ingot": "Люминис",
+  "block.pokey_and_alexs_mod.cucumberplant": "Cucumber plant",
   "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
   "item.pokey_and_alexs_mod.tungsten_ingot_tool_axe": "Tungsten_ingot_tool Axe",
   "item.test.drip_armor_armor_leggings": "Drip_armor Leggings",
@@ -86,6 +87,7 @@
   "item.pokey_and_alexs_mod.improvisedcake": "raw Improvised cake",
   "item.pokey_and_alexs_mod.drip_armor_armor_helmet": "Drip Helmet",
   "item.pokey_and_alexs_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
+  "block.pokey_and_alexs_mod.saltore": "Salt",
   "item.test.raw_potato_armor_armor_helmet": "Raw_potato_armor Helmet",
   "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
   "item.pokey_and_alexs_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -132,6 +134,7 @@
   "item.test.thornreethhelm_leggings": "Шиповые поножи",
   "block.pokey_and_alexs_mod.luminisom_ore": "Luminisom Ore",
   "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
+  "item.pokey_and_alexs_mod.salt": "Salt",
   "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
   "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
   "item.test.luminisom_armor_helmet": "Люминисовый шлем",
@@ -158,7 +161,6 @@
   "fluid.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
   "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
   "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
-  "config.pokey_and_alexs_mod.testconfig": "pokey and alex\u0027s mod config",
   "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
   "block.test.luminisom_ore": "Люминисовая руда",
   "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
@@ -166,6 +168,7 @@
   "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
   "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom",
   "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
+  "item.pokey_and_alexs_mod.cucumber": "Cucumber",
   "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
   "item.test.luminisom_hoe": "Luminisom Hoe",
   "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
@@ -174,5 +177,6 @@
   "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
   "item.pokey_and_alexs_mod.test": "Test",
   "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate",
-  "item.pokey_and_alexs_mod.chickenfeatheringot": "Luminisom ingot"
+  "item.pokey_and_alexs_mod.chickenfeatheringot": "Luminisom ingot",
+  "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines"
 }
