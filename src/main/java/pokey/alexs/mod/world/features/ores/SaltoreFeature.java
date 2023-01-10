@@ -36,16 +36,16 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class SaltlyOreFeature extends OreFeature {
-	public static SaltlyOreFeature FEATURE = null;
+public class SaltoreFeature extends OreFeature {
+	public static SaltoreFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new SaltlyOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:saltly_ore", FEATURE,
-				new OreConfiguration(SaltlyOreFeatureRuleTest.INSTANCE, PokeyAndAlexsModModBlocks.SALTLY_ORE.get().defaultBlockState(), 7));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:saltly_ore", CONFIGURED_FEATURE,
+		FEATURE = new SaltoreFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:saltore", FEATURE,
+				new OreConfiguration(SaltoreFeatureRuleTest.INSTANCE, PokeyAndAlexsModModBlocks.SALTORE.get().defaultBlockState(), 7));
+		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:saltore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(11), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
 		return FEATURE;
@@ -58,7 +58,7 @@ public class SaltlyOreFeature extends OreFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public SaltlyOreFeature() {
+	public SaltoreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -70,14 +70,14 @@ public class SaltlyOreFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class SaltlyOreFeatureRuleTest extends RuleTest {
-		static final SaltlyOreFeatureRuleTest INSTANCE = new SaltlyOreFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<SaltlyOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		private static final RuleTestType<SaltlyOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+	private static class SaltoreFeatureRuleTest extends RuleTest {
+		static final SaltoreFeatureRuleTest INSTANCE = new SaltoreFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<SaltoreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		private static final RuleTestType<SaltoreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs_mod:saltly_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs_mod:saltore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

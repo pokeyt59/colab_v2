@@ -178,7 +178,7 @@ public class PokeyAndAlexsModModItems {
 	public static final RegistryObject<Item> CUCUMBERPLANT = doubleBlock(PokeyAndAlexsModModBlocks.CUCUMBERPLANT, PokeyAndAlexsModModTabs.TAB_P_AMOD);
 	public static final RegistryObject<Item> CUCUMBER = REGISTRY.register("cucumber", () -> new CucumberItem());
 	public static final RegistryObject<Item> SALT = REGISTRY.register("salt", () -> new SaltItem());
-	public static final RegistryObject<Item> SALTLY_ORE = block(PokeyAndAlexsModModBlocks.SALTLY_ORE, PokeyAndAlexsModModTabs.TAB_P_AMOD);
+	public static final RegistryObject<Item> SALTORE = block(PokeyAndAlexsModModBlocks.SALTORE, PokeyAndAlexsModModTabs.TAB_P_AMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

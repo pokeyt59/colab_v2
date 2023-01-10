@@ -1,5 +1,5 @@
 {
-  "parent": "pokey_and_alexs_mod:block/saltly_ore",
+  "parent": "pokey_and_alexs_mod:block/saltore",
   "display": {
     "thirdperson": {
       "rotation": [

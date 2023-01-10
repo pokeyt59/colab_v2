@@ -71,7 +71,7 @@ public class PokeyAndAlexsModModBiomes {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 						surfaceRules.add(1,
 								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ERSM.getId()),
-										PokeyAndAlexsModModBlocks.SALTLY_ORE.get().defaultBlockState(), Blocks.EMERALD_ORE.defaultBlockState(),
+										PokeyAndAlexsModModBlocks.SALTORE.get().defaultBlockState(), Blocks.EMERALD_ORE.defaultBlockState(),
 										Blocks.SPRUCE_LOG.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),

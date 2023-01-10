@@ -5,7 +5,7 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.block.TungstenoreBlock;
-import pokey.alexs.mod.block.SaltlyOreBlock;
+import pokey.alexs.mod.block.SaltoreBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.ReinforcedtungstenoreBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
@@ -35,7 +35,7 @@ public class PokeyAndAlexsModModBlocks {
 	public static final RegistryObject<Block> REINFORCEDTUNGSTENORE = REGISTRY.register("reinforcedtungstenore",
 			() -> new ReinforcedtungstenoreBlock());
 	public static final RegistryObject<Block> CUCUMBERPLANT = REGISTRY.register("cucumberplant", () -> new CucumberplantBlock());
-	public static final RegistryObject<Block> SALTLY_ORE = REGISTRY.register("saltly_ore", () -> new SaltlyOreBlock());
+	public static final RegistryObject<Block> SALTORE = REGISTRY.register("saltore", () -> new SaltoreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

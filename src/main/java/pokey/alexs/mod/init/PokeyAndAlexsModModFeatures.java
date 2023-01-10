@@ -7,7 +7,7 @@ package pokey.alexs.mod.init;
 import pokey.alexs.mod.world.features.plants.RiceplantFeature;
 import pokey.alexs.mod.world.features.plants.CucumberplantFeature;
 import pokey.alexs.mod.world.features.ores.TungstenoreFeature;
-import pokey.alexs.mod.world.features.ores.SaltlyOreFeature;
+import pokey.alexs.mod.world.features.ores.SaltoreFeature;
 import pokey.alexs.mod.world.features.ores.ReinforcedtungstenoreFeature;
 import pokey.alexs.mod.world.features.ores.LuminisomOreFeature;
 import pokey.alexs.mod.world.features.lakes.LightfluidblockFeature;
@@ -48,8 +48,8 @@ public class PokeyAndAlexsModModFeatures {
 					ReinforcedtungstenoreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> CUCUMBERPLANT = register("cucumberplant", CucumberplantFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, CucumberplantFeature.GENERATE_BIOMES, CucumberplantFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> SALTLY_ORE = register("saltly_ore", SaltlyOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SaltlyOreFeature.GENERATE_BIOMES, SaltlyOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SALTORE = register("saltore", SaltoreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SaltoreFeature.GENERATE_BIOMES, SaltoreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

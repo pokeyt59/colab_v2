@@ -3,18 +3,18 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 0.7,
+    "xpReward": 30.7,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:SaltlyOre"
+      "value": "CUSTOM:Saltore"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:Salt"
     },
-    "name": "saltly_ore_smelting",
+    "name": "saltorecraftingsmelting",
     "namespace": "mod"
   }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "experience": 0.7,
+  "experience": 30.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "pokey_and_alexs_mod:saltly_ore"
+    "item": "pokey_and_alexs_mod:saltore"
   },
   "result": "pokey_and_alexs_mod:salt"
 }

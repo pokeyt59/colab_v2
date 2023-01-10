@@ -4,7 +4,7 @@
   "definition": {
     "name": "emarald ritch salt mines",
     "groundBlock": {
-      "value": "CUSTOM:SaltlyOre"
+      "value": "CUSTOM:Saltore"
     },
     "undergroundBlock": {
       "value": "Blocks.EMERALD_ORE"
