@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_4360ed02-5fc7-defa-a185-7375122c65f0": "crossbow"
+      },
+      "name": "default"
+    }
+  }
+}

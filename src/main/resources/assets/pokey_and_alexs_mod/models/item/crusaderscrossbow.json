@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "pokey_and_alexs_mod:models/item/crossbow_v2.obj",
+  "textures": {
+    "m_4360ed02-5fc7-defa-a185-7375122c65f0": "pokey_and_alexs_mod:blocks/crossbow",
+    "particle": "pokey_and_alexs_mod:items/crossbow"
+  }
+}
