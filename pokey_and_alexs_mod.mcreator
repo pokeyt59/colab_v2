@@ -1684,6 +1684,23 @@
       "locked_code": false,
       "registry_name": "crusaderscrossbow",
       "path": "~/projectile launchers"
+    },
+    {
+      "name": "Healorramdomeffect",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healorramdomeffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/projectile launchers"
     }
   ],
   "variable_elements": [

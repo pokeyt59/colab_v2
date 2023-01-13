@@ -32,6 +32,12 @@
       "value": ""
     },
     "bulletModel": "Modelpokeysyrenge",
-    "customBulletModelTexture": "syrenge.png"
+    "customBulletModelTexture": "syrenge.png",
+    "onBulletHitsPlayer": {
+      "name": "Healorramdomeffect"
+    },
+    "onBulletHitsEntity": {
+      "name": "Healorramdomeffect"
+    }
   }
 }
