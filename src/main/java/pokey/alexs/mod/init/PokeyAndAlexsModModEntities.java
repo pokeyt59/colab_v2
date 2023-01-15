@@ -28,10 +28,10 @@ public class PokeyAndAlexsModModEntities {
 			EntityType.Builder.<CheeseEntity>of(CheeseEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(CheeseEntity::new)
 
-					.sized(6f, 6f));
+					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<ThecreatorEntity>> THECREATOR = register("thecreator",
 			EntityType.Builder.<ThecreatorEntity>of(ThecreatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(68).setUpdateInterval(3).setCustomClientFactory(ThecreatorEntity::new).fireImmune().sized(0.6f, 33f));
+					.setTrackingRange(68).setUpdateInterval(3).setCustomClientFactory(ThecreatorEntity::new).fireImmune().sized(1f, 2f));
 	public static final RegistryObject<EntityType<CrusaderscrossbowEntity>> CRUSADERSCROSSBOW = register("projectile_crusaderscrossbow",
 			EntityType.Builder.<CrusaderscrossbowEntity>of(CrusaderscrossbowEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(CrusaderscrossbowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)

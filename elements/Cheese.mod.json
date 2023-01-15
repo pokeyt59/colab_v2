@@ -7,9 +7,9 @@
     "mobModelName": "Slime",
     "mobModelTexture": "slime.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 6.0,
-    "modelHeight": 6.0,
-    "modelShadowSize": 6.0,
+    "modelWidth": 1.0,
+    "modelHeight": 1.0,
+    "modelShadowSize": 1.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -67,7 +67,7 @@
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
-    "immuneToCactus": false,
+    "immuneToCactus": true,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
@@ -76,7 +76,7 @@
     "immuneToTrident": false,
     "immuneToAnvil": false,
     "immuneToWither": false,
-    "immuneToDragonBreath": false,
+    "immuneToDragonBreath": true,
     "mobDrop": {
       "value": ""
     },
@@ -100,9 +100,6 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "onStruckByLightning": {
-      "name": "Fucking_dyeing"
-    },
-    "whenThisMobKillsAnother": {
       "name": "Fucking_dyeing"
     },
     "hasAI": true,

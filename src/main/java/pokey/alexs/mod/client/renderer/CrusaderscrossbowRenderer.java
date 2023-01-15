@@ -1,7 +1,7 @@
 package pokey.alexs.mod.client.renderer;
 
 import pokey.alexs.mod.entity.CrusaderscrossbowEntity;
-import pokey.alexs.mod.client.model.Modelpokeysyrenge;
+import pokey.alexs.mod.client.model.Modelsyrenge;
 
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
@@ -17,11 +17,11 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class CrusaderscrossbowRenderer extends EntityRenderer<CrusaderscrossbowEntity> {
 	private static final ResourceLocation texture = new ResourceLocation("pokey_and_alexs_mod:textures/entities/syrenge.png");
-	private final Modelpokeysyrenge model;
+	private final Modelsyrenge model;
 
 	public CrusaderscrossbowRenderer(EntityRendererProvider.Context context) {
 		super(context);
-		model = new Modelpokeysyrenge(context.bakeLayer(Modelpokeysyrenge.LAYER_LOCATION));
+		model = new Modelsyrenge(context.bakeLayer(Modelsyrenge.LAYER_LOCATION));
 	}
 
 	@Override

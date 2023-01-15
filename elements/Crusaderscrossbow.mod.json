@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 2,
+    "renderType": 0,
     "texture": "crossbow",
-    "customModelName": "crossbow_v2:default",
+    "customModelName": "Normal",
     "name": "crusader's crossbow",
     "specialInfo": [],
     "creativeTab": {
@@ -31,7 +31,7 @@
     "bulletItemTexture": {
       "value": ""
     },
-    "bulletModel": "Modelpokeysyrenge",
+    "bulletModel": "Modelsyrenge",
     "customBulletModelTexture": "syrenge.png",
     "onBulletHitsPlayer": {
       "name": "Healorramdomeffect"

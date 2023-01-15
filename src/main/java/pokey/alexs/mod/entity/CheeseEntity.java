@@ -38,7 +38,6 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
@@ -109,6 +108,15 @@ public class CheeseEntity extends TamableAnimal {
 	}
 
 	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		if (source == DamageSource.CACTUS)
+			return false;
+		if (source == DamageSource.DRAGON_BREATH)
+			return false;
+		return super.hurt(source, amount);
+	}
+
+	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
@@ -151,12 +159,6 @@ public class CheeseEntity extends TamableAnimal {
 			}
 		}
 		return retval;
-	}
-
-	@Override
-	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
-		super.awardKillScore(entity, score, damageSource);
-		Fucking_dyeingProcedure.execute(entity);
 	}
 
 	@Override

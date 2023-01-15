@@ -11,7 +11,7 @@ import net.minecraft.client.model.SlimeModel;
 
 public class CheeseRenderer extends MobRenderer<CheeseEntity, SlimeModel<CheeseEntity>> {
 	public CheeseRenderer(EntityRendererProvider.Context context) {
-		super(context, new SlimeModel(context.bakeLayer(ModelLayers.SLIME)), 6f);
+		super(context, new SlimeModel(context.bakeLayer(ModelLayers.SLIME)), 1f);
 	}
 
 	@Override
