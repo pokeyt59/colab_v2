@@ -22,6 +22,8 @@ public class PokeyAndAlexsModModSounds {
 				new SoundEvent(new ResourceLocation("pokey_and_alexs_mod", "clasic_legacy_sounds_player")));
 		REGISTRY.put(new ResourceLocation("pokey_and_alexs_mod", "clasic_legacy_sounds_music"),
 				new SoundEvent(new ResourceLocation("pokey_and_alexs_mod", "clasic_legacy_sounds_music")));
+		REGISTRY.put(new ResourceLocation("pokey_and_alexs_mod", "crusaders_crossbow_sounds"),
+				new SoundEvent(new ResourceLocation("pokey_and_alexs_mod", "crusaders_crossbow_sounds")));
 	}
 
 	@SubscribeEvent

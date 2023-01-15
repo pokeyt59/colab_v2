@@ -32,7 +32,7 @@ public class PokeyAndAlexsModModTrades {
 				new ItemStack(Blocks.BEE_NEST, 10), 10, 5, 0.05f));
 		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.SWEET_BERRIES, 2),
 
-				new ItemStack(Blocks.SUNFLOWER, 20), 10, 5, 0.05f));
+				new ItemStack(Blocks.SUNFLOWER, 10), 10, 5, 0.05f));
 	}
 
 	@SubscribeEvent
@@ -41,7 +41,7 @@ public class PokeyAndAlexsModModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.REDSTONE_WIRE, 5),
 
 					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_HELMET.get()), 20, 1, 0.01f));
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.SUGAR_CANE, 10),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.SUGAR_CANE, 11),
 
 					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_CHESTPLATE.get()), 10, 10, 0.19f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.IMPROVISEDCAKE.get()),

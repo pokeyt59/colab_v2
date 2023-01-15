@@ -1,0 +1,13 @@
+newmtl m_4360ed02-5fc7-defa-a185-7375122c65f0
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd pokey_and_alexs_mod:blocks/crossbow
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

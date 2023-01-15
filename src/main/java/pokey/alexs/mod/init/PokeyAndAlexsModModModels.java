@@ -4,7 +4,8 @@
  */
 package pokey.alexs.mod.init;
 
-import pokey.alexs.mod.client.model.Modelnon_poralised_cappsaitor;
+import pokey.alexs.mod.client.model.Modelsyrenge;
+import pokey.alexs.mod.client.model.Modelpokeythecreator;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -15,6 +16,7 @@ import net.minecraftforge.api.distmarker.Dist;
 public class PokeyAndAlexsModModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(Modelnon_poralised_cappsaitor.LAYER_LOCATION, Modelnon_poralised_cappsaitor::createBodyLayer);
+		event.registerLayerDefinition(Modelsyrenge.LAYER_LOCATION, Modelsyrenge::createBodyLayer);
+		event.registerLayerDefinition(Modelpokeythecreator.LAYER_LOCATION, Modelpokeythecreator::createBodyLayer);
 	}
 }

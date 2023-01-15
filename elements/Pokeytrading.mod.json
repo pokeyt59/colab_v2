@@ -30,7 +30,7 @@
             "price1": {
               "value": "Blocks.REEDS"
             },
-            "countPrice1": 10,
+            "countPrice1": 11,
             "price2": {
               "value": ""
             },
@@ -189,7 +189,7 @@
             "offer": {
               "value": "Blocks.DOUBLE_PLANT#0"
             },
-            "countOffer": 20,
+            "countOffer": 10,
             "level": 1,
             "maxTrades": 10,
             "xp": 5,
