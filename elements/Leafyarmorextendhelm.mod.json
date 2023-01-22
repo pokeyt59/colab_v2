@@ -3,7 +3,7 @@
   "_type": "itemextension",
   "definition": {
     "item": {
-      "value": "CUSTOM:Leafy_armorArmor.helmet"
+      "value": "CUSTOM:Leafyarmor.helmet"
     },
     "enableFuel": true,
     "fuelPower": {

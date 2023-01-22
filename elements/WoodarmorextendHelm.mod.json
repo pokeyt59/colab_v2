@@ -3,7 +3,7 @@
   "_type": "itemextension",
   "definition": {
     "item": {
-      "value": "CUSTOM:Wood_log_armorArmor.helmet"
+      "value": "CUSTOM:Woodlogarmor.helmet"
     },
     "enableFuel": true,
     "fuelPower": {
