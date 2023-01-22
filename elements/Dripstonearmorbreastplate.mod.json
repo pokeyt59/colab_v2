@@ -13,6 +13,12 @@
         "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
+        "value": ""
+      },
+      {
+        "value": "Blocks.POINTED_DRIPSTONE"
+      },
+      {
         "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
@@ -22,25 +28,19 @@
         "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
-        "value": ""
+        "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
         "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Blocks.POINTED_DRIPSTONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Drip_armorArmor.helmet"
+      "value": "CUSTOM:Drip_armorArmor.body"
     },
-    "name": "drip_armor_armor_helmet_recipe",
+    "name": "dripstonearmorbreastplate",
     "namespace": "mod"
   }
 }

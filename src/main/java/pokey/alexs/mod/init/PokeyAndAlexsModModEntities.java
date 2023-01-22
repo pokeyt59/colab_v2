@@ -4,8 +4,8 @@
  */
 package pokey.alexs.mod.init;
 
+import pokey.alexs.mod.entity.ThecreatorEntityProjectile;
 import pokey.alexs.mod.entity.ThecreatorEntity;
-import pokey.alexs.mod.entity.CrusaderscrossbowEntity;
 import pokey.alexs.mod.entity.CheeseEntity;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
 
@@ -32,10 +32,9 @@ public class PokeyAndAlexsModModEntities {
 	public static final RegistryObject<EntityType<ThecreatorEntity>> THECREATOR = register("thecreator",
 			EntityType.Builder.<ThecreatorEntity>of(ThecreatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(68).setUpdateInterval(3).setCustomClientFactory(ThecreatorEntity::new).fireImmune().sized(1f, 2f));
-	public static final RegistryObject<EntityType<CrusaderscrossbowEntity>> CRUSADERSCROSSBOW = register("projectile_crusaderscrossbow",
-			EntityType.Builder.<CrusaderscrossbowEntity>of(CrusaderscrossbowEntity::new, MobCategory.MISC)
-					.setCustomClientFactory(CrusaderscrossbowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ThecreatorEntityProjectile>> THECREATOR_PROJECTILE = register("projectile_thecreator",
+			EntityType.Builder.<ThecreatorEntityProjectile>of(ThecreatorEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ThecreatorEntityProjectile::new).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

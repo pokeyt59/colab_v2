@@ -14,7 +14,7 @@
     "smeltingReturnStack": {
       "value": "CUSTOM:Salt"
     },
-    "name": "saltorecraftingsmelting",
+    "name": "saltoresmelting",
     "namespace": "mod"
   }
 }

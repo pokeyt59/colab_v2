@@ -13,34 +13,34 @@
         "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
+        "value": "Blocks.POINTED_DRIPSTONE"
+      },
+      {
+        "value": "Blocks.POINTED_DRIPSTONE"
+      },
+      {
+        "value": "Blocks.POINTED_DRIPSTONE"
+      },
+      {
         "value": ""
       },
       {
         "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Drip_armorArmor.body"
+      "value": "CUSTOM:Drip_armorArmor.helmet"
     },
-    "name": "drip_armor_armor_body_recipe",
+    "name": "dripstonearmorcarfting",
     "namespace": "mod"
   }
 }

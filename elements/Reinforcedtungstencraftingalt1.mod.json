@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 3,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": ""
       },
       {
+        "value": "CUSTOM:Tungsteningot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tungsteningot"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": ""
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Drip_armorArmor.boots"
+      "value": "CUSTOM:Reinforcedtungsteningot"
     },
-    "name": "drip_armor_armor_boots_recipe",
+    "name": "reinforcedtungstencraftingalt_1",
     "namespace": "mod"
   }
 }

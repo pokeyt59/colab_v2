@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Light_tungsten_armorArmor.helmet"
+      "value": "CUSTOM:Lighttungstenarmor.helmet"
     },
     "name": "light_tungsten_armor_armor_helmet_recipe",
     "namespace": "mod"

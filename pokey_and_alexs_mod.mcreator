@@ -503,57 +503,6 @@
       "path": "~/armor/crafting/plant"
     },
     {
-      "name": "Drip_armorArmor",
-      "type": "armor",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "drip_armor_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor"
-    },
-    {
-      "name": "Drip_armorArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "drip_armor_armor_helmet_recipe",
-      "path": "~/armor/crafting/stone"
-    },
-    {
-      "name": "Drip_armorArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "drip_armor_armor_body_recipe",
-      "path": "~/armor/crafting/stone"
-    },
-    {
-      "name": "Drip_armorArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "drip_armor_armor_leggings_recipe",
-      "path": "~/armor/crafting/stone"
-    },
-    {
-      "name": "Drip_armorArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "drip_armor_armor_boots_recipe",
-      "path": "~/armor/crafting/stone"
-    },
-    {
       "name": "Wood_log_armorArmor",
       "type": "armor",
       "sortid": 14,
@@ -654,21 +603,6 @@
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor_boots_recipe",
       "path": "~/armor/crafting/plant"
-    },
-    {
-      "name": "Cobble_stone_armorArmor",
-      "type": "armor",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobble_stone_armor_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor"
     },
     {
       "name": "Cobble_stone_armorArmorHelmetRecipe",
@@ -1315,21 +1249,6 @@
       "path": "~/ingot/procedures"
     },
     {
-      "name": "Light_tungsten_armorArmor",
-      "type": "armor",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light_tungsten_armor_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor"
-    },
-    {
       "name": "Light_tungsten_armorArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 145,
@@ -1516,15 +1435,6 @@
       "path": "~/biomes"
     },
     {
-      "name": "Saltorecraftingsmelting",
-      "type": "recipe",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saltorecraftingsmelting",
-      "path": "~/smelting"
-    },
-    {
       "name": "Saltore",
       "type": "block",
       "sortid": 180,
@@ -1677,30 +1587,139 @@
       "path": "~/biomes"
     },
     {
-      "name": "Crusaderscrossbow",
-      "type": "rangeditem",
-      "sortid": 196,
+      "name": "Reinforcedtungstencraftingalt1",
+      "type": "recipe",
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crusaderscrossbow",
-      "path": "~/projectile launchers"
+      "registry_name": "reinforcedtungstencraftingalt_1",
+      "path": "~/ingot/crafting"
     },
     {
-      "name": "Healorramdomeffect",
-      "type": "procedure",
+      "name": "Saltoresmelting",
+      "type": "recipe",
       "sortid": 196,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "healorramdomeffect",
+      "registry_name": "saltoresmelting",
+      "path": "~/smelting"
+    },
+    {
+      "name": "Tungstinoresmelting",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstinoresmelting",
+      "path": "~/smelting"
+    },
+    {
+      "name": "Axilotlefule",
+      "type": "itemextension",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axilotlefule",
+      "path": "~/smelting/fuel"
+    },
+    {
+      "name": "Heavyarmorclass",
+      "type": "tag",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavyarmorclass",
+      "path": "~/tags"
+    },
+    {
+      "name": "Heavytoolsclass",
+      "type": "tag",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavytoolsclass",
+      "path": "~/tags"
+    },
+    {
+      "name": "Lighttungstenarmor",
+      "type": "armor",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttungstenarmor",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
       },
-      "path": "~/projectile launchers"
+      "path": "~/armor"
+    },
+    {
+      "name": "Cobblestonearmor",
+      "type": "armor",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestonearmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Dripstonearmor",
+      "type": "armor",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonearmor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Dripstonearmorcarfting",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonearmorcarfting",
+      "path": "~/armor/crafting/stone"
+    },
+    {
+      "name": "Dripstonearmorbreastplate",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonearmorbreastplate",
+      "path": "~/armor/crafting/stone"
+    },
+    {
+      "name": "Dripstonearmorleggings",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonearmorleggings",
+      "path": "~/armor/crafting/stone"
+    },
+    {
+      "name": "Dripstonearmorboots",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonearmorboots",
+      "path": "~/armor/crafting/stone"
     }
   ],
   "variable_elements": [
@@ -1762,7 +1781,6 @@
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
       "item.test.leafy_armor_armor_chestplate": "Leafy_armor Chestplate",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_leggings": "Light_tungsten_armor Leggings",
       "item.pokey_and_alexs_mod.lighttungstenpickaxe": "Light tungsten Pickaxe",
       "item.pokey_and_alexs_mod.tungstenhoe": "Tungsten ingot Hoe",
       "item.pokey_and_alexs_mod.rice": "uncooked Rice",
@@ -1775,11 +1793,8 @@
       "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
       "biome.pokey_and_alexs_mod.thecreatorsden": "The creators den",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_boots": "Cooked potato Boots",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_chestplate": "Cobble stone Chestplate",
       "item.test.drip_armor_armor_chestplate": "Drip_armor Chestplate",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_boots": "Cobble stone Boots",
       "block.pokey_and_alexs_mod.luminisom_block": "Block of Luminisom",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_leggings": "Cobble stone Leggings",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_helmet": "Tungsten_armor Helmet",
       "item.minecraft.splash_potion.effect.testpotionitem": "Splash Potion of Testpotionitem",
       "item.pokey_and_alexs_mod.lightfluidblock_bucket": "Testfluid Bucket",
@@ -1788,7 +1803,7 @@
       "item.pokey_and_alexs__mc_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs_mod.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs__mc_mod.luminisom_sword": "Luminisom Sword",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_chestplate": "Light_tungsten_armor Chestplate",
+      "item.pokey_and_alexs_mod.dripstonearmor_boots": "Drip Boots",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_chestplate": "Tungsten_armor Chestplate",
       "item.test.improvisedcake": "Сырой импровизированный торт",
@@ -1798,13 +1813,16 @@
       "item.pokey_and_alexs_mod.luminisom_sword": "Luminisom Sword",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_boots": "Reinforcedtungsten Boots",
       "item.pokey_and_alexs_mod.luminisom_axe": "Luminisom Axe",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_chestplate": "Light_tungsten_armor Chestplate",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.luminisom_axe": "Luminisom Axe",
       "item.test.leafy_armor_armor_leggings": "Leafy_armor Leggings",
       "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked_potato_armor_legacy Boots",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_helmet": "Reinforcedtungsten Helmet",
+      "item.pokey_and_alexs_mod.cobblestonearmor_leggings": "Cobble stone Leggings",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_leggings": "Drip Leggings",
       "subtitles.clasic_legacy_sounds_player": "potatos rubbing against skin",
+      "item.pokey_and_alexs_mod.dripstonearmor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs_mod.lightfluidbucket": "Lightfluidbucket",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
       "item.pokey_and_alexs__mc_mod.test": "Test",
@@ -1812,8 +1830,6 @@
       "effect.pokey_and_alexs_mod.keylimehappynes": "key lime happyness",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_leggings": "Reinforcedtungsten Leggings",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_helmet": "Light_tungsten_armor Helmet",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_boots": "Light_tungsten_armor Boots",
       "item.test.luminisom_ingot": "Люминис",
       "block.pokey_and_alexs_mod.cucumberplant": "Cucumber plant",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -1825,12 +1841,14 @@
       "item.pokey_and_alexs_mod.luminisom_armor_helmet": "Luminisom Helmet",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
+      "item.pokey_and_alexs_mod.cobblestonearmor_boots": "Cobble stone Boots",
       "item.pokey_and_alexs_mod.tungsteningot": "Tungsten ingot",
       "item.minecraft.tipped_arrow.effect.testpotionitem": "Arrow of Testpotionitem",
       "item.pokey_and_alexs_mod.improvisedcake": "raw Improvised cake",
-      "item.pokey_and_alexs_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "block.pokey_and_alexs_mod.saltore": "Salt",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_helmet": "Light_tungsten_armor Helmet",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_boots": "Light_tungsten_armor Boots",
       "item.test.raw_potato_armor_armor_helmet": "Raw_potato_armor Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -1842,22 +1860,20 @@
       "item.pokey_and_alexs_mod.cheese_spawn_egg": "Cheese Spawn Egg",
       "item.pokey_and_alexs_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "block.pokey_and_alexs_mod.riceplant": "rice plant",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_leggings": "Light_tungsten_armor Leggings",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_leggings": "Luminisom Leggings",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
       "fluid.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.raw_potato_armor_armor_boots": "Raw_potato_armor Boots",
       "item.test.raw_potato_armor_armor_leggings": "Raw_potato_armor Leggings",
       "block.pokey_and_alexs_mod.tungstenore": "Tungsten Ore",
-      "item.pokey_and_alexs_mod.drip_armor_armor_boots": "Drip Boots",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_boots": "Cooked potato Boots",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.tungstenpickaxe": "Tungsten Pickaxe",
-      "item.pokey_and_alexs_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
       "item.test.thornreethhelm_boots": "Шиповые ботинки",
       "item.minecraft.potion.effect.testpotionitem": "Potion of Testpotionitem",
@@ -1874,13 +1890,13 @@
       "item.pokey_and_alexs__mc_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked_potato_armor_legacy Helmet",
       "item.pokey_and_alexs__mc_mod.luminisonmnuggetraw": "Luminisonmnuggetraw",
+      "item.pokey_and_alexs_mod.dripstonearmor_helmet": "Drip Helmet",
       "item.test.thornreethhelm_leggings": "Шиповые поножи",
       "block.pokey_and_alexs_mod.luminisom_ore": "Luminisom Ore",
       "subtitles.crusaders_crossbow_sounds": "crusader\u0027s crossbowfiring",
       "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.pokey_and_alexs_mod.salt": "Salt",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
-      "item.pokey_and_alexs_mod.crusaderscrossbow": "Testrangeditem",
       "entity.pokey_and_alexs_mod.thecreator": "Thecreator",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Люминисовый шлем",
@@ -1908,25 +1924,27 @@
       "fluid.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
-      "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Люминисовая руда",
       "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
       "item.pokey_and_alexs_mod.tungstenaxe": "Tungsten Axe",
       "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom",
+      "item.pokey_and_alexs_mod.cobblestonearmor_chestplate": "Cobble stone Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs_mod.cucumber": "Cucumber",
       "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_boots": "Wood_log_armor Boots",
+      "item.pokey_and_alexs_mod.cobblestonearmor_helmet": "Cobble stone Helmet",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
       "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs_mod.test": "Test",
       "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate",
       "item.pokey_and_alexs_mod.chickenfeatheringot": "Luminisom ingot",
       "item.pokey_and_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
-      "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines"
+      "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines",
+      "item.pokey_and_alexs_mod.dripstonearmor_leggings": "Drip Leggings"
     },
     "en_us": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -1951,7 +1969,6 @@
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
       "item.test.leafy_armor_armor_chestplate": "Leafy Chestplate",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_leggings": "Light_tungsten_armor Leggings",
       "item.pokey_and_alexs_mod.lighttungstenpickaxe": "Light tungsten Pickaxe",
       "item.pokey_and_alexs_mod.tungstenhoe": "Tungsten ingot Hoe",
       "item.pokey_and_alexs_mod.rice": "uncooked Rice",
@@ -1964,11 +1981,8 @@
       "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
       "biome.pokey_and_alexs_mod.thecreatorsden": "The creators den",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_boots": "Cooked potato Boots",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_chestplate": "Cobble stone Chestplate",
       "item.test.drip_armor_armor_chestplate": "Drip Chestplate",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_boots": "Cobble stone Boots",
       "block.pokey_and_alexs_mod.luminisom_block": "Block of Luminisom",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_leggings": "Cobble stone Leggings",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_helmet": "Tungsten Helmet",
       "item.minecraft.splash_potion.effect.testpotionitem": "Splash Potion of Testpotionitem",
       "item.pokey_and_alexs_mod.lightfluidblock_bucket": "Testfluid Bucket",
@@ -1977,7 +1991,7 @@
       "item.pokey_and_alexs__mc_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs_mod.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs__mc_mod.luminisom_sword": "Luminisom Sword",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_chestplate": "Light_tungsten_armor Chestplate",
+      "item.pokey_and_alexs_mod.dripstonearmor_boots": "Drip Boots",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_chestplate": "Tungsten Chestplate",
       "item.test.improvisedcake": "raw Improvised cake",
@@ -1987,13 +2001,16 @@
       "item.pokey_and_alexs_mod.luminisom_sword": "Luminisom Sword",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_boots": "Reinforced tungsten Boots",
       "item.pokey_and_alexs_mod.luminisom_axe": "Luminisom Axe",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_chestplate": "Light tungsten Chestplate",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.luminisom_axe": "Luminisom Axe",
       "item.test.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked potato Boots",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_helmet": "Reinforced tungsten Helmet",
+      "item.pokey_and_alexs_mod.cobblestonearmor_leggings": "Cobble stone Leggings",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_leggings": "Drip Leggings",
       "subtitles.clasic_legacy_sounds_player": "potatos rubbing against skin",
+      "item.pokey_and_alexs_mod.dripstonearmor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs_mod.lightfluidbucket": "Light fluid bucket",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
       "item.pokey_and_alexs__mc_mod.test": "Test",
@@ -2001,8 +2018,6 @@
       "effect.pokey_and_alexs_mod.keylimehappynes": "key lime happyness",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_leggings": "Reinforced tungsten Leggings",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_helmet": "Light_tungsten_armor Helmet",
-      "item.pokey_and_alexs_mod.light_tungsten_armor_armor_boots": "Light_tungsten_armor Boots",
       "item.test.luminisom_ingot": "Luminisom",
       "block.pokey_and_alexs_mod.cucumberplant": "Cucumber plant",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -2014,12 +2029,14 @@
       "item.pokey_and_alexs_mod.luminisom_armor_helmet": "Luminisom Helmet",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
+      "item.pokey_and_alexs_mod.cobblestonearmor_boots": "Cobble stone Boots",
       "item.pokey_and_alexs_mod.tungsteningot": "Tungsten ingot",
       "item.minecraft.tipped_arrow.effect.testpotionitem": "Arrow of Testpotionitem",
       "item.pokey_and_alexs_mod.improvisedcake": "raw Improvised cake",
-      "item.pokey_and_alexs_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "block.pokey_and_alexs_mod.saltore": "Salt",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_helmet": "Light tungsten helmet",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_boots": "Light tungsten Boots",
       "item.test.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_chestplate": "Cobble stone Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -2031,22 +2048,20 @@
       "item.pokey_and_alexs_mod.cheese_spawn_egg": "Cheese Spawn Egg",
       "item.pokey_and_alexs_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "block.pokey_and_alexs_mod.riceplant": "rice plant",
+      "item.pokey_and_alexs_mod.lighttungstenarmor_leggings": "Light tungsten Leggings",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_leggings": "Luminisom Leggings",
-      "item.pokey_and_alexs_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
       "fluid.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "item.test.raw_potato_armor_armor_boots": "Raw potato Boots",
       "block.pokey_and_alexs_mod.tungstenore": "Tungsten Ore",
-      "item.pokey_and_alexs_mod.drip_armor_armor_boots": "Drip Boots",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_boots": "Cooked potato Boots",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.tungstenpickaxe": "Tungsten Pickaxe",
-      "item.pokey_and_alexs_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
       "item.minecraft.potion.effect.testpotionitem": "Potion of Testpotionitem",
@@ -2063,13 +2078,13 @@
       "item.pokey_and_alexs__mc_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs__mc_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
+      "item.pokey_and_alexs_mod.dripstonearmor_helmet": "Drip Helmet",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "block.pokey_and_alexs_mod.luminisom_ore": "Luminisom Ore",
       "subtitles.crusaders_crossbow_sounds": "crusader\u0027s crossbowfiring",
       "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.pokey_and_alexs_mod.salt": "Salt",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
-      "item.pokey_and_alexs_mod.crusaderscrossbow": "crusader\u0027s crossbow",
       "entity.pokey_and_alexs_mod.thecreator": "Thecreator",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
@@ -2096,25 +2111,27 @@
       "fluid.pokey_and_alexs_mod.lightfluidblock": "light fluid",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
-      "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Luminisom Ore",
       "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_boots": "Cobble stone Boots",
       "item.pokey_and_alexs_mod.tungstenaxe": "Tungsten Axe",
       "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom ingot",
+      "item.pokey_and_alexs_mod.cobblestonearmor_chestplate": "Cobble stone Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs_mod.cucumber": "Cucumber",
       "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_boots": "Wood log Boots",
+      "item.pokey_and_alexs_mod.cobblestonearmor_helmet": "Cobble stone Helmet",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
       "itemGroup.tabp_amod": "pokey and alex",
       "item.pokey_and_alexs_mod.test": "Test",
       "item.test.wood_log_armor_armor_chestplate": "Wood log Chestplate",
       "item.pokey_and_alexs_mod.chickenfeatheringot": "Chicken Feather ingot",
       "item.pokey_and_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
-      "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines"
+      "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines",
+      "item.pokey_and_alexs_mod.dripstonearmor_leggings": "Drip Leggings"
     }
   },
   "foldersRoot": {
@@ -2153,7 +2170,12 @@
       },
       {
         "name": "smelting",
-        "children": []
+        "children": [
+          {
+            "name": "fuel",
+            "children": []
+          }
+        ]
       },
       {
         "name": "food",
@@ -2382,6 +2404,10 @@
       },
       {
         "name": "projectile launchers",
+        "children": []
+      },
+      {
+        "name": "tags",
         "children": []
       }
     ]

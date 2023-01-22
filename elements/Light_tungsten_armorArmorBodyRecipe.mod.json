@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Light_tungsten_armorArmor.body"
+      "value": "CUSTOM:Lighttungstenarmor.body"
     },
     "name": "light_tungsten_armor_armor_body_recipe",
     "namespace": "mod"

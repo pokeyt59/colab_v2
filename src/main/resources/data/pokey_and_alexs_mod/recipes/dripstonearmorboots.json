@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
-    "345",
-    "678"
+    "3 5"
   ],
   "key": {
     "0": {
@@ -15,24 +14,12 @@
     "3": {
       "item": "minecraft:pointed_dripstone"
     },
-    "4": {
-      "item": "minecraft:pointed_dripstone"
-    },
     "5": {
-      "item": "minecraft:pointed_dripstone"
-    },
-    "6": {
-      "item": "minecraft:pointed_dripstone"
-    },
-    "7": {
-      "item": "minecraft:pointed_dripstone"
-    },
-    "8": {
       "item": "minecraft:pointed_dripstone"
     }
   },
   "result": {
-    "item": "pokey_and_alexs_mod:drip_armor_armor_chestplate",
+    "item": "pokey_and_alexs_mod:deleted_mod_element_boots",
     "count": 1
   }
 }

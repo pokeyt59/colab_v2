@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       },
       {
         "value": "Blocks.POINTED_DRIPSTONE"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Drip_armorArmor.legs"
+      "value": "CUSTOM:Drip_armorArmor.boots"
     },
-    "name": "drip_armor_armor_leggings_recipe",
+    "name": "dripstonearmorboots",
     "namespace": "mod"
   }
 }
