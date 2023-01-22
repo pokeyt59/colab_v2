@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Blocks.POINTED_DRIPSTONE"
+      },
+      {
+        "value": "Blocks.POINTED_DRIPSTONE"
       },
       {
         "value": ""
+      },
+      {
+        "value": "Blocks.POINTED_DRIPSTONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobblestonearmor.helmet"
+      "value": "CUSTOM:Drip_armorArmor.legs"
     },
-    "name": "cobble_stone_armor_armor_helmet_recipe",
+    "name": "dripstonearmorleggings",
     "namespace": "mod"
   }
 }

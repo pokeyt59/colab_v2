@@ -31,15 +31,15 @@ import pokey.alexs.mod.item.LighttungstenswordItem;
 import pokey.alexs.mod.item.LighttungstenpickaxeItem;
 import pokey.alexs.mod.item.LighttungstenhoeItem;
 import pokey.alexs.mod.item.LighttungstenaxeItem;
+import pokey.alexs.mod.item.LighttungstenarmorItem;
 import pokey.alexs.mod.item.LightfluidbucketItem;
-import pokey.alexs.mod.item.Light_tungsten_armorArmorItem;
 import pokey.alexs.mod.item.Leafy_armorArmorItem;
 import pokey.alexs.mod.item.ImprovisedcakeItem;
-import pokey.alexs.mod.item.Drip_armorArmorItem;
+import pokey.alexs.mod.item.DripstonearmorItem;
 import pokey.alexs.mod.item.CucumberItem;
 import pokey.alexs.mod.item.CookedimprovisedcakeItem;
 import pokey.alexs.mod.item.Cooked_potato_armor_legacyArmorItem;
-import pokey.alexs.mod.item.Cobble_stone_armorArmorItem;
+import pokey.alexs.mod.item.CobblestonearmorItem;
 import pokey.alexs.mod.item.ChickenfeatheringotItem;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
 
@@ -87,14 +87,6 @@ public class PokeyAndAlexsModModItems {
 			() -> new Leafy_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> LEAFY_ARMOR_ARMOR_BOOTS = REGISTRY.register("leafy_armor_armor_boots",
 			() -> new Leafy_armorArmorItem.Boots());
-	public static final RegistryObject<Item> DRIP_ARMOR_ARMOR_HELMET = REGISTRY.register("drip_armor_armor_helmet",
-			() -> new Drip_armorArmorItem.Helmet());
-	public static final RegistryObject<Item> DRIP_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("drip_armor_armor_chestplate",
-			() -> new Drip_armorArmorItem.Chestplate());
-	public static final RegistryObject<Item> DRIP_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("drip_armor_armor_leggings",
-			() -> new Drip_armorArmorItem.Leggings());
-	public static final RegistryObject<Item> DRIP_ARMOR_ARMOR_BOOTS = REGISTRY.register("drip_armor_armor_boots",
-			() -> new Drip_armorArmorItem.Boots());
 	public static final RegistryObject<Item> WOOD_LOG_ARMOR_ARMOR_HELMET = REGISTRY.register("wood_log_armor_armor_helmet",
 			() -> new Wood_log_armorArmorItem.Helmet());
 	public static final RegistryObject<Item> WOOD_LOG_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("wood_log_armor_armor_chestplate",
@@ -111,14 +103,6 @@ public class PokeyAndAlexsModModItems {
 			() -> new Raw_potato_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> RAW_POTATO_ARMOR_ARMOR_BOOTS = REGISTRY.register("raw_potato_armor_armor_boots",
 			() -> new Raw_potato_armorArmorItem.Boots());
-	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_HELMET = REGISTRY.register("cobble_stone_armor_armor_helmet",
-			() -> new Cobble_stone_armorArmorItem.Helmet());
-	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("cobble_stone_armor_armor_chestplate",
-			() -> new Cobble_stone_armorArmorItem.Chestplate());
-	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("cobble_stone_armor_armor_leggings",
-			() -> new Cobble_stone_armorArmorItem.Leggings());
-	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_BOOTS = REGISTRY.register("cobble_stone_armor_armor_boots",
-			() -> new Cobble_stone_armorArmorItem.Boots());
 	public static final RegistryObject<Item> TUNGSTEN_ARMOR_ARMOR_HELMET = REGISTRY.register("tungsten_armor_armor_helmet",
 			() -> new Tungsten_armorArmorItem.Helmet());
 	public static final RegistryObject<Item> TUNGSTEN_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("tungsten_armor_armor_chestplate",
@@ -127,14 +111,6 @@ public class PokeyAndAlexsModModItems {
 			() -> new Tungsten_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> TUNGSTEN_ARMOR_ARMOR_BOOTS = REGISTRY.register("tungsten_armor_armor_boots",
 			() -> new Tungsten_armorArmorItem.Boots());
-	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_ARMOR_HELMET = REGISTRY.register("light_tungsten_armor_armor_helmet",
-			() -> new Light_tungsten_armorArmorItem.Helmet());
-	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("light_tungsten_armor_armor_chestplate",
-			() -> new Light_tungsten_armorArmorItem.Chestplate());
-	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("light_tungsten_armor_armor_leggings",
-			() -> new Light_tungsten_armorArmorItem.Leggings());
-	public static final RegistryObject<Item> LIGHT_TUNGSTEN_ARMOR_ARMOR_BOOTS = REGISTRY.register("light_tungsten_armor_armor_boots",
-			() -> new Light_tungsten_armorArmorItem.Boots());
 	public static final RegistryObject<Item> LUMINISOM_SWORD = REGISTRY.register("luminisom_sword", () -> new LuminisomSwordItem());
 	public static final RegistryObject<Item> LUMINISOM_BLOCK = block(PokeyAndAlexsModModBlocks.LUMINISOM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> LUMINISOM_ORE = block(PokeyAndAlexsModModBlocks.LUMINISOM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -177,6 +153,29 @@ public class PokeyAndAlexsModModItems {
 	public static final RegistryObject<Item> LIGHTTUNGSTENAXE = REGISTRY.register("lighttungstenaxe", () -> new LighttungstenaxeItem());
 	public static final RegistryObject<Item> LIGHTTUNGSTENSWORD = REGISTRY.register("lighttungstensword", () -> new LighttungstenswordItem());
 	public static final RegistryObject<Item> LIGHTTUNGSTENHOE = REGISTRY.register("lighttungstenhoe", () -> new LighttungstenhoeItem());
+	public static final RegistryObject<Item> LIGHTTUNGSTENARMOR_HELMET = REGISTRY.register("lighttungstenarmor_helmet",
+			() -> new LighttungstenarmorItem.Helmet());
+	public static final RegistryObject<Item> LIGHTTUNGSTENARMOR_CHESTPLATE = REGISTRY.register("lighttungstenarmor_chestplate",
+			() -> new LighttungstenarmorItem.Chestplate());
+	public static final RegistryObject<Item> LIGHTTUNGSTENARMOR_LEGGINGS = REGISTRY.register("lighttungstenarmor_leggings",
+			() -> new LighttungstenarmorItem.Leggings());
+	public static final RegistryObject<Item> LIGHTTUNGSTENARMOR_BOOTS = REGISTRY.register("lighttungstenarmor_boots",
+			() -> new LighttungstenarmorItem.Boots());
+	public static final RegistryObject<Item> COBBLESTONEARMOR_HELMET = REGISTRY.register("cobblestonearmor_helmet",
+			() -> new CobblestonearmorItem.Helmet());
+	public static final RegistryObject<Item> COBBLESTONEARMOR_CHESTPLATE = REGISTRY.register("cobblestonearmor_chestplate",
+			() -> new CobblestonearmorItem.Chestplate());
+	public static final RegistryObject<Item> COBBLESTONEARMOR_LEGGINGS = REGISTRY.register("cobblestonearmor_leggings",
+			() -> new CobblestonearmorItem.Leggings());
+	public static final RegistryObject<Item> COBBLESTONEARMOR_BOOTS = REGISTRY.register("cobblestonearmor_boots",
+			() -> new CobblestonearmorItem.Boots());
+	public static final RegistryObject<Item> DRIPSTONEARMOR_HELMET = REGISTRY.register("dripstonearmor_helmet",
+			() -> new DripstonearmorItem.Helmet());
+	public static final RegistryObject<Item> DRIPSTONEARMOR_CHESTPLATE = REGISTRY.register("dripstonearmor_chestplate",
+			() -> new DripstonearmorItem.Chestplate());
+	public static final RegistryObject<Item> DRIPSTONEARMOR_LEGGINGS = REGISTRY.register("dripstonearmor_leggings",
+			() -> new DripstonearmorItem.Leggings());
+	public static final RegistryObject<Item> DRIPSTONEARMOR_BOOTS = REGISTRY.register("dripstonearmor_boots", () -> new DripstonearmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

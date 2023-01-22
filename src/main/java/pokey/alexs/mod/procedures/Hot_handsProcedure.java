@@ -14,6 +14,6 @@ public class Hot_handsProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 100, 3));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 100, 900));
+			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 100, 5));
 	}
 }

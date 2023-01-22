@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Tungstenpickaxe"
+      },
+      {
+        "value": "CUSTOM:Tungstenaxe"
+      },
+      {
+        "value": "CUSTOM:Tungstensword"
+      },
+      {
+        "value": "CUSTOM:Tungstenshovel"
+      },
+      {
+        "value": "CUSTOM:Tungstenhoe"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "heavy_tools_class",
+    "namespace": "forge"
+  }
+}

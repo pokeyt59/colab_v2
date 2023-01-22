@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.ComposterBlock;
+import net.minecraft.world.item.Items;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PokeyAndAlexsModModCompostableItems {
@@ -18,5 +19,6 @@ public class PokeyAndAlexsModModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(PokeyAndAlexsModModItems.WOOD_LOG_ARMOR_ARMOR_CHESTPLATE.get(), 1f);
 		ComposterBlock.COMPOSTABLES.put(PokeyAndAlexsModModItems.WOOD_LOG_ARMOR_ARMOR_LEGGINGS.get(), 1f);
 		ComposterBlock.COMPOSTABLES.put(PokeyAndAlexsModModItems.WOOD_LOG_ARMOR_ARMOR_BOOTS.get(), 1f);
+		ComposterBlock.COMPOSTABLES.put(Items.AXOLOTL_BUCKET, 1f);
 	}
 }

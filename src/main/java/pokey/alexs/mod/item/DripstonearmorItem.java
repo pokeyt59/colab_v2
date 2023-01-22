@@ -15,8 +15,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-public abstract class Cobble_stone_armorArmorItem extends ArmorItem {
-	public Cobble_stone_armorArmorItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class DripstonearmorItem extends ArmorItem {
+	public DripstonearmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -40,67 +40,67 @@ public abstract class Cobble_stone_armorArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.COBBLESTONE));
+				return Ingredient.of(new ItemStack(Blocks.POINTED_DRIPSTONE));
 			}
 
 			@Override
 			public String getName() {
-				return "cobble_stone_armor_armor";
+				return "dripstonearmor";
 			}
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 1.6f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 2.7f;
 			}
 		}, slot, properties);
 	}
 
-	public static class Helmet extends Cobble_stone_armorArmorItem {
+	public static class Helmet extends DripstonearmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cobble_stone_armor_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_1.png";
 		}
 	}
 
-	public static class Chestplate extends Cobble_stone_armorArmorItem {
+	public static class Chestplate extends DripstonearmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cobble_stone_armor_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_1.png";
 		}
 	}
 
-	public static class Leggings extends Cobble_stone_armorArmorItem {
+	public static class Leggings extends DripstonearmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cobble_stone_armor_layer_2.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_2.png";
 		}
 	}
 
-	public static class Boots extends Cobble_stone_armorArmorItem {
+	public static class Boots extends DripstonearmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cobble_stone_armor_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_1.png";
 		}
 	}
 }

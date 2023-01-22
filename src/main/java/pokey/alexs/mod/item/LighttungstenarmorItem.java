@@ -19,8 +19,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
-	public Light_tungsten_armorArmorItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class LighttungstenarmorItem extends ArmorItem {
+	public LighttungstenarmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -49,7 +49,7 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "light_tungsten_armor_armor";
+				return "lighttungstenarmor";
 			}
 
 			@Override
@@ -64,7 +64,7 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Helmet extends Light_tungsten_armorArmorItem {
+	public static class Helmet extends LighttungstenarmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -80,9 +80,9 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Chestplate extends Light_tungsten_armorArmorItem {
+	public static class Chestplate extends LighttungstenarmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 		@Override
@@ -96,7 +96,7 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Leggings extends Light_tungsten_armorArmorItem {
+	public static class Leggings extends LighttungstenarmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -112,7 +112,7 @@ public abstract class Light_tungsten_armorArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Boots extends Light_tungsten_armorArmorItem {
+	public static class Boots extends LighttungstenarmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}

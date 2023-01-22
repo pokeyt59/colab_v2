@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
 
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 
 @Mod.EventBusSubscriber
@@ -33,5 +34,7 @@ public class PokeyAndAlexsModModFuels {
 			event.setBurnTime(2000);
 		else if (itemstack.getItem() == PokeyAndAlexsModModItems.LUMINISONMNUGGETRAW.get())
 			event.setBurnTime(10000);
+		else if (itemstack.getItem() == Items.AXOLOTL_BUCKET)
+			event.setBurnTime(1600);
 	}
 }

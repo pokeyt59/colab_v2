@@ -1,0 +1,51 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Tungsten_armorArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Tungsten_armorArmor.body"
+      },
+      {
+        "value": "CUSTOM:Tungsten_armorArmor.legs"
+      },
+      {
+        "value": "CUSTOM:Tungsten_armorArmor.boots"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.body"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.legs"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.boots"
+      },
+      {
+        "value": "CUSTOM:Wood_log_armorArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Wood_log_armorArmor.body"
+      },
+      {
+        "value": "CUSTOM:Wood_log_armorArmor.legs"
+      },
+      {
+        "value": "CUSTOM:Wood_log_armorArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "heavy_armor_class",
+    "namespace": "forge"
+  }
+}

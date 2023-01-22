@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Light_tungsten_armorArmor.boots"
+      "value": "CUSTOM:Lighttungstenarmor.boots"
     },
     "name": "light_tungsten_armor_armor_boots_recipe",
     "namespace": "mod"
