@@ -1675,32 +1675,6 @@
       "locked_code": false,
       "registry_name": "thecreatorsden",
       "path": "~/biomes"
-    },
-    {
-      "name": "Crusaderscrossbow",
-      "type": "rangeditem",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crusaderscrossbow",
-      "path": "~/projectile launchers"
-    },
-    {
-      "name": "Healorramdomeffect",
-      "type": "procedure",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "healorramdomeffect",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/projectile launchers"
     }
   ],
   "variable_elements": [
@@ -1880,7 +1854,6 @@
       "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.pokey_and_alexs_mod.salt": "Salt",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
-      "item.pokey_and_alexs_mod.crusaderscrossbow": "Testrangeditem",
       "entity.pokey_and_alexs_mod.thecreator": "Thecreator",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Люминисовый шлем",
@@ -2069,7 +2042,6 @@
       "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.pokey_and_alexs_mod.salt": "Salt",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
-      "item.pokey_and_alexs_mod.crusaderscrossbow": "crusader\u0027s crossbow",
       "entity.pokey_and_alexs_mod.thecreator": "Thecreator",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",

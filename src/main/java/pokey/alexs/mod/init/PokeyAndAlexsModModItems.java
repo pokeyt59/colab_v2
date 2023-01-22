@@ -37,7 +37,6 @@ import pokey.alexs.mod.item.Leafy_armorArmorItem;
 import pokey.alexs.mod.item.ImprovisedcakeItem;
 import pokey.alexs.mod.item.Drip_armorArmorItem;
 import pokey.alexs.mod.item.CucumberItem;
-import pokey.alexs.mod.item.CrusaderscrossbowItem;
 import pokey.alexs.mod.item.CookedimprovisedcakeItem;
 import pokey.alexs.mod.item.Cooked_potato_armor_legacyArmorItem;
 import pokey.alexs.mod.item.Cobble_stone_armorArmorItem;
@@ -178,7 +177,6 @@ public class PokeyAndAlexsModModItems {
 	public static final RegistryObject<Item> LIGHTTUNGSTENAXE = REGISTRY.register("lighttungstenaxe", () -> new LighttungstenaxeItem());
 	public static final RegistryObject<Item> LIGHTTUNGSTENSWORD = REGISTRY.register("lighttungstensword", () -> new LighttungstenswordItem());
 	public static final RegistryObject<Item> LIGHTTUNGSTENHOE = REGISTRY.register("lighttungstenhoe", () -> new LighttungstenhoeItem());
-	public static final RegistryObject<Item> CRUSADERSCROSSBOW = REGISTRY.register("crusaderscrossbow", () -> new CrusaderscrossbowItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

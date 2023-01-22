@@ -107,9 +107,9 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": {
-      "value": ""
+      "value": "Items.BOW"
     },
-    "rangedItemType": "Crusaderscrossbow",
+    "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
