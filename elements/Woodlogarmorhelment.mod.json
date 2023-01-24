@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wood_log_armorArmor.helmet"
+      "value": "CUSTOM:Woodlogarmor.helmet"
     },
     "name": "woodlogarmorhelment",
     "namespace": "mod"

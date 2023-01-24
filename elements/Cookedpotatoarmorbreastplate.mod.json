@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cooked_potato_armor_legacyArmor.body"
+      "value": "CUSTOM:Cookedpotatoarmor.body"
     },
     "name": "cookedpotatoarmorbreastplate",
     "namespace": "mod"

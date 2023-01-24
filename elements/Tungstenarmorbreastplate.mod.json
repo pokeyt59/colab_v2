@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_armorArmor.body"
+      "value": "CUSTOM:Tungstenarmor.body"
     },
     "name": "tungstenarmorbreastplate",
     "namespace": "mod"

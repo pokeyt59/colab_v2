@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wood_log_armorArmor.body"
+      "value": "CUSTOM:Woodlogarmor.body"
     },
     "name": "woodlogarmorbreastplate",
     "namespace": "mod"

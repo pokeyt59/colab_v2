@@ -10,10 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Tungsteningot"
-      },
-      {
-        "value": "CUSTOM:Chickenfeatheringot"
+        "value": ""
       },
       {
         "value": "CUSTOM:Tungsteningot"
@@ -22,7 +19,10 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Chickenfeatheringot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Light_tungsten_armorPickaxe"
+      "value": "CUSTOM:Lighttungstensword"
     },
-    "name": "light_tungsten_armor_pickaxe_recipe",
+    "name": "lighttungstencraftingsword",
     "namespace": "mod"
   }
 }

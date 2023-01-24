@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cooked_potato_armor_legacyArmor.helmet"
+      "value": "CUSTOM:Cookedpotatoarmor.helmet"
     },
     "name": "cookedpotatoarmorhelmet",
     "namespace": "mod"

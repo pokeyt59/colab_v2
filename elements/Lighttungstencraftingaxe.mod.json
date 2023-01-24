@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
         "value": ""
       },
       {
         "value": "CUSTOM:Tungsteningot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
       },
       {
         "value": "Items.STICK"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_ingot_toolShovel"
+      "value": "CUSTOM:Lighttungstenaxe"
     },
-    "name": "tungsten_ingot_tool_shovel_recipe",
+    "name": "lighttungstencraftingaxe",
     "namespace": "mod"
   }
 }

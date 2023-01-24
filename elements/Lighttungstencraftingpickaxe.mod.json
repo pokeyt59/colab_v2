@@ -13,13 +13,13 @@
         "value": "CUSTOM:Tungsteningot"
       },
       {
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
         "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": "Items.STICK"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_ingot_toolAxe"
+      "value": "CUSTOM:Lighttungstenpickaxe"
     },
-    "name": "tungsten_ingot_tool_axe_recipe",
+    "name": "lighttungstencraftingpickaxe",
     "namespace": "mod"
   }
 }

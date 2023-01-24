@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wood_log_armorArmor.boots"
+      "value": "CUSTOM:Woodlogarmor.boots"
     },
     "name": "woodlogarmorboots",
     "namespace": "mod"

@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Raw_potato_armorArmor.boots"
+      "value": "CUSTOM:Rawpotatoarmor.boots"
     },
     "name": "rawpotato_armorboots",
     "namespace": "mod"

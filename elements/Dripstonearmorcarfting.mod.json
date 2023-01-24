@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Drip_armorArmor.helmet"
+      "value": "CUSTOM:Dripstonearmor.helmet"
     },
     "name": "dripstonearmorcarfting",
     "namespace": "mod"

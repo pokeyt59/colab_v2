@@ -10,7 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Tungsteningot"
+      },
+      {
+        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": "CUSTOM:Tungsteningot"
@@ -19,10 +22,7 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Tungsteningot"
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_ingot_toolSword"
+      "value": "CUSTOM:Tungstenpickaxe"
     },
-    "name": "tungsten_ingot_tool_sword_recipe",
+    "name": "tunstencraftingpickaxe",
     "namespace": "mod"
   }
 }

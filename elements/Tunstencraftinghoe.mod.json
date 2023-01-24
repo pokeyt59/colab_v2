@@ -16,7 +16,7 @@
         "value": "CUSTOM:Tungsteningot"
       },
       {
-        "value": "CUSTOM:Tungsteningot"
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_ingot_toolPickaxe"
+      "value": "CUSTOM:Tungsten_ingot_toolHoe"
     },
-    "name": "tungsten_ingot_tool_pickaxe_recipe",
+    "name": "tunstencraftinghoe",
     "namespace": "mod"
   }
 }

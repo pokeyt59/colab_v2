@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Raw_potato_armorArmor.body"
+      "value": "CUSTOM:Rawpotatoarmor.body"
     },
     "name": "rawpotato_armorbreastplate",
     "namespace": "mod"

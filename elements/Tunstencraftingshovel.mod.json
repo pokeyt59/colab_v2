@@ -10,10 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Tungsteningot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Chickenfeatheringot"
+        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Light_tungsten_armorHoe"
+      "value": "CUSTOM:Tungstenshovel"
     },
-    "name": "light_tungsten_armor_hoe_recipe",
+    "name": "tunstencraftingshovel",
     "namespace": "mod"
   }
 }

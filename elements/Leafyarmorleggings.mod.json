@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Leafy_armorArmor.legs"
+      "value": "CUSTOM:Leafyarmor.legs"
     },
     "name": "leafyarmorleggings",
     "namespace": "mod"

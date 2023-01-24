@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Leafy_armorArmor.boots"
+      "value": "CUSTOM:Leafyarmor.boots"
     },
     "name": "leafyarmorboots",
     "namespace": "mod"

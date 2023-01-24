@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Chickenfeatheringot"
+        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Light_tungsten_armorSword"
+      "value": "CUSTOM:Tungstensword"
     },
-    "name": "light_tungsten_armor_sword_recipe",
+    "name": "tunstencraftingsword",
     "namespace": "mod"
   }
 }

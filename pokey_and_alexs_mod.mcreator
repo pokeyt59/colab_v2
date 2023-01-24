@@ -817,51 +817,6 @@
       "path": "~/ingot/crafting"
     },
     {
-      "name": "Tungsten_ingot_toolPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_ingot_tool_pickaxe_recipe",
-      "path": "~/tools/crafting/tungsten"
-    },
-    {
-      "name": "Tungsten_ingot_toolAxeRecipe",
-      "type": "recipe",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_ingot_tool_axe_recipe",
-      "path": "~/tools/crafting/tungsten"
-    },
-    {
-      "name": "Tungsten_ingot_toolSwordRecipe",
-      "type": "recipe",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_ingot_tool_sword_recipe",
-      "path": "~/tools/crafting/tungsten"
-    },
-    {
-      "name": "Tungsten_ingot_toolShovelRecipe",
-      "type": "recipe",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_ingot_tool_shovel_recipe",
-      "path": "~/tools/crafting/tungsten"
-    },
-    {
-      "name": "Tungsten_ingot_toolHoeRecipe",
-      "type": "recipe",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_ingot_tool_hoe_recipe",
-      "path": "~/tools/crafting/tungsten"
-    },
-    {
       "name": "Chickenfeatheringot",
       "type": "item",
       "sortid": 38,
@@ -947,42 +902,6 @@
         ]
       },
       "path": "~/ingot/procedures"
-    },
-    {
-      "name": "Light_tungsten_armorPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light_tungsten_armor_pickaxe_recipe",
-      "path": "~/tools/crafting/tungsten/light tungsten"
-    },
-    {
-      "name": "Light_tungsten_armorAxeRecipe",
-      "type": "recipe",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light_tungsten_armor_axe_recipe",
-      "path": "~/tools/crafting/tungsten/light tungsten"
-    },
-    {
-      "name": "Light_tungsten_armorSwordRecipe",
-      "type": "recipe",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light_tungsten_armor_sword_recipe",
-      "path": "~/tools/crafting/tungsten/light tungsten"
-    },
-    {
-      "name": "Light_tungsten_armorHoeRecipe",
-      "type": "recipe",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light_tungsten_armor_hoe_recipe",
-      "path": "~/tools/crafting/tungsten/light tungsten"
     },
     {
       "name": "Klh",
@@ -1801,6 +1720,87 @@
       "locked_code": false,
       "registry_name": "headcompost_9",
       "path": "~/compoastible"
+    },
+    {
+      "name": "Lighttungstencraftingpickaxe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttungstencraftingpickaxe",
+      "path": "~/tools/crafting/tungsten/light tungsten"
+    },
+    {
+      "name": "Lighttungstencraftingaxe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttungstencraftingaxe",
+      "path": "~/tools/crafting/tungsten/light tungsten"
+    },
+    {
+      "name": "Lighttungstencraftingsword",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttungstencraftingsword",
+      "path": "~/tools/crafting/tungsten/light tungsten"
+    },
+    {
+      "name": "Lighttungstencraftinghoe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttungstencraftinghoe",
+      "path": "~/tools/crafting/tungsten/light tungsten"
+    },
+    {
+      "name": "Tunstencraftingpickaxe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunstencraftingpickaxe",
+      "path": "~/tools/crafting/tungsten"
+    },
+    {
+      "name": "Tunstencraftingaxe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunstencraftingaxe",
+      "path": "~/tools/crafting/tungsten"
+    },
+    {
+      "name": "Tunstencraftingsword",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunstencraftingsword",
+      "path": "~/tools/crafting/tungsten"
+    },
+    {
+      "name": "Tunstencraftingshovel",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunstencraftingshovel",
+      "path": "~/tools/crafting/tungsten"
+    },
+    {
+      "name": "Tunstencraftinghoe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunstencraftinghoe",
+      "path": "~/tools/crafting/tungsten"
     }
   ],
   "variable_elements": [
@@ -2496,7 +2496,7 @@
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.24.34.7",
+    "version": "2.24.35.7 pre release v3",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

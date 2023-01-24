@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_armorArmor.legs"
+      "value": "CUSTOM:Tungstenarmor.legs"
     },
     "name": "tungstenarmorleggings",
     "namespace": "mod"

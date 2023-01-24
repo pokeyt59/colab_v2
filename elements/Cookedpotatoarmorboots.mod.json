@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cooked_potato_armor_legacyArmor.boots"
+      "value": "CUSTOM:Cookedpotatoarmor.boots"
     },
     "name": "cookedpotatoarmorboots",
     "namespace": "mod"

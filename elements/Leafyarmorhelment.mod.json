@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Leafy_armorArmor.helmet"
+      "value": "CUSTOM:Leafyarmor.helmet"
     },
     "name": "leafyarmorhelment",
     "namespace": "mod"
