@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobble_stone_armorArmor.body"
+      "value": "CUSTOM:Cobblestonearmor.body"
     },
     "name": "cobblestonearmorbreastplate",
     "namespace": "mod"

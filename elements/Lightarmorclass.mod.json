@@ -1,0 +1,27 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Lighttungstenarmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.body"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.legs"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "light_armor_class",
+    "namespace": "forge"
+  }
+}

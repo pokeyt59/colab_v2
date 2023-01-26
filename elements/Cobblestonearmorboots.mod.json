@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobble_stone_armorArmor.boots"
+      "value": "CUSTOM:Cobblestonearmor.boots"
     },
     "name": "cobblestonearmorboots",
     "namespace": "mod"

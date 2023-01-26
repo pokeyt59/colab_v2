@@ -1801,6 +1801,33 @@
       "locked_code": false,
       "registry_name": "tunstencraftinghoe",
       "path": "~/tools/crafting/tungsten"
+    },
+    {
+      "name": "Lightarmorclass",
+      "type": "tag",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightarmorclass",
+      "path": "~/tags"
+    },
+    {
+      "name": "Lighttoolclass",
+      "type": "tag",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttoolclass",
+      "path": "~/tags"
+    },
+    {
+      "name": "Tungstenclass",
+      "type": "tag",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenclass",
+      "path": "~/tags"
     }
   ],
   "variable_elements": [
@@ -2478,10 +2505,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "projectile launchers",
-        "children": []
       },
       {
         "name": "tags",

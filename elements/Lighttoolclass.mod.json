@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Lightfluidblock"
+      },
+      {
+        "value": "CUSTOM:Lightfluidbucket"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenpickaxe"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenaxe"
+      },
+      {
+        "value": "CUSTOM:Lighttungstensword"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenhoe"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "lighttoolclass",
+    "namespace": "forge"
+  }
+}

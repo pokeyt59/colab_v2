@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobble_stone_armorArmor.legs"
+      "value": "CUSTOM:Cobblestonearmor.legs"
     },
     "name": "cobblestonearmorleggings",
     "namespace": "mod"

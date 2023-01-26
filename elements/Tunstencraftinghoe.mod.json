@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tungsten_ingot_toolHoe"
+      "value": "CUSTOM:Tungstenhoe"
     },
     "name": "tunstencraftinghoe",
     "namespace": "mod"
