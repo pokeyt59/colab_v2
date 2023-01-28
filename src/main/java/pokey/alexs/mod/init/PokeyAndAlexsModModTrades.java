@@ -38,20 +38,49 @@ public class PokeyAndAlexsModModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == VillagerProfession.ARMORER) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.REDSTONE_WIRE, 5),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.REDSTONE_WIRE, 9),
 
 					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_HELMET.get()), 20, 1, 0.01f));
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.SUGAR_CANE, 11),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.SUGAR_CANE, 13),
 
 					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_CHESTPLATE.get()), 10, 10, 0.19f));
-			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.IMPROVISEDCAKE.get()),
-
-					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_LEGGINGS.get()), 10, 100, 1f));
+			event.getTrades().get(2)
+					.add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.IMPROVISEDCAKE.get(), 3),
+							new ItemStack(PokeyAndAlexsModModItems.LEAFYARMOR_BOOTS.get()),
+							new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_LEGGINGS.get()), 10, 100, 1f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()),
 
 					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_BOOTS.get()), 10, 2, 0.04f));
-			event.getTrades().get(3).add(
-					new BasicItemListing(new ItemStack(Items.EMERALD, 22), new ItemStack(Items.BEEF, 3), new ItemStack(Blocks.BEACON, 2), 20, 5, 1f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.NETHERITE_INGOT, 16),
+
+					new ItemStack(PokeyAndAlexsModModItems.TUNGSTENARMOR_HELMET.get()), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.NETHERITE_INGOT, 13), new ItemStack(Blocks.DARK_OAK_WOOD, 25),
+					new ItemStack(PokeyAndAlexsModModItems.TUNGSTENARMOR_CHESTPLATE.get()), 10, 5, 0.05f));
+			event.getTrades().get(1)
+					.add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.IMPROVISEDCAKE.get(), 12),
+							new ItemStack(PokeyAndAlexsModModItems.COOKEDIMPROVISEDCAKE.get()),
+							new ItemStack(PokeyAndAlexsModModItems.TUNGSTENARMOR_LEGGINGS.get()), 10, 5, 0.05f));
+			event.getTrades().get(1)
+					.add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.SALT.get(), 64),
+							new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()),
+							new ItemStack(PokeyAndAlexsModModItems.TUNGSTENARMOR_BOOTS.get()), 10, 5, 0.05f));
+			event.getTrades().get(1)
+					.add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.CUCUMBER.get(), 64),
+							new ItemStack(PokeyAndAlexsModModItems.LIGHTFLUIDBUCKET.get()),
+							new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTEN_ARMOR_HELMET.get()), 10, 5, 0.05f));
+			event.getTrades().get(1)
+					.add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.COOKEDPOTATOARMOR_CHESTPLATE.get()),
+							new ItemStack(PokeyAndAlexsModModItems.COOKEDPOTATOARMOR_CHESTPLATE.get()),
+							new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTEN_ARMOR_CHESTPLATE.get()), 10, 5, 0.05f));
+			event.getTrades().get(1)
+					.add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModBlocks.LUMINISOM_BLOCK.get(), 17),
+							new ItemStack(PokeyAndAlexsModModItems.RICE.get(), 48),
+							new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTEN_ARMOR_LEGGINGS.get()), 10, 5, 0.05f));
+			event.getTrades().get(1)
+					.add(new BasicItemListing(new ItemStack(Blocks.JUNGLE_SAPLING, 25), new ItemStack(PokeyAndAlexsModModItems.TEST.get()),
+							new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTEN_ARMOR_BOOTS.get()), 10, 5, 0.05f));
 		}
 	}
 }

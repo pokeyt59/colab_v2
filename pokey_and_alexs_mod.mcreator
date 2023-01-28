@@ -245,7 +245,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pokeytrading",
-      "path": "~/trades"
+      "path": "~/trades/pokeytraiding"
     },
     {
       "name": "Luminisomtoingot",
@@ -1647,7 +1647,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_1",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost2",
@@ -1656,7 +1656,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_2",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost3",
@@ -1665,7 +1665,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_3",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost5",
@@ -1674,7 +1674,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_5",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost4",
@@ -1683,7 +1683,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_4",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost6",
@@ -1692,7 +1692,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_6",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost7",
@@ -1701,7 +1701,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_7",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost8",
@@ -1710,7 +1710,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_8",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Headcompost9",
@@ -1719,7 +1719,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "headcompost_9",
-      "path": "~/compoastible"
+      "path": "~/compoastible/heads"
     },
     {
       "name": "Lighttungstencraftingpickaxe",
@@ -1828,6 +1828,15 @@
       "locked_code": false,
       "registry_name": "tungstenclass",
       "path": "~/tags"
+    },
+    {
+      "name": "Tungstentraids",
+      "type": "villagertrade",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstentraids",
+      "path": "~/trades/pokeytraiding"
     }
   ],
   "variable_elements": [
@@ -2412,7 +2421,12 @@
       },
       {
         "name": "trades",
-        "children": []
+        "children": [
+          {
+            "name": "pokeytraiding",
+            "children": []
+          }
+        ]
       },
       {
         "name": "procedures",
@@ -2512,7 +2526,12 @@
       },
       {
         "name": "compoastible",
-        "children": []
+        "children": [
+          {
+            "name": "heads",
+            "children": []
+          }
+        ]
       }
     ]
   },

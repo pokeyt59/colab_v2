@@ -10,96 +10,71 @@
         "entries": [
           {
             "price1": {
-              "value": "Blocks.REDSTONE_WIRE"
+              "value": "Items.NETHERITE_INGOT"
             },
-            "countPrice1": 9,
+            "countPrice1": 16,
             "price2": {
               "value": ""
             },
             "countPrice2": 1,
             "offer": {
-              "value": "CUSTOM:LuminisomArmor.helmet"
-            },
-            "countOffer": 1,
-            "level": 1,
-            "maxTrades": 20,
-            "xp": 1,
-            "priceMultiplier": 0.01
-          },
-          {
-            "price1": {
-              "value": "Blocks.REEDS"
-            },
-            "countPrice1": 13,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "CUSTOM:LuminisomArmor.body"
+              "value": "CUSTOM:Tungstenarmor.helmet"
             },
             "countOffer": 1,
             "level": 1,
             "maxTrades": 10,
-            "xp": 10,
-            "priceMultiplier": 0.19
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice1": 13,
+            "price2": {
+              "value": "Blocks.DARK_OAK_WOOD"
+            },
+            "countPrice2": 25,
+            "offer": {
+              "value": "CUSTOM:Tungstenarmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
           },
           {
             "price1": {
               "value": "CUSTOM:Improvisedcake"
             },
-            "countPrice1": 3,
+            "countPrice1": 12,
             "price2": {
-              "value": "CUSTOM:Leafyarmor.boots"
+              "value": "CUSTOM:Cookedimprovisedcake"
             },
             "countPrice2": 1,
             "offer": {
-              "value": "CUSTOM:LuminisomArmor.legs"
+              "value": "CUSTOM:Tungstenarmor.legs"
             },
             "countOffer": 1,
-            "level": 2,
+            "level": 1,
             "maxTrades": 10,
-            "xp": 100,
-            "priceMultiplier": 1.0
+            "xp": 5,
+            "priceMultiplier": 0.05
           },
           {
             "price1": {
+              "value": "CUSTOM:Salt"
+            },
+            "countPrice1": 64,
+            "price2": {
               "value": "CUSTOM:LuminisomIngot"
             },
-            "countPrice1": 1,
-            "price2": {
-              "value": ""
-            },
             "countPrice2": 1,
             "offer": {
-              "value": "CUSTOM:LuminisomArmor.boots"
+              "value": "CUSTOM:Tungstenarmor.boots"
             },
             "countOffer": 1,
-            "level": 2,
-            "maxTrades": 10,
-            "xp": 2,
-            "priceMultiplier": 0.04
-          }
-        ]
-      },
-      {
-        "villagerProfession": {
-          "value": "WANDERING_TRADER"
-        },
-        "entries": [
-          {
-            "price1": {
-              "value": "Blocks.SLIME_BLOCK"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Blocks.UNPOWERED_COMPARATOR"
-            },
-            "countOffer": 9,
             "level": 1,
             "maxTrades": 10,
             "xp": 5,
@@ -107,53 +82,17 @@
           },
           {
             "price1": {
-              "value": "Items.SLIME_BALL"
+              "value": "CUSTOM:Cucumber"
             },
-            "countPrice1": 1,
+            "countPrice1": 64,
             "price2": {
-              "value": ""
+              "value": "CUSTOM:Lightfluidbucket"
             },
             "countPrice2": 1,
             "offer": {
-              "value": "Blocks.UNPOWERED_COMPARATOR"
+              "value": "CUSTOM:ReinforcedtungstenArmor.helmet"
             },
             "countOffer": 1,
-            "level": 1,
-            "maxTrades": 90,
-            "xp": 5,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "Items.SLIME_BALL"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": "Items.HONEY_BOTTLE"
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Blocks.UNPOWERED_COMPARATOR"
-            },
-            "countOffer": 1,
-            "level": 2,
-            "maxTrades": 6000,
-            "xp": 1,
-            "priceMultiplier": 1.0
-          },
-          {
-            "price1": {
-              "value": "Blocks.CAKE"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Blocks.BEE_NEST"
-            },
-            "countOffer": 10,
             "level": 1,
             "maxTrades": 10,
             "xp": 5,
@@ -161,17 +100,53 @@
           },
           {
             "price1": {
-              "value": "Items.SWEET_BERRIES"
+              "value": "CUSTOM:Cookedpotatoarmor.body"
             },
-            "countPrice1": 2,
+            "countPrice1": 1,
             "price2": {
-              "value": ""
+              "value": "CUSTOM:Cookedpotatoarmor.body"
             },
             "countPrice2": 1,
             "offer": {
-              "value": "Blocks.DOUBLE_PLANT#0"
+              "value": "CUSTOM:ReinforcedtungstenArmor.body"
             },
-            "countOffer": 10,
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LuminisomBlock"
+            },
+            "countPrice1": 17,
+            "price2": {
+              "value": "CUSTOM:Rice"
+            },
+            "countPrice2": 48,
+            "offer": {
+              "value": "CUSTOM:ReinforcedtungstenArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.SAPLING#3"
+            },
+            "countPrice1": 25,
+            "price2": {
+              "value": "CUSTOM:Test"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ReinforcedtungstenArmor.boots"
+            },
+            "countOffer": 1,
             "level": 1,
             "maxTrades": 10,
             "xp": 5,
