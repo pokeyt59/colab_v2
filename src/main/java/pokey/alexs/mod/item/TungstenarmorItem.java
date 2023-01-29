@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.item;
 
-import pokey.alexs.mod.procedures.Hot_handsProcedure;
+import pokey.alexs.mod.procedures.Heavy_like_regretProcedure;
 import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -87,7 +87,7 @@ public abstract class TungstenarmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			Hot_handsProcedure.execute(entity);
+			Heavy_like_regretProcedure.execute(entity);
 		}
 	}
 
