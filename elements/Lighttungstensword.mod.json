@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "light_tungsten_armor_sword",
+    "texture": "light_tungsten_sword_v2",
     "customModelName": "Normal",
     "name": "Light tungsten Sword",
     "specialInfo": [],

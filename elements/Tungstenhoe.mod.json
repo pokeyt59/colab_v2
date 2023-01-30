@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tungsten_ingot_tool_hoe",
+    "texture": "tungsten_hoe_v2",
     "customModelName": "Normal",
     "name": "Tungsten ingot Hoe",
     "specialInfo": [],

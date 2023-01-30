@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "luminisom_pickaxe",
+    "texture": "luminisom_pick_axe_v2",
     "customModelName": "Normal",
     "name": "Luminisom Pickaxe",
     "specialInfo": [],

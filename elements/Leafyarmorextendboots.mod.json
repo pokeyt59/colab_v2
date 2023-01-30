@@ -3,7 +3,7 @@
   "_type": "itemextension",
   "definition": {
     "item": {
-      "value": "CUSTOM:Leafy_armorArmor.boots"
+      "value": "CUSTOM:Leafyarmor.boots"
     },
     "enableFuel": true,
     "fuelPower": {

@@ -1,0 +1,84 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Tungstenarmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Tungstenarmor.body"
+      },
+      {
+        "value": "CUSTOM:Tungstenarmor.legs"
+      },
+      {
+        "value": "CUSTOM:Tungstenarmor.boots"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.body"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.legs"
+      },
+      {
+        "value": "CUSTOM:ReinforcedtungstenArmor.boots"
+      },
+      {
+        "value": "CUSTOM:Tungstenpickaxe"
+      },
+      {
+        "value": "CUSTOM:Tungstenaxe"
+      },
+      {
+        "value": "CUSTOM:Tungstensword"
+      },
+      {
+        "value": "CUSTOM:Tungstenshovel"
+      },
+      {
+        "value": "CUSTOM:Tungstenhoe"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenpickaxe"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenaxe"
+      },
+      {
+        "value": "CUSTOM:Lighttungstensword"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenhoe"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.body"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.legs"
+      },
+      {
+        "value": "CUSTOM:Lighttungstenarmor.boots"
+      },
+      {
+        "value": "CUSTOM:Reinforcedtungsteningot"
+      },
+      {
+        "value": "CUSTOM:Tungsteningot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "tungsten_class",
+    "namespace": "forge"
+  }
+}

@@ -3,13 +3,13 @@
   "_type": "itemextension",
   "definition": {
     "item": {
-      "value": "CUSTOM:Leafy_armorArmor.legs"
+      "value": "CUSTOM:Leafyarmor.legs"
     },
     "enableFuel": true,
     "fuelPower": {
       "fixedValue": 4940.0
     },
     "hasDispenseBehavior": false,
-    "compostLayerChance": 0.0
+    "compostLayerChance": 1.0
   }
 }

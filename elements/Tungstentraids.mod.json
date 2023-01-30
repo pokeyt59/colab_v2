@@ -1,0 +1,159 @@
+{
+  "_fv": 34,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Tungstenarmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice1": 13,
+            "price2": {
+              "value": "Blocks.DARK_OAK_WOOD"
+            },
+            "countPrice2": 25,
+            "offer": {
+              "value": "CUSTOM:Tungstenarmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Improvisedcake"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": "CUSTOM:Cookedimprovisedcake"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Tungstenarmor.legs"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Salt"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:LuminisomIngot"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Tungstenarmor.boots"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Cucumber"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:Lightfluidbucket"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ReinforcedtungstenArmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Cookedpotatoarmor.body"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Cookedpotatoarmor.body"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ReinforcedtungstenArmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LuminisomBlock"
+            },
+            "countPrice1": 17,
+            "price2": {
+              "value": "CUSTOM:Rice"
+            },
+            "countPrice2": 48,
+            "offer": {
+              "value": "CUSTOM:ReinforcedtungstenArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.SAPLING#3"
+            },
+            "countPrice1": 25,
+            "price2": {
+              "value": "CUSTOM:Test"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ReinforcedtungstenArmor.boots"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

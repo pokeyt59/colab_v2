@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Drip_armorArmor.boots"
+      "value": "CUSTOM:Dripstonearmor.boots"
     },
     "name": "dripstonearmorboots",
     "namespace": "mod"

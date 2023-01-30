@@ -4,7 +4,7 @@
   "experience": 10,
   "cookingtime": 80,
   "ingredient": {
-    "item": "pokey_and_alexs_mod:raw_potato_armor_armor_chestplate"
+    "item": "pokey_and_alexs_mod:deleted_mod_element_chestplate"
   },
-  "result": "pokey_and_alexs_mod:cooked_potato_armor_legacy_armor_chestplate"
+  "result": "pokey_and_alexs_mod:deleted_mod_element_chestplate"
 }

@@ -11,5 +11,7 @@ public class Light_as_a_featherProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 10, 3));
+		if (entity instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 10, 3));
 	}
 }

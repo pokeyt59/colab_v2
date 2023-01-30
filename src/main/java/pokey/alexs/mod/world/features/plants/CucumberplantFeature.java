@@ -35,9 +35,9 @@ public class CucumberplantFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:cucumberplant", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(PokeyAndAlexsModModBlocks.CUCUMBERPLANT.get().defaultBlockState())),
-						List.of(), 64));
+						List.of(), 1));
 		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:cucumberplant", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "luminisom_sword",
+    "texture": "luminisom_sword_v2",
     "customModelName": "Normal",
     "name": "Luminisom Sword",
     "specialInfo": [],

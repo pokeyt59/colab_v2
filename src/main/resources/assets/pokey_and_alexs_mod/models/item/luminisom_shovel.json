@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "pokey_and_alexs_mod:items/luminisom_shovel"
+    "layer0": "pokey_and_alexs_mod:items/luminsiom_shovel_v2"
   }
 }

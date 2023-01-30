@@ -79,12 +79,12 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 64,
-    "generateAtAnyHeight": false
+    "patchSize": 1,
+    "generateAtAnyHeight": true
   }
 }

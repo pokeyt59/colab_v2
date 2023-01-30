@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tungsten_ingot_tool_shovel",
+    "texture": "tungsten_shovel_v2",
     "customModelName": "Normal",
     "name": "Tungsten ingot Shovel",
     "specialInfo": [],
