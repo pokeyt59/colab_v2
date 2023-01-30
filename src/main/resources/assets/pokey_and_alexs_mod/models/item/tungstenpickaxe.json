@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "pokey_and_alexs_mod:items/tungsten_ingot_tool_pickaxe"
+    "layer0": "pokey_and_alexs_mod:items/tungsten_pick_axe_v2"
   }
 }

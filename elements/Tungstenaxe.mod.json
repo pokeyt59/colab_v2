@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tungsten_ingot_tool_axe",
+    "texture": "tungsten_axe_v2",
     "customModelName": "Normal",
     "name": "Tungsten Axe",
     "specialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tungsten_ingot_tool_pickaxe",
+    "texture": "tungsten_pick_axe_v2",
     "customModelName": "Normal",
     "name": "Tungsten Pickaxe",
     "specialInfo": [],

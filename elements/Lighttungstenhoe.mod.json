@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "light_tungsten_armor_hoe",
+    "texture": "light_tungsten_hoe_v2",
     "customModelName": "Normal",
     "name": "Light_tungsten_armor Hoe",
     "specialInfo": [],
