@@ -8,7 +8,7 @@
     "name": "Tungsten ingot Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:PAmod"
     },
     "toolType": "Spade",
     "harvestLevel": 20,

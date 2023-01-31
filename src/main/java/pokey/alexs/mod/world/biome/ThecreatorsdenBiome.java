@@ -32,11 +32,11 @@ public class ThecreatorsdenBiome {
 				.foliageColorOverride(10387789).grassColorOverride(9470285).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("pokey_and_alexs_mod:grass_thecreatorsden", VegetationFeatures.PATCH_GRASS,
+				PlacementUtils.register("pokey_alexs_mod:grass_thecreatorsden", VegetationFeatures.PATCH_GRASS,
 						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 4), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("pokey_and_alexs_mod:flower_thecreatorsden", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(1),
+				PlacementUtils.register("pokey_alexs_mod:flower_thecreatorsden", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(1),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);

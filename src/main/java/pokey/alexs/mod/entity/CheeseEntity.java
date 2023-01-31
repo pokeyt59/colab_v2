@@ -2,8 +2,8 @@
 package pokey.alexs.mod.entity;
 
 import pokey.alexs.mod.procedures.Fucking_dyeingProcedure;
-import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
-import pokey.alexs.mod.init.PokeyAndAlexsModModEntities;
+import pokey.alexs.mod.init.PokeyAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAlexsModModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -53,11 +53,11 @@ import java.util.List;
 public class CheeseEntity extends TamableAnimal {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(PokeyAndAlexsModModEntities.CHEESE.get(), 20, 2, 4));
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(PokeyAlexsModModEntities.CHEESE.get(), 20, 2, 4));
 	}
 
 	public CheeseEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(PokeyAndAlexsModModEntities.CHEESE.get(), world);
+		this(PokeyAlexsModModEntities.CHEESE.get(), world);
 	}
 
 	public CheeseEntity(EntityType<CheeseEntity> type, Level world) {
@@ -163,22 +163,21 @@ public class CheeseEntity extends TamableAnimal {
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		CheeseEntity retval = PokeyAndAlexsModModEntities.CHEESE.get().create(serverWorld);
+		CheeseEntity retval = PokeyAlexsModModEntities.CHEESE.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
 		return retval;
 	}
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(PokeyAndAlexsModModItems.SALT.get(), PokeyAndAlexsModModItems.LIGHTFLUIDBUCKET.get(), Items.SLIME_BALL)
-				.contains(stack.getItem());
+		return List.of(PokeyAlexsModModItems.SALT.get(), PokeyAlexsModModItems.LIGHTFLUIDBUCKET.get(), Items.SLIME_BALL).contains(stack.getItem());
 	}
 
 	public static void init() {
-		SpawnPlacements.register(PokeyAndAlexsModModEntities.CHEESE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(PokeyAlexsModModEntities.CHEESE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
 						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
-		DungeonHooks.addDungeonMob(PokeyAndAlexsModModEntities.CHEESE.get(), 180);
+		DungeonHooks.addDungeonMob(PokeyAlexsModModEntities.CHEESE.get(), 180);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

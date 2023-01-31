@@ -1,13 +1,14 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
+
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -62,45 +63,45 @@ public abstract class WoodlogarmorItem extends ArmorItem {
 
 	public static class Helmet extends WoodlogarmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/wood_armor_v2__layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/wood_armor_v2__layer_1.png";
 		}
 	}
 
 	public static class Chestplate extends WoodlogarmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/wood_armor_v2__layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/wood_armor_v2__layer_1.png";
 		}
 	}
 
 	public static class Leggings extends WoodlogarmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/wood_armor_v2__layer_2.png";
+			return "pokey_alexs_mod:textures/models/armor/wood_armor_v2__layer_2.png";
 		}
 	}
 
 	public static class Boots extends WoodlogarmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/wood_armor_v2__layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/wood_armor_v2__layer_1.png";
 		}
 	}
 }

@@ -8,7 +8,7 @@
     "name": "Tungsten ingot Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:PAmod"
     },
     "toolType": "Hoe",
     "harvestLevel": 20,

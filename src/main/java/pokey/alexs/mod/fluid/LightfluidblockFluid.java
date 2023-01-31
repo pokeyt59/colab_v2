@@ -1,9 +1,9 @@
 
 package pokey.alexs.mod.fluid;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModParticleTypes;
-import pokey.alexs.mod.init.PokeyAndAlexsModModFluids;
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModParticleTypes;
+import pokey.alexs.mod.init.PokeyAlexsModModFluids;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
@@ -19,17 +19,17 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleOptions;
 
 public abstract class LightfluidblockFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(PokeyAndAlexsModModFluids.LIGHTFLUIDBLOCK,
-			PokeyAndAlexsModModFluids.FLOWING_LIGHTFLUIDBLOCK,
+	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(PokeyAlexsModModFluids.LIGHTFLUIDBLOCK,
+			PokeyAlexsModModFluids.FLOWING_LIGHTFLUIDBLOCK,
 			FluidAttributes
-					.builder(new ResourceLocation("pokey_and_alexs_mod:blocks/water_still_read"),
-							new ResourceLocation("pokey_and_alexs_mod:blocks/water_flow_read"))
+					.builder(new ResourceLocation("pokey_alexs_mod:blocks/water_still_read"),
+							new ResourceLocation("pokey_alexs_mod:blocks/water_flow_read"))
 					.luminosity(100).density(200).viscosity(300).temperature(0)
 
 					.rarity(Rarity.UNCOMMON).sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty"))))
 			.explosionResistance(200f).canMultiply()
 
-			.block(() -> (LiquidBlock) PokeyAndAlexsModModBlocks.LIGHTFLUIDBLOCK.get());
+			.block(() -> (LiquidBlock) PokeyAlexsModModBlocks.LIGHTFLUIDBLOCK.get());
 
 	private LightfluidblockFluid() {
 		super(PROPERTIES);
@@ -37,7 +37,7 @@ public abstract class LightfluidblockFluid extends ForgeFlowingFluid {
 
 	@Override
 	public ParticleOptions getDripParticle() {
-		return (SimpleParticleType) (PokeyAndAlexsModModParticleTypes.LIGHTLIQUIDPARTICAL.get());
+		return (SimpleParticleType) (PokeyAlexsModModParticleTypes.LIGHTLIQUIDPARTICAL.get());
 	}
 
 	public static class Source extends LightfluidblockFluid {

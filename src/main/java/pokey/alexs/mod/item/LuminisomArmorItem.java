@@ -2,8 +2,9 @@
 package pokey.alexs.mod.item;
 
 import pokey.alexs.mod.procedures.Hot_handsProcedure;
-import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
+import pokey.alexs.mod.init.PokeyAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -11,7 +12,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.player.Player;
@@ -45,8 +45,8 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()),
-						new ItemStack(PokeyAndAlexsModModBlocks.LUMINISOM_BLOCK.get()));
+				return Ingredient.of(new ItemStack(PokeyAlexsModModItems.LUMINISOM_INGOT.get()),
+						new ItemStack(PokeyAlexsModModBlocks.LUMINISOM_BLOCK.get()));
 			}
 
 			@Override
@@ -68,12 +68,12 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Helmet extends LuminisomArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/luminisom_layer_1.png";
 		}
 
 		@Override
@@ -84,12 +84,12 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Chestplate extends LuminisomArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/luminisom_layer_1.png";
 		}
 
 		@Override
@@ -100,12 +100,12 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Leggings extends LuminisomArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_2.png";
+			return "pokey_alexs_mod:textures/models/armor/luminisom_layer_2.png";
 		}
 
 		@Override
@@ -116,12 +116,12 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Boots extends LuminisomArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/luminisom_layer_1.png";
 		}
 
 		@Override

@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.block;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModFluids;
+import pokey.alexs.mod.init.PokeyAlexsModModFluids;
 
 import org.checkerframework.checker.units.qual.s;
 
@@ -15,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class LightfluidblockBlock extends LiquidBlock {
 	public LightfluidblockBlock() {
-		super(() -> (FlowingFluid) PokeyAndAlexsModModFluids.LIGHTFLUIDBLOCK.get(), BlockBehaviour.Properties.of(Material.WATER).strength(200f)
+		super(() -> (FlowingFluid) PokeyAlexsModModFluids.LIGHTFLUIDBLOCK.get(), BlockBehaviour.Properties.of(Material.WATER).strength(200f)
 				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 15));
 	}
 

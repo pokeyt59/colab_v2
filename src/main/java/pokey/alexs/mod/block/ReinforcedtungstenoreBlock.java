@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.block;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAlexsModModItems;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.MaterialColor;
@@ -42,6 +42,6 @@ public class ReinforcedtungstenoreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTENINGOT.get()));
+		return Collections.singletonList(new ItemStack(PokeyAlexsModModItems.REINFORCEDTUNGSTENINGOT.get()));
 	}
 }

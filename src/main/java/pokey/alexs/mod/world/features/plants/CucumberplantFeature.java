@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.plants;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
@@ -32,11 +32,11 @@ public class CucumberplantFeature extends RandomPatchFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new CucumberplantFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:cucumberplant", FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_alexs_mod:cucumberplant", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-						new SimpleBlockConfiguration(BlockStateProvider.simple(PokeyAndAlexsModModBlocks.CUCUMBERPLANT.get().defaultBlockState())),
+						new SimpleBlockConfiguration(BlockStateProvider.simple(PokeyAlexsModModBlocks.CUCUMBERPLANT.get().defaultBlockState())),
 						List.of(), 1));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:cucumberplant", CONFIGURED_FEATURE,
+		PLACED_FEATURE = PlacementUtils.register("pokey_alexs_mod:cucumberplant", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(3), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}

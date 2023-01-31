@@ -1,14 +1,14 @@
 
 package pokey.alexs.mod.item;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
+import pokey.alexs.mod.init.PokeyAlexsModModItems;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class LighttungstenswordItem extends SwordItem {
 	public LighttungstenswordItem() {
@@ -34,9 +34,9 @@ public class LighttungstenswordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PokeyAndAlexsModModItems.CHICKENFEATHERINGOT.get()),
-						new ItemStack(PokeyAndAlexsModModItems.TUNGSTENINGOT.get()));
+				return Ingredient.of(new ItemStack(PokeyAlexsModModItems.CHICKENFEATHERINGOT.get()),
+						new ItemStack(PokeyAlexsModModItems.TUNGSTENINGOT.get()));
 			}
-		}, 3, -3.6f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3.6f, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 	}
 }

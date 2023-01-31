@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "wood_armor_boots_v2",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:PAmod"
     },
     "armorTextureFile": "wood_armor_v2_",
     "helmetName": "Wood log Helmet",

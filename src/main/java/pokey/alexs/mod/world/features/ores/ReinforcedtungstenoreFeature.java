@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.ores;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -43,9 +43,9 @@ public class ReinforcedtungstenoreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new ReinforcedtungstenoreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:reinforcedtungstenore", FEATURE, new OreConfiguration(
-				ReinforcedtungstenoreFeatureRuleTest.INSTANCE, PokeyAndAlexsModModBlocks.REINFORCEDTUNGSTENORE.get().defaultBlockState(), 3));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:reinforcedtungstenore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_alexs_mod:reinforcedtungstenore", FEATURE, new OreConfiguration(
+				ReinforcedtungstenoreFeatureRuleTest.INSTANCE, PokeyAlexsModModBlocks.REINFORCEDTUNGSTENORE.get().defaultBlockState(), 3));
+		PLACED_FEATURE = PlacementUtils.register("pokey_alexs_mod:reinforcedtungstenore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(5), InSquarePlacement.spread(),
 						HeightRangePlacement.triangle(VerticalAnchor.absolute(1), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
@@ -78,7 +78,7 @@ public class ReinforcedtungstenoreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs_mod:reinforcedtungstenore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_alexs_mod:reinforcedtungstenore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

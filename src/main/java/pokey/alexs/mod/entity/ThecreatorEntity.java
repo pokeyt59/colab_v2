@@ -1,8 +1,8 @@
 
 package pokey.alexs.mod.entity;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
-import pokey.alexs.mod.init.PokeyAndAlexsModModEntities;
+import pokey.alexs.mod.init.PokeyAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAlexsModModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -48,20 +48,20 @@ import java.util.Set;
 
 @Mod.EventBusSubscriber
 public class ThecreatorEntity extends Monster implements RangedAttackMob {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("pokey_and_alexs_mod:thecreatorsden"));
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("pokey_alexs_mod:thecreatorsden"));
 
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		if (SPAWN_BIOMES.contains(event.getName()))
 			event.getSpawns().getSpawner(MobCategory.MONSTER)
-					.add(new MobSpawnSettings.SpawnerData(PokeyAndAlexsModModEntities.THECREATOR.get(), 20, 4, 4));
+					.add(new MobSpawnSettings.SpawnerData(PokeyAlexsModModEntities.THECREATOR.get(), 20, 4, 4));
 	}
 
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.BLUE,
 			ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public ThecreatorEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(PokeyAndAlexsModModEntities.THECREATOR.get(), world);
+		this(PokeyAlexsModModEntities.THECREATOR.get(), world);
 	}
 
 	public ThecreatorEntity(EntityType<ThecreatorEntity> type, Level world) {
@@ -110,7 +110,7 @@ public class ThecreatorEntity extends Monster implements RangedAttackMob {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTENINGOT.get()));
+		this.spawnAtLocation(new ItemStack(PokeyAlexsModModItems.REINFORCEDTUNGSTENINGOT.get()));
 	}
 
 	@Override
@@ -134,7 +134,7 @@ public class ThecreatorEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		ThecreatorEntityProjectile entityarrow = new ThecreatorEntityProjectile(PokeyAndAlexsModModEntities.THECREATOR_PROJECTILE.get(), this,
+		ThecreatorEntityProjectile entityarrow = new ThecreatorEntityProjectile(PokeyAlexsModModEntities.THECREATOR_PROJECTILE.get(), this,
 				this.level);
 		double d0 = target.getY() + target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - this.getX();
@@ -167,8 +167,8 @@ public class ThecreatorEntity extends Monster implements RangedAttackMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(PokeyAndAlexsModModEntities.THECREATOR.get(), SpawnPlacements.Type.ON_GROUND,
-				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
+		SpawnPlacements.register(PokeyAlexsModModEntities.THECREATOR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
 						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 

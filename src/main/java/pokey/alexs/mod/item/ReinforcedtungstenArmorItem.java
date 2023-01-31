@@ -1,8 +1,8 @@
 
 package pokey.alexs.mod.item;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
-import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
+import pokey.alexs.mod.init.PokeyAlexsModModItems;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -41,7 +41,7 @@ public abstract class ReinforcedtungstenArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PokeyAndAlexsModModItems.REINFORCEDTUNGSTENINGOT.get()));
+				return Ingredient.of(new ItemStack(PokeyAlexsModModItems.REINFORCEDTUNGSTENINGOT.get()));
 			}
 
 			@Override
@@ -63,45 +63,45 @@ public abstract class ReinforcedtungstenArmorItem extends ArmorItem {
 
 	public static class Helmet extends ReinforcedtungstenArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/reinforcedtungsten_layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/reinforcedtungsten_layer_1.png";
 		}
 	}
 
 	public static class Chestplate extends ReinforcedtungstenArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/reinforcedtungsten_layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/reinforcedtungsten_layer_1.png";
 		}
 	}
 
 	public static class Leggings extends ReinforcedtungstenArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/reinforcedtungsten_layer_2.png";
+			return "pokey_alexs_mod:textures/models/armor/reinforcedtungsten_layer_2.png";
 		}
 	}
 
 	public static class Boots extends ReinforcedtungstenArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/reinforcedtungsten_layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/reinforcedtungsten_layer_1.png";
 		}
 	}
 }

@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "potato_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:PAmod"
     },
     "armorTextureFile": "cooked_potato_",
     "helmetName": "Cooked potato Helmet",

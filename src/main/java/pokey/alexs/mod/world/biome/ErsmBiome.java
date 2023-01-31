@@ -47,7 +47,7 @@ public class ErsmBiome {
 				.foliageColorOverride(10387789).grassColorOverride(9470285).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("pokey_and_alexs_mod:tree_ersm", FeatureUtils.register("pokey_and_alexs_mod:tree_ersm", Feature.TREE,
+				PlacementUtils.register("pokey_alexs_mod:tree_ersm", FeatureUtils.register("pokey_alexs_mod:tree_ersm", Feature.TREE,
 						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.BUDDING_AMETHYST.defaultBlockState()),
 								new StraightTrunkPlacer(7, 2, 0), BlockStateProvider.simple(Blocks.AMETHYST_BLOCK.defaultBlockState()),
 								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
@@ -57,11 +57,11 @@ public class ErsmBiome {
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("pokey_and_alexs_mod:grass_ersm", VegetationFeatures.PATCH_GRASS,
+				PlacementUtils.register("pokey_alexs_mod:grass_ersm", VegetationFeatures.PATCH_GRASS,
 						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 2), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("pokey_and_alexs_mod:flower_ersm", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(2),
+				PlacementUtils.register("pokey_alexs_mod:flower_ersm", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(2),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);

@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.entity;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModEntities;
+import pokey.alexs.mod.init.PokeyAlexsModModEntities;
 
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
@@ -20,7 +20,7 @@ import net.minecraft.network.protocol.Packet;
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class ThecreatorEntityProjectile extends AbstractArrow implements ItemSupplier {
 	public ThecreatorEntityProjectile(PlayMessages.SpawnEntity packet, Level world) {
-		super(PokeyAndAlexsModModEntities.THECREATOR_PROJECTILE.get(), world);
+		super(PokeyAlexsModModEntities.THECREATOR_PROJECTILE.get(), world);
 	}
 
 	public ThecreatorEntityProjectile(EntityType<? extends ThecreatorEntityProjectile> type, Level world) {

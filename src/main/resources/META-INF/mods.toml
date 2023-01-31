@@ -3,7 +3,7 @@ loaderVersion="[40,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="pokey_and_alexs_mod"
+modId="pokey_alexs_mod"
 version="2.24.35.71"
 displayName="pokey and alex's mod"
 credits="Created using MCreator - https://mcreator.net/about"
@@ -14,7 +14,7 @@ description='''
 a neat little collab mod
 '''
 
-[[dependencies.pokey_and_alexs_mod]]
+[[dependencies.pokey_alexs_mod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"

@@ -1,6 +1,8 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
+
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.Level;
@@ -9,7 +11,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -41,7 +42,7 @@ public abstract class CookedpotatoarmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("pokey_and_alexs_mod:clasic_legacy_sounds"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("pokey_alexs_mod:clasic_legacy_sounds"));
 			}
 
 			@Override
@@ -68,7 +69,7 @@ public abstract class CookedpotatoarmorItem extends ArmorItem {
 
 	public static class Helmet extends CookedpotatoarmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
@@ -79,13 +80,13 @@ public abstract class CookedpotatoarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
 		}
 	}
 
 	public static class Chestplate extends CookedpotatoarmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
@@ -96,13 +97,13 @@ public abstract class CookedpotatoarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
 		}
 	}
 
 	public static class Leggings extends CookedpotatoarmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
@@ -113,13 +114,13 @@ public abstract class CookedpotatoarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_2.png";
+			return "pokey_alexs_mod:textures/models/armor/cooked_potato__layer_2.png";
 		}
 	}
 
 	public static class Boots extends CookedpotatoarmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD));
 		}
 
 		@Override
@@ -130,7 +131,7 @@ public abstract class CookedpotatoarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
+			return "pokey_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
 		}
 	}
 }

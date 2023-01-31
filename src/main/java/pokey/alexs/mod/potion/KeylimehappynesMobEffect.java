@@ -17,7 +17,7 @@ public class KeylimehappynesMobEffect extends MobEffect {
 
 	@Override
 	public String getDescriptionId() {
-		return "effect.pokey_and_alexs_mod.keylimehappynes";
+		return "effect.pokey_alexs_mod.keylimehappynes";
 	}
 
 	@Override
