@@ -2556,10 +2556,10 @@
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.24.35.7 pre release v4.2",
+    "version": "2.24.35.7 release v1",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/pokey_yt-and-alexs-mod",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
