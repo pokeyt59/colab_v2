@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pokey_alexs_mod:items/tungsten_shovel_v2"
+  }
+}

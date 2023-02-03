@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pokey_alexs_mod:block/cucumberplant"
+    },
+    "half=lower": {
+      "model": "pokey_alexs_mod:block/cucumberplant_bottom"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.ores;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -43,9 +43,9 @@ public class LuminisomOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new LuminisomOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:luminisom_ore", FEATURE,
-				new OreConfiguration(LuminisomOreFeatureRuleTest.INSTANCE, PokeyAndAlexsModModBlocks.LUMINISOM_ORE.get().defaultBlockState(), 3));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:luminisom_ore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_alexs_mod:luminisom_ore", FEATURE,
+				new OreConfiguration(LuminisomOreFeatureRuleTest.INSTANCE, PokeyAlexsModModBlocks.LUMINISOM_ORE.get().defaultBlockState(), 3));
+		PLACED_FEATURE = PlacementUtils.register("pokey_alexs_mod:luminisom_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(5), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(33)), BiomeFilter.biome()));
 		return FEATURE;
@@ -77,7 +77,7 @@ public class LuminisomOreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs_mod:luminisom_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_alexs_mod:luminisom_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

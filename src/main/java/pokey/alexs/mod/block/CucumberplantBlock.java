@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.block;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraftforge.common.PlantType;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -40,6 +40,6 @@ public class CucumberplantBlock extends DoublePlantBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(PokeyAndAlexsModModBlocks.CUCUMBERPLANT.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(PokeyAlexsModModBlocks.CUCUMBERPLANT.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

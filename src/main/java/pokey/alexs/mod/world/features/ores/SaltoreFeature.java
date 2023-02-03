@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.ores;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -43,9 +43,9 @@ public class SaltoreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new SaltoreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:saltore", FEATURE,
-				new OreConfiguration(SaltoreFeatureRuleTest.INSTANCE, PokeyAndAlexsModModBlocks.SALTORE.get().defaultBlockState(), 7));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:saltore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_alexs_mod:saltore", FEATURE,
+				new OreConfiguration(SaltoreFeatureRuleTest.INSTANCE, PokeyAlexsModModBlocks.SALTORE.get().defaultBlockState(), 7));
+		PLACED_FEATURE = PlacementUtils.register("pokey_alexs_mod:saltore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(11), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
 		return FEATURE;
@@ -77,7 +77,7 @@ public class SaltoreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs_mod:saltore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_alexs_mod:saltore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

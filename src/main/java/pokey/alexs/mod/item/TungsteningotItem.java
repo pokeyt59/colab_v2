@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.item;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
@@ -15,7 +15,7 @@ import java.util.List;
 
 public class TungsteningotItem extends Item {
 	public TungsteningotItem() {
-		super(new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).stacksTo(64).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).stacksTo(64).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

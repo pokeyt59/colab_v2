@@ -16,6 +16,6 @@ public class CheeseRenderer extends MobRenderer<CheeseEntity, SlimeModel<CheeseE
 
 	@Override
 	public ResourceLocation getTextureLocation(CheeseEntity entity) {
-		return new ResourceLocation("pokey_and_alexs_mod:textures/entities/slime.png");
+		return new ResourceLocation("pokey_alexs_mod:textures/entities/slime.png");
 	}
 }

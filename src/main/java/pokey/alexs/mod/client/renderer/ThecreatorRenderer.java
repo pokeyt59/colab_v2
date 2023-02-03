@@ -15,6 +15,6 @@ public class ThecreatorRenderer extends MobRenderer<ThecreatorEntity, Modelpokey
 
 	@Override
 	public ResourceLocation getTextureLocation(ThecreatorEntity entity) {
-		return new ResourceLocation("pokey_and_alexs_mod:textures/entities/pokey_yt_whith_mask.png");
+		return new ResourceLocation("pokey_alexs_mod:textures/entities/pokey_yt_whith_mask.png");
 	}
 }

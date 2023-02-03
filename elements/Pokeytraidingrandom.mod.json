@@ -14,7 +14,7 @@
             },
             "countPrice1": 9,
             "price2": {
-              "value": ""
+              "value": "CUSTOM:Salt"
             },
             "countPrice2": 1,
             "offer": {
@@ -68,9 +68,9 @@
             },
             "countPrice1": 1,
             "price2": {
-              "value": ""
+              "value": "CUSTOM:Cucumber"
             },
-            "countPrice2": 1,
+            "countPrice2": 4,
             "offer": {
               "value": "CUSTOM:LuminisomArmor.boots"
             },

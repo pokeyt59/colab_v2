@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.lakes;
 
-import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
+import pokey.alexs.mod.init.PokeyAlexsModModBlocks;
 
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
@@ -34,9 +34,9 @@ public class LightfluidblockFeature extends LakeFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new LightfluidblockFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:lightfluidblock", FEATURE, new LakeFeature.Configuration(
-				BlockStateProvider.simple(PokeyAndAlexsModModBlocks.LIGHTFLUIDBLOCK.get()), BlockStateProvider.simple(Blocks.AIR)));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:lightfluidblock", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_alexs_mod:lightfluidblock", FEATURE, new LakeFeature.Configuration(
+				BlockStateProvider.simple(PokeyAlexsModModBlocks.LIGHTFLUIDBLOCK.get()), BlockStateProvider.simple(Blocks.AIR)));
+		PLACED_FEATURE = PlacementUtils.register("pokey_alexs_mod:lightfluidblock", CONFIGURED_FEATURE,
 				List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.RANGE_BOTTOM_TO_MAX_TERRAIN_HEIGHT,
 						EnvironmentScanPlacement.scanningFor(Direction.DOWN, BlockPredicate.not(BlockPredicate.ONLY_IN_AIR_PREDICATE), 32),
 						BiomeFilter.biome()));

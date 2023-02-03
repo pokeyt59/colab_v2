@@ -2,7 +2,7 @@
 package pokey.alexs.mod.item;
 
 import pokey.alexs.mod.procedures.Heavy_like_regretProcedure;
-import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class ReinforcedtungsteningotItem extends Item {
 	public ReinforcedtungsteningotItem() {
-		super(new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).stacksTo(64).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

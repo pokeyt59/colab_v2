@@ -2,7 +2,7 @@
 package pokey.alexs.mod.item;
 
 import pokey.alexs.mod.procedures.Light_as_a_featherProcedure;
-import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
+import pokey.alexs.mod.init.PokeyAlexsModModTabs;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -13,7 +13,7 @@ import net.minecraft.world.entity.Entity;
 
 public class ChickenfeatheringotItem extends Item {
 	public ChickenfeatheringotItem() {
-		super(new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_P_AMOD).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(PokeyAlexsModModTabs.TAB_P_AMOD).stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

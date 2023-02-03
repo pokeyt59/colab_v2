@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_alexs_mod:tungsteningot"
+    },
+    "1": {
+      "item": "pokey_alexs_mod:chickenfeatheringot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pokey_alexs_mod:lighttungstensword",
+    "count": 1
+  }
+}

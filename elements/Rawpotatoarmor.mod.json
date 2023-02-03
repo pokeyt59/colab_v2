@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "raw_potato_armor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:PAmod"
     },
     "armorTextureFile": "raw_potato_armor",
     "helmetName": "Raw potato Helmet",

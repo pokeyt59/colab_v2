@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "1": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "2": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "3": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "4": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "5": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "6": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "7": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    },
+    "8": {
+      "item": "pokey_alexs_mod:luminisonmnuggetraw"
+    }
+  },
+  "result": {
+    "item": "pokey_alexs_mod:luminisom_ingot",
+    "count": 1
+  }
+}
