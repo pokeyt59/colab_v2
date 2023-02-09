@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "pokey_alexs_mod:blocks/cucumber_plant_top",
-    "particle": "pokey_alexs_mod:blocks/cucumber_plant_top"
-  }
-}

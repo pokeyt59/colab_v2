@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pokey_alex_mod:items/wood_armor_leggings_v2"
+  }
+}

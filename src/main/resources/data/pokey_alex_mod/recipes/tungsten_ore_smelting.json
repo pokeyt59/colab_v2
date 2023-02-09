@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 78,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "pokey_alex_mod:tungstenore"
+  },
+  "result": "pokey_alex_mod:tungsteningot"
+}

@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 120,
-    "texture": "idk_bottom",
+    "texture": "rice_bottom",
     "textureBottom": "idk_bottom",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -15,7 +15,7 @@
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 11,
+    "growapableMaxHeight": 7,
     "doublePlantGenerationType": "Grass",
     "customBoundingBox": false,
     "disableOffset": false,
@@ -72,7 +72,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
     "fireSpreadSpeed": 60,

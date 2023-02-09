@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "pokey_alexs_mod:tungstenshovel",
-    "pokey_alexs_mod:tungstenaxe",
-    "pokey_alexs_mod:tungstenpickaxe",
-    "pokey_alexs_mod:tungstensword",
-    "pokey_alexs_mod:tungstenhoe"
+    "pokey_alex_mod:tungstenshovel",
+    "pokey_alex_mod:tungstenaxe",
+    "pokey_alex_mod:tungstenpickaxe",
+    "pokey_alex_mod:tungstensword",
+    "pokey_alex_mod:tungstenhoe"
   ]
 }

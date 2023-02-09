@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_alex_mod:tungsteningot"
+    },
+    "1": {
+      "item": "pokey_alex_mod:chickenfeatheringot"
+    },
+    "2": {
+      "item": "pokey_alex_mod:tungsteningot"
+    },
+    "3": {
+      "item": "pokey_alex_mod:chickenfeatheringot"
+    },
+    "5": {
+      "item": "pokey_alex_mod:chickenfeatheringot"
+    },
+    "6": {
+      "item": "pokey_alex_mod:tungsteningot"
+    },
+    "8": {
+      "item": "pokey_alex_mod:tungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_alex_mod:lighttungstenarmor_leggings",
+    "count": 1
+  }
+}

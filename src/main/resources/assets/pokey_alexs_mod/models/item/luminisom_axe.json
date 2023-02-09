@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "pokey_alexs_mod:items/luminisom_axe_v2"
-  }
-}

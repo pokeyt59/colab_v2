@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "pokey_alexs_mod:reinforcedtungsten_armor_leggings",
-    "pokey_alexs_mod:reinforcedtungsten_armor_chestplate",
-    "pokey_alexs_mod:reinforcedtungsten_armor_helmet",
-    "pokey_alexs_mod:reinforcedtungsten_armor_boots"
+    "pokey_alex_mod:reinforcedtungsten_armor_leggings",
+    "pokey_alex_mod:reinforcedtungsten_armor_chestplate",
+    "pokey_alex_mod:reinforcedtungsten_armor_helmet",
+    "pokey_alex_mod:reinforcedtungsten_armor_boots"
   ]
 }

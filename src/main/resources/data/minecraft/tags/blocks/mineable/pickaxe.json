@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "pokey_alexs_mod:tungstenore",
-    "pokey_alexs_mod:reinforcedtungstenore",
-    "pokey_alexs_mod:saltore",
-    "pokey_alexs_mod:luminisom_block",
-    "pokey_alexs_mod:luminisom_ore"
+    "pokey_alex_mod:tungstenore",
+    "pokey_alex_mod:reinforcedtungstenore",
+    "pokey_alex_mod:saltore",
+    "pokey_alex_mod:luminisom_block",
+    "pokey_alex_mod:luminisom_ore"
   ]
 }
