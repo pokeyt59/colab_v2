@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "pokey_alex_mod:blocks/rice_bottom",
+    "particle": "pokey_alex_mod:blocks/rice_bottom"
+  }
+}

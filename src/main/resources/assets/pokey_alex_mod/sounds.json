@@ -1,0 +1,36 @@
+{
+  "clasic_legacy_sounds_player": {
+    "category": "player",
+    "subtitle": "subtitles.clasic_legacy_sounds_player",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:potato_armor_equip_sound",
+        "stream": false
+      }
+    ]
+  },
+  "clasic_legacy_sounds_music": {
+    "category": "block",
+    "subtitle": "subtitles.clasic_legacy_sounds_music",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:mod_music_place_hype_kick",
+        "stream": false
+      }
+    ]
+  },
+  "crusaders_crossbow_sounds": {
+    "category": "player",
+    "subtitle": "subtitles.crusaders_crossbow_sounds",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:crusaders_crossbow_shoot",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:crusaders_crossbow_shoot_crit",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    },
+    "1": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    },
+    "2": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    },
+    "3": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    },
+    "5": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    },
+    "6": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    },
+    "8": {
+      "item": "pokey_alex_mod:reinforcedtungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_alex_mod:reinforcedtungsten_armor_leggings",
+    "count": 1
+  }
+}

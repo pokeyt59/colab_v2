@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "pokey_alexs_mod:lightfluidblock",
-    "pokey_alexs_mod:flowing_lightfluidblock"
+    "pokey_alex_mod:lightfluidblock",
+    "pokey_alex_mod:flowing_lightfluidblock"
   ]
 }

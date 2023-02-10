@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "pokey_alexs_mod:lighttungstenaxe",
-    "pokey_alexs_mod:lighttungstenhoe",
-    "pokey_alexs_mod:lightfluidblock",
-    "pokey_alexs_mod:lightfluidbucket",
-    "pokey_alexs_mod:lighttungstenpickaxe",
-    "pokey_alexs_mod:lighttungstensword"
+    "pokey_alex_mod:lighttungstenaxe",
+    "pokey_alex_mod:lighttungstenhoe",
+    "pokey_alex_mod:lightfluidblock",
+    "pokey_alex_mod:lightfluidbucket",
+    "pokey_alex_mod:lighttungstenpickaxe",
+    "pokey_alex_mod:lighttungstensword"
   ]
 }

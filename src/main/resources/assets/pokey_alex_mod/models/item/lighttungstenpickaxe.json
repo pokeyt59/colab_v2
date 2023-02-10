@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pokey_alex_mod:items/light_tungsten_pick_axe_v2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_alex_mod:tungsteningot"
+    },
+    "1": {
+      "item": "pokey_alex_mod:tungsteningot"
+    },
+    "2": {
+      "item": "pokey_alex_mod:tungsteningot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pokey_alex_mod:tungstenpickaxe",
+    "count": 1
+  }
+}
