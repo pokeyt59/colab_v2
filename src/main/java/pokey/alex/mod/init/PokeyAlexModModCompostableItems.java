@@ -9,7 +9,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.ComposterBlock;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -23,14 +22,5 @@ public class PokeyAlexModModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(PokeyAlexModModItems.LEAFYARMOR_LEGGINGS.get(), 1f);
 		ComposterBlock.COMPOSTABLES.put(Items.AXOLOTL_BUCKET, 1f);
 		ComposterBlock.COMPOSTABLES.put(Items.ROTTEN_FLESH, 0.99f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.ZOMBIE_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.PLAYER_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.CREEPER_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.ZOMBIE_WALL_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.DRAGON_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.DRAGON_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.PLAYER_WALL_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.CREEPER_WALL_HEAD.asItem(), 1f);
-		ComposterBlock.COMPOSTABLES.put(Blocks.DRAGON_WALL_HEAD.asItem(), 1f);
 	}
 }

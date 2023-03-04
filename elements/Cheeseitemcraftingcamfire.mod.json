@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 73.0,
+    "cookingTime": 1000,
+    "recipeRetstackSize": 1,
+    "group": "cheese_item_crafting",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Items.MILK_BUCKET"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:Cheeseitem"
+    },
+    "name": "cheeseitemcraftingcamfire",
+    "namespace": "mod"
+  }
+}

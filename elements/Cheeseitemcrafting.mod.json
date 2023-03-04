@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 59.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "cheese_item_crafting",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.MILK_BUCKET"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Cheeseitem"
+    },
+    "name": "cheeseitemcrafting",
+    "namespace": "mod"
+  }
+}

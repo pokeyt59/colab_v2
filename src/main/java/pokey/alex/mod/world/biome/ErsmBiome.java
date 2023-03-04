@@ -37,10 +37,13 @@ import java.util.List;
 import com.google.common.collect.ImmutableList;
 
 public class ErsmBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.142857142857f, 0.142857142857f),
-			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.367142857143f, 0.652857142857f),
-			Climate.Parameter.span(0.657142857143f, 0.942857142857f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.460150489854f, -0.17443620414f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.028571428571f, 0.028571428571f),
+			Climate.Parameter.span(-0.028571428571f, 0.028571428571f), Climate.Parameter.span(0.481428571429f, 0.538571428571f),
+			Climate.Parameter.span(0.771428571429f, 0.828571428571f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-0.345864775568f, -0.288721918426f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT_UNDERGROUND = new Climate.ParameterPoint(Climate.Parameter.span(-1, 1),
+			Climate.Parameter.span(-1, 1), Climate.Parameter.span(0.31f, 0.71f), Climate.Parameter.span(0.6f, 1f), Climate.Parameter.span(0.2f, 0.9f),
+			Climate.Parameter.span(-0.517293346997f, -0.117293346997f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)

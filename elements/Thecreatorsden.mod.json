@@ -30,14 +30,14 @@
       "value": "CUSTOM:Testnotperm"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.5,
-    "temperature": 0.5,
+    "rainingPossibility": 0.6,
+    "temperature": 0.7,
     "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "heightVariation": 0.1,
     "spawnBiome": true,
-    "spawnBiomeNether": true,
-    "spawnInCaves": true,
-    "biomeWeight": 2,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 1,
     "grassPerChunk": 4,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 1,
@@ -88,6 +88,16 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Thecreator"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

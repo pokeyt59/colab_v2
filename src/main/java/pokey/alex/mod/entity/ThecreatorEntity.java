@@ -54,7 +54,7 @@ public class ThecreatorEntity extends Monster implements RangedAttackMob {
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		if (SPAWN_BIOMES.contains(event.getName()))
 			event.getSpawns().getSpawner(MobCategory.MONSTER)
-					.add(new MobSpawnSettings.SpawnerData(PokeyAlexModModEntities.THECREATOR.get(), 20, 4, 4));
+					.add(new MobSpawnSettings.SpawnerData(PokeyAlexModModEntities.THECREATOR.get(), 1, 4, 4));
 	}
 
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.BLUE,
@@ -66,9 +66,9 @@ public class ThecreatorEntity extends Monster implements RangedAttackMob {
 
 	public ThecreatorEntity(EntityType<ThecreatorEntity> type, Level world) {
 		super(type, world);
-		xpReward = 900;
+		xpReward = 1000;
 		setNoAi(false);
-		setCustomName(new TextComponent("the main creator (boss)"));
+		setCustomName(new TextComponent("the main creator"));
 		setCustomNameVisible(true);
 	}
 
@@ -175,7 +175,7 @@ public class ThecreatorEntity extends Monster implements RangedAttackMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 100);
+		builder = builder.add(Attributes.MAX_HEALTH, 500);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 69);

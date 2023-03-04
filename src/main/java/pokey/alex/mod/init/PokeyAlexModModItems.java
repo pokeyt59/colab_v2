@@ -41,6 +41,7 @@ import pokey.alex.mod.item.CookedpotatoarmorItem;
 import pokey.alex.mod.item.CookedimprovisedcakeItem;
 import pokey.alex.mod.item.CobblestonearmorItem;
 import pokey.alex.mod.item.ChickenfeatheringotItem;
+import pokey.alex.mod.item.CheeseitemItem;
 import pokey.alex.mod.PokeyAlexModMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -167,6 +168,7 @@ public class PokeyAlexModModItems {
 	public static final RegistryObject<Item> LUMINISOM_BLOCK = block(PokeyAlexModModBlocks.LUMINISOM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> LUMINISOM_ORE = block(PokeyAlexModModBlocks.LUMINISOM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RICEPLANT = block(PokeyAlexModModBlocks.RICEPLANT, CreativeModeTab.TAB_TOOLS);
+	public static final RegistryObject<Item> CHEESEITEM = REGISTRY.register("cheeseitem", () -> new CheeseitemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

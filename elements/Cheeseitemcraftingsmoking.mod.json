@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 58.0,
+    "cookingTime": 600,
+    "recipeRetstackSize": 1,
+    "group": "cheese_item_crafting",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Items.MILK_BUCKET"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:Cheeseitem"
+    },
+    "name": "cheeseitemcraftingsmoking",
+    "namespace": "mod"
+  }
+}

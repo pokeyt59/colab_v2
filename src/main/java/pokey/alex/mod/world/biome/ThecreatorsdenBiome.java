@@ -1,6 +1,8 @@
 
 package pokey.alex.mod.world.biome;
 
+import pokey.alex.mod.init.PokeyAlexModModEntities;
+
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
@@ -12,6 +14,7 @@ import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
@@ -19,13 +22,10 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import java.util.List;
 
 public class ThecreatorsdenBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.028571428571f, 0.028571428571f),
-			Climate.Parameter.span(-0.028571428571f, 0.028571428571f), Climate.Parameter.span(0.481428571429f, 0.538571428571f),
-			Climate.Parameter.span(0.771428571429f, 0.828571428571f), Climate.Parameter.point(0),
-			Climate.Parameter.span(0.289336698765f, 0.346479555907f), 0);
-	public static final Climate.ParameterPoint PARAMETER_POINT_UNDERGROUND = new Climate.ParameterPoint(Climate.Parameter.span(-1, 1),
-			Climate.Parameter.span(-1, 1), Climate.Parameter.span(0.31f, 0.71f), Climate.Parameter.span(0.6f, 1f), Climate.Parameter.span(0.2f, 0.9f),
-			Climate.Parameter.span(0.117908127336f, 0.517908127336f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.119047619048f, 0.14761904762f),
+			Climate.Parameter.span(0.185714285714f, 0.214285714286f), Climate.Parameter.span(0.495714285714f, 0.524285714286f),
+			Climate.Parameter.span(0.885714285714f, 0.914285714286f), Climate.Parameter.point(0),
+			Climate.Parameter.span(0.30362241305f, 0.332193841622f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)
@@ -42,8 +42,9 @@ public class ThecreatorsdenBiome {
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.5f)
-				.downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
+		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(PokeyAlexModModEntities.THECREATOR.get(), 20, 1, 2));
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.7f)
+				.downfall(0.6f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
 				.build();
 	}
 }

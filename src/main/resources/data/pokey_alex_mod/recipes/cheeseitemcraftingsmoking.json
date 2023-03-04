@@ -1,0 +1,10 @@
+{
+  "group": "cheese_item_crafting",
+  "type": "minecraft:smoking",
+  "experience": 58,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": "pokey_alex_mod:cheeseitem"
+}

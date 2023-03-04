@@ -1632,87 +1632,6 @@
       "path": "~/compoastible"
     },
     {
-      "name": "Headcompost1",
-      "type": "itemextension",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_1",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost2",
-      "type": "itemextension",
-      "sortid": 167,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_2",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost3",
-      "type": "itemextension",
-      "sortid": 168,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_3",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost5",
-      "type": "itemextension",
-      "sortid": 169,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_5",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost4",
-      "type": "itemextension",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_4",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost6",
-      "type": "itemextension",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_6",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost7",
-      "type": "itemextension",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_7",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost8",
-      "type": "itemextension",
-      "sortid": 173,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_8",
-      "path": "~/compoastible/heads"
-    },
-    {
-      "name": "Headcompost9",
-      "type": "itemextension",
-      "sortid": 174,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "headcompost_9",
-      "path": "~/compoastible/heads"
-    },
-    {
       "name": "Lighttungstencraftingpickaxe",
       "type": "recipe",
       "sortid": 175,
@@ -1855,6 +1774,42 @@
       "locked_code": false,
       "registry_name": "luminisonnuggettoingot",
       "path": "~/ingot/crafting"
+    },
+    {
+      "name": "Cheeseitem",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseitem",
+      "path": "~/food/cheese"
+    },
+    {
+      "name": "Cheeseitemcrafting",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseitemcrafting",
+      "path": "~/food/cheese"
+    },
+    {
+      "name": "Cheeseitemcraftingsmoking",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseitemcraftingsmoking",
+      "path": "~/food/cheese"
+    },
+    {
+      "name": "Cheeseitemcraftingcamfire",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseitemcraftingcamfire",
+      "path": "~/food/cheese"
     }
   ],
   "variable_elements": [
@@ -1898,6 +1853,7 @@
       "item.pokey_alex_mod.lighttungstenarmor_boots": "Light tungsten Boots",
       "item.pokey_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
+      "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
       "item.pokey_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "entity.pokey_alexs_mod.thecreator": "Thecreator",
@@ -2256,6 +2212,7 @@
       "item.pokey_alex_mod.lighttungstenarmor_boots": "Light tungsten Boots",
       "item.pokey_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.pokey_and_alexs_mod.lightfluidblock": "light fluid",
+      "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
       "item.pokey_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "entity.pokey_alexs_mod.thecreator": "Thecreator",
@@ -2700,6 +2657,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "cheese",
+            "children": []
           }
         ]
       },
@@ -2884,19 +2845,14 @@
       },
       {
         "name": "compoastible",
-        "children": [
-          {
-            "name": "heads",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "pokey_alex_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "3.24.35.8",
+    "version": "3.25.35.8",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/pokey_yt-and-alexs-mod",
