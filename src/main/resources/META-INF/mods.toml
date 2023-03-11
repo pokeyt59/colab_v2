@@ -6,12 +6,12 @@ license="GNU General Public License version 3 (GPLv3)"
 modId="pokey_alex_mod"
 version="3.25.35.8"
 displayName="pokey and alex's mod"
-credits="Created using MCreator - https://mcreator.net/about"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/pokey_yt-and-alexs-mod"
 logoFile="logo.png"
 authors="Pokey_yt , Alex super 199"
 description='''
-a neat little collab mod
+a neat little collab mod. if you wish to be thanked in the channle for a month donate to my cash app at  $pokeyyt 
 '''
 
 [[dependencies.pokey_alex_mod]]
