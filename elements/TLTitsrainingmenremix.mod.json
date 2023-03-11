@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "its raining men remix",
+    "texture": "irm_remix_disc",
+    "description": "by TLT (The Living Tombstone) its raining men remix",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:tlt_the_living_tombstone"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

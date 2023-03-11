@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": " Stepback!",
+    "texture": "stepback_disc",
+    "description": "1noly & SXMPRA  Stepback!",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:onenoly"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

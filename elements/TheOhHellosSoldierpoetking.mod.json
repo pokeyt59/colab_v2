@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Soldier, poet, king",
+    "texture": "poet_disc",
+    "description": "The Oh Hellos Soldier, poet, king",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:the_oh_hellos"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

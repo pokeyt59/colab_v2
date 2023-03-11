@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "bodies",
+    "texture": "bodies_disc",
+    "description": "DrowningPool bodies",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:drowning_pool"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class PokeyAlexModModTabs {
 	public static CreativeModeTab TAB_P_AMOD;
+	public static CreativeModeTab TAB_MUSICDICSLIST;
 
 	public static void load() {
 		TAB_P_AMOD = new CreativeModeTab("tabp_amod") {
@@ -25,5 +26,16 @@ public class PokeyAlexModModTabs {
 				return true;
 			}
 		}.setBackgroundSuffix("item_search.png");
+		TAB_MUSICDICSLIST = new CreativeModeTab("tabmusicdicslist") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(PokeyAlexModModItems.TEST.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
 	}
 }

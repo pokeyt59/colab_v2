@@ -24,6 +24,15 @@ public class PokeyAlexModModSounds {
 				new SoundEvent(new ResourceLocation("pokey_alex_mod", "clasic_legacy_sounds_music")));
 		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "crusaders_crossbow_sounds"),
 				new SoundEvent(new ResourceLocation("pokey_alex_mod", "crusaders_crossbow_sounds")));
+		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "sxcredmane"), new SoundEvent(new ResourceLocation("pokey_alex_mod", "sxcredmane")));
+		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "the_oh_hellos"),
+				new SoundEvent(new ResourceLocation("pokey_alex_mod", "the_oh_hellos")));
+		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "onenoly"), new SoundEvent(new ResourceLocation("pokey_alex_mod", "onenoly")));
+		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "richaad_eb"), new SoundEvent(new ResourceLocation("pokey_alex_mod", "richaad_eb")));
+		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "drowning_pool"),
+				new SoundEvent(new ResourceLocation("pokey_alex_mod", "drowning_pool")));
+		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "tlt_the_living_tombstone"),
+				new SoundEvent(new ResourceLocation("pokey_alex_mod", "tlt_the_living_tombstone")));
 	}
 
 	@SubscribeEvent

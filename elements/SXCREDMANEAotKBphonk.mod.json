@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Attack of the Killer Beast (phonk)",
+    "texture": "mr_beast_phonk",
+    "description": "SXCREDMANE Attack of the Killer Beast (phonk)",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:sxcredmane"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

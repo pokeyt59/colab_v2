@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Devil Trigger",
+    "texture": "devil_triger",
+    "description": "Richaad EB Devil Trigger",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:richaad_eb"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

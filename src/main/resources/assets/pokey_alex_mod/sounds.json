@@ -10,12 +10,12 @@
     ]
   },
   "clasic_legacy_sounds_music": {
-    "category": "block",
+    "category": "record",
     "subtitle": "subtitles.clasic_legacy_sounds_music",
     "sounds": [
       {
         "name": "pokey_alex_mod:mod_music_place_hype_kick",
-        "stream": false
+        "stream": true
       }
     ]
   },
@@ -30,6 +30,60 @@
       {
         "name": "pokey_alex_mod:crusaders_crossbow_shoot_crit",
         "stream": false
+      }
+    ]
+  },
+  "sxcredmane": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:attack_of_the_killer_beast_phonk",
+        "stream": true
+      }
+    ]
+  },
+  "the_oh_hellos": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:soldier_poet_king",
+        "stream": true
+      }
+    ]
+  },
+  "onenoly": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:step_back",
+        "stream": true
+      }
+    ]
+  },
+  "richaad_eb": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:devil_trigger_full_version",
+        "stream": true
+      }
+    ]
+  },
+  "drowning_pool": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:drowning_pool_-_bodies",
+        "stream": true
+      }
+    ]
+  },
+  "tlt_the_living_tombstone": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:its_raining_men_remix_-_the_living_tombstone_ft.eilemonty",
+        "stream": true
       }
     ]
   }

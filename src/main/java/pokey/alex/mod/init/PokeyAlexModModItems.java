@@ -12,13 +12,18 @@ import pokey.alex.mod.item.TungsteningotItem;
 import pokey.alex.mod.item.TungstenhoeItem;
 import pokey.alex.mod.item.TungstenaxeItem;
 import pokey.alex.mod.item.TungstenarmorItem;
+import pokey.alex.mod.item.TheOhHellosSoldierpoetkingItem;
 import pokey.alex.mod.item.TestItem;
+import pokey.alex.mod.item.TLTitsrainingmenremixItem;
 import pokey.alex.mod.item.SaltItem;
+import pokey.alex.mod.item.SXCREDMANEAotKBphonkItem;
+import pokey.alex.mod.item.RichaadEBDevilTriggerItem;
 import pokey.alex.mod.item.RicebowlfoodItem;
 import pokey.alex.mod.item.RiceItem;
 import pokey.alex.mod.item.ReinforcedtungsteningotItem;
 import pokey.alex.mod.item.ReinforcedtungstenArmorItem;
 import pokey.alex.mod.item.RawpotatoarmorItem;
+import pokey.alex.mod.item.OnenolyandSXMPRAStepbackItem;
 import pokey.alex.mod.item.LuminisonmnuggetrawItem;
 import pokey.alex.mod.item.LuminisomSwordItem;
 import pokey.alex.mod.item.LuminisomShovelItem;
@@ -35,6 +40,7 @@ import pokey.alex.mod.item.LighttungstenarmorItem;
 import pokey.alex.mod.item.LightfluidbucketItem;
 import pokey.alex.mod.item.LeafyarmorItem;
 import pokey.alex.mod.item.ImprovisedcakeItem;
+import pokey.alex.mod.item.DrowningpoolbodiesItem;
 import pokey.alex.mod.item.DripstonearmorItem;
 import pokey.alex.mod.item.CucumberItem;
 import pokey.alex.mod.item.CookedpotatoarmorItem;
@@ -169,6 +175,17 @@ public class PokeyAlexModModItems {
 	public static final RegistryObject<Item> LUMINISOM_ORE = block(PokeyAlexModModBlocks.LUMINISOM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RICEPLANT = block(PokeyAlexModModBlocks.RICEPLANT, CreativeModeTab.TAB_TOOLS);
 	public static final RegistryObject<Item> CHEESEITEM = REGISTRY.register("cheeseitem", () -> new CheeseitemItem());
+	public static final RegistryObject<Item> TL_TITSRAININGMENREMIX = REGISTRY.register("tl_titsrainingmenremix",
+			() -> new TLTitsrainingmenremixItem());
+	public static final RegistryObject<Item> DROWNINGPOOLBODIES = REGISTRY.register("drowningpoolbodies", () -> new DrowningpoolbodiesItem());
+	public static final RegistryObject<Item> THE_OH_HELLOS_SOLDIERPOETKING = REGISTRY.register("the_oh_hellos_soldierpoetking",
+			() -> new TheOhHellosSoldierpoetkingItem());
+	public static final RegistryObject<Item> RICHAAD_EB_DEVIL_TRIGGER = REGISTRY.register("richaad_eb_devil_trigger",
+			() -> new RichaadEBDevilTriggerItem());
+	public static final RegistryObject<Item> ONENOLYAND_SXMPRA_STEPBACK = REGISTRY.register("onenolyand_sxmpra_stepback",
+			() -> new OnenolyandSXMPRAStepbackItem());
+	public static final RegistryObject<Item> SXCREDMANE_AOT_K_BPHONK = REGISTRY.register("sxcredmane_aot_k_bphonk",
+			() -> new SXCREDMANEAotKBphonkItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
