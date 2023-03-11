@@ -47,6 +47,7 @@ import pokey.alex.mod.item.CookedpotatoarmorItem;
 import pokey.alex.mod.item.CookedimprovisedcakeItem;
 import pokey.alex.mod.item.CobblestonearmorItem;
 import pokey.alex.mod.item.ChickenfeatheringotItem;
+import pokey.alex.mod.item.CheeseunpesturisedItem;
 import pokey.alex.mod.item.CheeseitemItem;
 import pokey.alex.mod.PokeyAlexModMod;
 
@@ -186,6 +187,7 @@ public class PokeyAlexModModItems {
 			() -> new OnenolyandSXMPRAStepbackItem());
 	public static final RegistryObject<Item> SXCREDMANE_AOT_K_BPHONK = REGISTRY.register("sxcredmane_aot_k_bphonk",
 			() -> new SXCREDMANEAotKBphonkItem());
+	public static final RegistryObject<Item> CHEESEUNPESTURISED = REGISTRY.register("cheeseunpesturised", () -> new CheeseunpesturisedItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
