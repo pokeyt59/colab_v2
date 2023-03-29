@@ -1898,6 +1898,15 @@
         ]
       },
       "path": "~/food/cheese"
+    },
+    {
+      "name": "Tf2solder",
+      "type": "livingentity",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tf_2solder",
+      "path": "~/entitys/tf2/soldier"
     }
   ],
   "variable_elements": [
@@ -1935,52 +1944,84 @@
       "subtitle": "crusader\u0027s crossbowfiring"
     },
     {
-      "name": "sxcredmane",
+      "name": "tlt_the_living_tombstone",
       "files": [
-        "attack_of_the_killer_beast_phonk"
+        "its_raining_men_remix_-_tlt_ft.eilemonty_compressed"
       ],
       "category": "record",
-      "subtitle": ""
-    },
-    {
-      "name": "the_oh_hellos",
-      "files": [
-        "soldier_poet_king"
-      ],
-      "category": "record",
-      "subtitle": ""
+      "subtitle": "it\u0027s raining men by TLT"
     },
     {
       "name": "onenoly",
       "files": [
-        "step_back"
+        "step_back_compressed"
       ],
       "category": "record",
-      "subtitle": ""
-    },
-    {
-      "name": "richaad_eb",
-      "files": [
-        "devil_trigger_full_version"
-      ],
-      "category": "record",
-      "subtitle": ""
+      "subtitle": "Step Bcack! by 1noly"
     },
     {
       "name": "drowning_pool",
       "files": [
-        "drowning_pool_-_bodies"
+        "drowning_pool_-_bodies_comrpessed"
       ],
       "category": "record",
+      "subtitle": "Bodies by drowning pool"
+    },
+    {
+      "name": "richaad_eb",
+      "files": [
+        "devil_trigger_full_version_compressed"
+      ],
+      "category": "record",
+      "subtitle": "Devil trigger by richaad_eb"
+    },
+    {
+      "name": "sxcredmane",
+      "files": [
+        "attack_of_the_killer_beast_phonk_compressed"
+      ],
+      "category": "record",
+      "subtitle": "Attck of the Killer Beast by sxcredmane"
+    },
+    {
+      "name": "the_oh_hellos",
+      "files": [
+        "soldier_poet_king_compressed"
+      ],
+      "category": "record",
+      "subtitle": "Soldier,Poet,King by the oh hellos"
+    },
+    {
+      "name": "soldier_death_sound",
+      "files": [
+        "soldier_death_1",
+        "soldier_death_2",
+        "soldier_death_3",
+        "soldier_death_4"
+      ],
+      "category": "neutral",
       "subtitle": ""
     },
     {
-      "name": "tlt_the_living_tombstone",
+      "name": "soldier_pain_sound",
       "files": [
-        "its_raining_men_remix_-_the_living_tombstone_ft.eilemonty"
+        "soldier_pain_1",
+        "soldier_pain_2",
+        "soldier_pain_3",
+        "soldier_pain_4",
+        "soldier_pain_5",
+        "soldier_pain_6",
+        "soldier_pain_7",
+        "soldier_pain_8",
+        "soldier_pain_9",
+        "soldier_pain_10",
+        "soldier_pain_11",
+        "soldier_pain_12",
+        "soldier_pain_13",
+        "soldier_pain_14"
       ],
-      "category": "record",
-      "subtitle": ""
+      "category": "neutral",
+      "subtitle": "soldier\u0027s pain"
     }
   ],
   "language_map": {
@@ -1988,8 +2029,8 @@
       "item.pokey_alex_mod.lighttungstenarmor_leggings": "Light tungsten Leggings",
       "item.pokey_alex_mod.lighttungstenarmor_boots": "Light tungsten Boots",
       "item.pokey_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
-      "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
       "block.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
+      "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
       "item.pokey_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "entity.pokey_alexs_mod.thecreator": "Thecreator",
@@ -2097,6 +2138,7 @@
       "subtitles.ik": "",
       "item.pokey_and_alexs__mc_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_alexs_mod.test.desc": "music made by pokey",
+      "item.pokey_alex_mod.tf_2solder_spawn_egg": "Tf 2solder Spawn Egg",
       "item.pokey_alexs_mod.tungstenarmor_chestplate": "Tungsten Chestplate",
       "item.pokey_alex_mod.lightfluidblock_bucket": "Testfluid Bucket",
       "item.test.thornreethhelm_chestplate": "Шиповый шлем",
@@ -2172,6 +2214,7 @@
       "item.pokey_alexs_mod.reinforcedtungsten_armor_helmet": "Reinforced tungsten Helmet",
       "item.pokey_alex_mod.richaad_eb_devil_trigger": "Devil Trigger",
       "subtitles.richaad_eb": "",
+      "subtitles.soldier_pain_sound": "",
       "item.pokey_and_alexs_mod.woodlogarmor_boots": "Wood log Boots",
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.pokey_alexs_mod.luminisom_shovel": "Luminisom Shovel",
@@ -2191,6 +2234,7 @@
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_alexs_mod.dripstonearmor_helmet": "Drip Helmet",
+      "entity.pokey_alex_mod.tf_2solder": "Tf 2solder",
       "item.pokey_alex_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_alex_mod.cucumber": "Cucumber",
       "item.pokey_alex_mod.luminisom_sword": "Luminisom Sword",
@@ -2291,6 +2335,7 @@
       "item.pokey_alex_mod.cookedpotatoarmor_helmet": "Cooked potato Helmet",
       "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked_potato_armor_legacy Chestplate",
       "itemGroup.tabmusicdicslist": "Mod Music dics",
+      "subtitles.soldier_death_sound": "",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "fluid.pokey_alex_mod.lightfluidblock": "light fluid",
@@ -2368,8 +2413,8 @@
       "item.pokey_alex_mod.lighttungstenarmor_leggings": "Light tungsten Leggings",
       "item.pokey_alex_mod.lighttungstenarmor_boots": "Light tungsten Boots",
       "item.pokey_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
-      "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
       "block.pokey_and_alexs_mod.lightfluidblock": "light fluid",
+      "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
       "item.pokey_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "entity.pokey_alexs_mod.thecreator": "Thecreator",
@@ -2415,7 +2460,7 @@
       "item.pokey_alexs_mod.tungstensword": "Tungsten Sword",
       "item.pokey_alex_mod.rawpotatoarmor_boots": "Raw potato Boots",
       "entity.pokey_alex_mod.cheese": "Cheese",
-      "subtitles.onenoly": "",
+      "subtitles.onenoly": "Step Bcack! by 1noly",
       "item.pokey_and_alexs__mc_mod.luminisom_axe": "Luminisom Axe",
       "item.pokey_alex_mod.lighttungstensword": "Light tungsten Sword",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_helmet": "Reinforced tungsten Helmet",
@@ -2424,7 +2469,7 @@
       "item.pokey_alex_mod.onenolyand_sxmpra_stepback.desc": "1noly \u0026 SXMPRA  Stepback!",
       "item.pokey_alexs_mod.cookedpotatoarmor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs_mod.lightfluidbucket": "Light fluid bucket",
-      "subtitles.tlt_the_living_tombstone": "",
+      "subtitles.tlt_the_living_tombstone": "it\u0027s raining men by TLT",
       "item.pokey_alex_mod.cookedpotatoarmor_chestplate": "Cooked potato Chestplate",
       "block.pokey_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
@@ -2477,6 +2522,7 @@
       "subtitles.ik": "",
       "item.pokey_and_alexs__mc_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_alexs_mod.test.desc": "music made by pokey",
+      "item.pokey_alex_mod.tf_2solder_spawn_egg": "Tf 2solder Spawn Egg",
       "item.pokey_alexs_mod.tungstenarmor_chestplate": "Tungsten Chestplate",
       "item.pokey_alex_mod.lightfluidblock_bucket": "Testfluid Bucket",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
@@ -2540,7 +2586,7 @@
       "block.pokey_alexs_mod.luminisom_block": "Block of Luminisom",
       "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom ingot",
       "item.pokey_alex_mod.lightfluidbucket": "Light fluid bucket",
-      "subtitles.sxcredmane": "",
+      "subtitles.sxcredmane": "Attck of the Killer Beast by sxcredmane",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_alexs_mod.lightfluidblock_bucket": "Testfluid Bucket",
       "item.test.luminisom_hoe": "Luminisom Hoe",
@@ -2551,7 +2597,8 @@
       "item.pokey_and_alexs_mod.rawpotatoarmor_leggings": "Raw potato Leggings",
       "item.pokey_alexs_mod.reinforcedtungsten_armor_helmet": "Reinforced tungsten Helmet",
       "item.pokey_alex_mod.richaad_eb_devil_trigger": "Devil Trigger",
-      "subtitles.richaad_eb": "",
+      "subtitles.richaad_eb": "Devil trigger by richaad_eb",
+      "subtitles.soldier_pain_sound": "soldier\u0027s pain",
       "item.pokey_and_alexs_mod.woodlogarmor_boots": "Wood log Boots",
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.pokey_alexs_mod.luminisom_shovel": "Luminisom Shovel",
@@ -2571,6 +2618,7 @@
       "item.test.luminisom_armor_boots": "Luminisom Boots",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_alexs_mod.dripstonearmor_helmet": "Drip Helmet",
+      "entity.pokey_alex_mod.tf_2solder": "Tf 2solder",
       "item.pokey_alex_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_alex_mod.cucumber": "Cucumber",
       "item.pokey_alex_mod.luminisom_sword": "Luminisom Sword",
@@ -2623,7 +2671,7 @@
       "item.pokey_and_alexs_mod.dripstonearmor_chestplate": "Drip Chestplate",
       "item.pokey_alexs_mod.tungstenhoe": "Tungsten ingot Hoe",
       "effect.pokey_alexs_mod.keylimehappynes": "key lime happyness",
-      "subtitles.drowning_pool": "",
+      "subtitles.drowning_pool": "Bodies by drowning pool",
       "item.pokey_alexs_mod.woodlogarmor_leggings": "Wood log Leggings",
       "item.pokey_alex_mod.tl_titsrainingmenremix.desc": "by TLT (The Living Tombstone) its raining men remix",
       "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
@@ -2671,6 +2719,7 @@
       "item.pokey_alex_mod.cookedpotatoarmor_helmet": "Cooked potato Helmet",
       "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "itemGroup.tabmusicdicslist": "Mod Music dics",
+      "subtitles.soldier_death_sound": "",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "fluid.pokey_alex_mod.lightfluidblock": "light fluid",
@@ -2709,7 +2758,7 @@
       "item.pokey_alex_mod.luminisom_armor_helmet": "Luminisom Helmet",
       "item.pokey_and_alexs_mod.tungstenarmor_chestplate": "Tungsten Chestplate",
       "item.pokey_alexs_mod.lighttungstenarmor_boots": "Light tungsten Boots",
-      "subtitles.the_oh_hellos": "",
+      "subtitles.the_oh_hellos": "Soldier,Poet,King by the oh hellos",
       "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
       "item.pokey_alexs_mod.reinforcedtungsteningot": "Reinforced tungsten ingot",
       "block.pokey_alexs_mod.tungstenore": "Tungsten Ore",
@@ -3018,6 +3067,15 @@
           {
             "name": "procedures",
             "children": []
+          },
+          {
+            "name": "tf2",
+            "children": [
+              {
+                "name": "soldier",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -3028,13 +3086,22 @@
       {
         "name": "compoastible",
         "children": []
+      },
+      {
+        "name": "modern",
+        "children": [
+          {
+            "name": "items",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "pokey_alex_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "3.26.35.8",
+    "version": "3.26.36.8",
     "description": "a neat little collab mod. if you wish to be thanked in the channle for a month donate to my cash app at  $pokeyyt ",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/pokey_yt-and-alexs-mod",

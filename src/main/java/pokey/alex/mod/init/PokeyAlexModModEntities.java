@@ -6,6 +6,7 @@ package pokey.alex.mod.init;
 
 import pokey.alex.mod.entity.ThecreatorEntityProjectile;
 import pokey.alex.mod.entity.ThecreatorEntity;
+import pokey.alex.mod.entity.Tf2solderEntity;
 import pokey.alex.mod.entity.CheeseEntity;
 import pokey.alex.mod.PokeyAlexModMod;
 
@@ -35,6 +36,11 @@ public class PokeyAlexModModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(CheeseEntity::new)
 
 					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<Tf2solderEntity>> TF_2SOLDER = register("tf_2solder",
+			EntityType.Builder.<Tf2solderEntity>of(Tf2solderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Tf2solderEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -45,6 +51,7 @@ public class PokeyAlexModModEntities {
 		event.enqueueWork(() -> {
 			ThecreatorEntity.init();
 			CheeseEntity.init();
+			Tf2solderEntity.init();
 		});
 	}
 
@@ -52,5 +59,6 @@ public class PokeyAlexModModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(THECREATOR.get(), ThecreatorEntity.createAttributes().build());
 		event.put(CHEESE.get(), CheeseEntity.createAttributes().build());
+		event.put(TF_2SOLDER.get(), Tf2solderEntity.createAttributes().build());
 	}
 }

@@ -188,6 +188,8 @@ public class PokeyAlexModModItems {
 	public static final RegistryObject<Item> SXCREDMANE_AOT_K_BPHONK = REGISTRY.register("sxcredmane_aot_k_bphonk",
 			() -> new SXCREDMANEAotKBphonkItem());
 	public static final RegistryObject<Item> CHEESEUNPESTURISED = REGISTRY.register("cheeseunpesturised", () -> new CheeseunpesturisedItem());
+	public static final RegistryObject<Item> TF_2SOLDER = REGISTRY.register("tf_2solder_spawn_egg",
+			() -> new ForgeSpawnEggItem(PokeyAlexModModEntities.TF_2SOLDER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

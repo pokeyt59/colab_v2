@@ -5,6 +5,7 @@
 package pokey.alex.mod.init;
 
 import pokey.alex.mod.client.renderer.ThecreatorRenderer;
+import pokey.alex.mod.client.renderer.Tf2solderRenderer;
 import pokey.alex.mod.client.renderer.CheeseRenderer;
 
 import net.minecraftforge.fml.common.Mod;
@@ -21,5 +22,6 @@ public class PokeyAlexModModEntityRenderers {
 		event.registerEntityRenderer(PokeyAlexModModEntities.THECREATOR.get(), ThecreatorRenderer::new);
 		event.registerEntityRenderer(PokeyAlexModModEntities.THECREATOR_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(PokeyAlexModModEntities.CHEESE.get(), CheeseRenderer::new);
+		event.registerEntityRenderer(PokeyAlexModModEntities.TF_2SOLDER.get(), Tf2solderRenderer::new);
 	}
 }

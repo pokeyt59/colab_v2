@@ -33,57 +33,146 @@
       }
     ]
   },
-  "sxcredmane": {
+  "tlt_the_living_tombstone": {
     "category": "record",
+    "subtitle": "subtitles.tlt_the_living_tombstone",
     "sounds": [
       {
-        "name": "pokey_alex_mod:attack_of_the_killer_beast_phonk",
-        "stream": true
-      }
-    ]
-  },
-  "the_oh_hellos": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "pokey_alex_mod:soldier_poet_king",
+        "name": "pokey_alex_mod:its_raining_men_remix_-_tlt_ft.eilemonty_compressed",
         "stream": true
       }
     ]
   },
   "onenoly": {
     "category": "record",
+    "subtitle": "subtitles.onenoly",
     "sounds": [
       {
-        "name": "pokey_alex_mod:step_back",
-        "stream": true
-      }
-    ]
-  },
-  "richaad_eb": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "pokey_alex_mod:devil_trigger_full_version",
+        "name": "pokey_alex_mod:step_back_compressed",
         "stream": true
       }
     ]
   },
   "drowning_pool": {
     "category": "record",
+    "subtitle": "subtitles.drowning_pool",
     "sounds": [
       {
-        "name": "pokey_alex_mod:drowning_pool_-_bodies",
+        "name": "pokey_alex_mod:drowning_pool_-_bodies_comrpessed",
         "stream": true
       }
     ]
   },
-  "tlt_the_living_tombstone": {
+  "richaad_eb": {
     "category": "record",
+    "subtitle": "subtitles.richaad_eb",
     "sounds": [
       {
-        "name": "pokey_alex_mod:its_raining_men_remix_-_the_living_tombstone_ft.eilemonty",
+        "name": "pokey_alex_mod:devil_trigger_full_version_compressed",
         "stream": true
+      }
+    ]
+  },
+  "sxcredmane": {
+    "category": "record",
+    "subtitle": "subtitles.sxcredmane",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:attack_of_the_killer_beast_phonk_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "the_oh_hellos": {
+    "category": "record",
+    "subtitle": "subtitles.the_oh_hellos",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:soldier_poet_king_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "soldier_death_sound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:soldier_death_1",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_death_2",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_death_3",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_death_4",
+        "stream": false
+      }
+    ]
+  },
+  "soldier_pain_sound": {
+    "category": "neutral",
+    "subtitle": "subtitles.soldier_pain_sound",
+    "sounds": [
+      {
+        "name": "pokey_alex_mod:soldier_pain_1",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_2",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_3",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_4",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_5",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_6",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_7",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_8",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_9",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_10",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_11",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_12",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_13",
+        "stream": false
+      },
+      {
+        "name": "pokey_alex_mod:soldier_pain_14",
+        "stream": false
       }
     ]
   }
