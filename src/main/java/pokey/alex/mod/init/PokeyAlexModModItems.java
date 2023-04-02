@@ -23,6 +23,7 @@ import pokey.alex.mod.item.RiceItem;
 import pokey.alex.mod.item.ReinforcedtungsteningotItem;
 import pokey.alex.mod.item.ReinforcedtungstenArmorItem;
 import pokey.alex.mod.item.RawpotatoarmorItem;
+import pokey.alex.mod.item.PabattonstickItem;
 import pokey.alex.mod.item.OnenolyandSXMPRAStepbackItem;
 import pokey.alex.mod.item.LuminisonmnuggetrawItem;
 import pokey.alex.mod.item.LuminisomSwordItem;
@@ -190,6 +191,8 @@ public class PokeyAlexModModItems {
 	public static final RegistryObject<Item> CHEESEUNPESTURISED = REGISTRY.register("cheeseunpesturised", () -> new CheeseunpesturisedItem());
 	public static final RegistryObject<Item> TF_2SOLDER = REGISTRY.register("tf_2solder_spawn_egg",
 			() -> new ForgeSpawnEggItem(PokeyAlexModModEntities.TF_2SOLDER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> PABATTONSTICK = REGISTRY.register("pabattonstick", () -> new PabattonstickItem());
+	public static final RegistryObject<Item> PABATTBLOCK = block(PokeyAlexModModBlocks.PABATTBLOCK, PokeyAlexModModTabs.TAB_P_AMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

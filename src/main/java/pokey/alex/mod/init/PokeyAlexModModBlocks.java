@@ -8,6 +8,7 @@ import pokey.alex.mod.block.TungstenoreBlock;
 import pokey.alex.mod.block.SaltoreBlock;
 import pokey.alex.mod.block.RiceplantBlock;
 import pokey.alex.mod.block.ReinforcedtungstenoreBlock;
+import pokey.alex.mod.block.PabattblockBlock;
 import pokey.alex.mod.block.LuminisomOreBlock;
 import pokey.alex.mod.block.LuminisomBlockBlock;
 import pokey.alex.mod.block.LightfluidblockBlock;
@@ -36,6 +37,7 @@ public class PokeyAlexModModBlocks {
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
 	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
+	public static final RegistryObject<Block> PABATTBLOCK = REGISTRY.register("pabattblock", () -> new PabattblockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -43,6 +45,7 @@ public class PokeyAlexModModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			CucumberplantBlock.registerRenderLayer();
 			RiceplantBlock.registerRenderLayer();
+			PabattblockBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

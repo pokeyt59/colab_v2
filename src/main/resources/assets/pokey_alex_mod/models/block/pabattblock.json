@@ -1,0 +1,14 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "pokey_alex_mod:models/item/pa_batt_block.obj",
+      "ambientToFullbright": true
+    }
+  },
+  "textures": {
+    "particle": "pokey_alex_mod:blocks/battery_block"
+  }
+}
