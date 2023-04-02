@@ -6,12 +6,14 @@
     "texture": "battery_on_a_stick_icon",
     "customModelName": "pa_batt_on_stick:default",
     "name": "Pabattonstick",
-    "specialInfo": [],
+    "specialInfo": [
+      "lighting may not strike twice but it's pretty dam close when you hit somthing"
+    ],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:PAmod"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
+    "harvestLevel": 3,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
@@ -22,6 +24,9 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "PabattonstickLivingEntityIsHitWithTool"
+    }
   }
 }

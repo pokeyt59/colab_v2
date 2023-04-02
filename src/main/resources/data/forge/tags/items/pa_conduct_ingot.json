@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot",
+    "pokey_alex_mod:reinforcedtungsteningot",
+    "pokey_alex_mod:tungsteningot"
+  ]
+}

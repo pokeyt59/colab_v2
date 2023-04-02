@@ -626,15 +626,6 @@
       "path": "~/food/loot tabels"
     },
     {
-      "name": "Test",
-      "type": "musicdisc",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "path": "~/music disc"
-    },
-    {
       "name": "Lightliquidpartical",
       "type": "particle",
       "sortid": 100,
@@ -1883,23 +1874,6 @@
       "path": "~/food/cheese"
     },
     {
-      "name": "Poisin",
-      "type": "procedure",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "poisin",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/food/cheese"
-    },
-    {
       "name": "Tf2solder",
       "type": "livingentity",
       "sortid": 199,
@@ -1925,6 +1899,144 @@
       "locked_code": false,
       "registry_name": "pabattblock",
       "path": "~/block"
+    },
+    {
+      "name": "Unpesturisedcheesepoisonchance",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpesturisedcheesepoisonchance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/food/cheese"
+    },
+    {
+      "name": "Stonetag",
+      "type": "tag",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonetag",
+      "path": "~/tags"
+    },
+    {
+      "name": "Ingottag",
+      "type": "tag",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingottag",
+      "path": "~/tags"
+    },
+    {
+      "name": "Nonconductingot",
+      "type": "tag",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonconductingot",
+      "path": "~/tags"
+    },
+    {
+      "name": "Paconductingot",
+      "type": "tag",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paconductingot",
+      "path": "~/tags"
+    },
+    {
+      "name": "Pabattblockcrafting",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pabattblockcrafting",
+      "path": "~/block/crafting"
+    },
+    {
+      "name": "Electracution",
+      "type": "potioneffect",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electracution",
+      "path": "~/effects"
+    },
+    {
+      "name": "ELECTRONS",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrons",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects"
+    },
+    {
+      "name": "Apply_ELECTRONS",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_electrons",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects"
+    },
+    {
+      "name": "PabattonstickLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pabattonstick_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects"
     }
   ],
   "variable_elements": [
@@ -1943,14 +2055,6 @@
       ],
       "category": "player",
       "subtitle": "potatos rubbing against skin"
-    },
-    {
-      "name": "clasic_legacy_sounds_music",
-      "files": [
-        "mod_music_place_hype_kick"
-      ],
-      "category": "record",
-      "subtitle": "awesome music"
     },
     {
       "name": "crusaders_crossbow_sounds",
@@ -2057,14 +2161,14 @@
       "item.pokey_alex_mod.dripstonearmor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.leafyarmor_chestplate": "Leafy Chestplate",
       "block.pokey_and_alexs_mod.luminisom_block": "Block of Luminisom",
-      "item.pokey_and_alexs__mc_mod.rice": "uncooked Rice",
       "item.pokey_alex_mod.tl_titsrainingmenremix": "its raining men remix",
+      "item.pokey_and_alexs__mc_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs__mc_mod.luminisom_shovel": "Luminisom Shovel",
-      "item.pokey_and_alexs_mod.luminisom_sword": "Luminisom Sword",
       "item.pokey_alexs_mod.tungstensword": "Tungsten Sword",
+      "item.pokey_and_alexs_mod.luminisom_sword": "Luminisom Sword",
       "item.pokey_alex_mod.rawpotatoarmor_boots": "Raw potato Boots",
-      "entity.pokey_alex_mod.cheese": "Cheese",
       "subtitles.onenoly": "",
+      "entity.pokey_alex_mod.cheese": "Cheese",
       "item.pokey_and_alexs__mc_mod.luminisom_axe": "Luminisom Axe",
       "item.pokey_alex_mod.lighttungstensword": "Light tungsten Sword",
       "item.pokey_alexs_mod.lighttungstenarmor_chestplate": "Light tungsten Chestplate",
@@ -2080,6 +2184,7 @@
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.pokey_alexs_mod.woodlogarmor_boots": "Wood log Boots",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
+      "effect.pokey_alex_mod.electracution": "electrocution",
       "item.test.luminisom_armor_leggings": "Люминисовые поножи",
       "item.pokey_alex_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -2088,24 +2193,24 @@
       "item.test.raw_potato_armor_armor_helmet": "Raw_potato_armor Helmet",
       "item.pokey_and_alexs_mod.cheese_spawn_egg": "Cheese Spawn Egg",
       "item.pokey_alex_mod.woodlogarmor_helmet": "Wood log Helmet",
-      "item.pokey_alexs_mod.tungstenaxe": "Tungsten Axe",
       "block.pokey_alex_mod.saltore": "Salt",
+      "item.pokey_alexs_mod.tungstenaxe": "Tungsten Axe",
       "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
       "entity.pokey_alex_mod.thecreator": "Thecreator",
-      "item.test.raw_potato_armor_armor_boots": "Raw_potato_armor Boots",
       "block.pokey_and_alexs_mod.tungstenore": "Tungsten Ore",
+      "item.test.raw_potato_armor_armor_boots": "Raw_potato_armor Boots",
       "item.pokey_alex_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
       "item.pokey_and_alexs_mod.tungstenpickaxe": "Tungsten Pickaxe",
       "item.pokey_alexs_mod.test": "Test",
-      "item.pokey_alex_mod.reinforcedtungsten_armor_chestplate": "Reinforced tungsten Chestplate",
       "item.pokey_and_alexs__mc_mod.ricebowlfood": "Ricebowlfood",
+      "item.pokey_alex_mod.reinforcedtungsten_armor_chestplate": "Reinforced tungsten Chestplate",
       "item.pokey_alex_mod.tf_2solder_spawn_egg": "Tf 2solder Spawn Egg",
       "item.pokey_alexs_mod.tungstenarmor_chestplate": "Tungsten Chestplate",
       "item.test.thornreethhelm_chestplate": "Шиповый шлем",
       "item.pokey_and_alexs_mod.reinforcedtungsten_armor_chestplate": "Reinforcedtungsten Chestplate",
-      "item.pokey_alexs_mod.lighttungstenpickaxe": "Light tungsten Pickaxe",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked_potato_armor_legacy Helmet",
+      "item.pokey_alexs_mod.lighttungstenpickaxe": "Light tungsten Pickaxe",
       "item.pokey_alexs_mod.leafyarmor_chestplate": "Leafy Chestplate",
       "item.pokey_alex_mod.leafyarmor_chestplate": "Leafy Chestplate",
       "item.pokey_alexs_mod.dripstonearmor_boots": "Drip Boots",
@@ -2118,8 +2223,8 @@
       "item.test.thornreethhelm_helmet": "Шиповый шлем",
       "item.pokey_alex_mod.leafyarmor_leggings": "Leafy Leggings",
       "item.pokey_alex_mod.cheeseunpesturised": "Cheeseunpesturised",
-      "item.pokey_and_alexs_mod.cookedpotatoarmor_boots": "Cooked potato Boots",
       "subtitles.clasic_legacy_sounds_music": "awesome music",
+      "item.pokey_and_alexs_mod.cookedpotatoarmor_boots": "Cooked potato Boots",
       "block.pokey_and_alexs__mc_mod.luminisom_ore": "Luminisom Ore",
       "item.pokey_and_alexs_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_alex_mod.cookedimprovisedcake": "cooked Improvised cake",
@@ -2137,15 +2242,15 @@
       "block.pokey_alex_mod.pabattblock": "Pabattblock",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_alex_mod.improvisedcake": "raw Improvised cake",
-      "item.pokey_and_alexs_mod.tungstenshovel": "Tungsten ingot Shovel",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
+      "item.pokey_and_alexs_mod.tungstenshovel": "Tungsten ingot Shovel",
       "item.pokey_and_alexs_mod.tungstensword": "Tungsten Sword",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "biome.pokey_alex_mod.thecreatorsden": "The creators den",
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
-      "item.pokey_alexs_mod.dripstonearmor_helmet": "Drip Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_hoe": "Luminisom Hoe",
+      "item.pokey_alexs_mod.dripstonearmor_helmet": "Drip Helmet",
       "item.pokey_alex_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_alex_mod.cucumber": "Cucumber",
       "item.pokey_alex_mod.luminisom_sword": "Luminisom Sword",
@@ -2159,8 +2264,8 @@
       "item.pokey_alex_mod.cobblestonearmor_helmet": "Cobble stone Helmet",
       "block.test.luminisom_block": "Люминисовый блок",
       "item.pokey_alex_mod.leafyarmor_helmet": "Leafy Helmet",
-      "item.pokey_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_alexs_mod.luminisom_hoe": "Luminisom Hoe",
+      "item.pokey_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_alex_mod.rawpotatoarmor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs_mod.tungstenarmor_helmet": "Tungsten Helmet",
       "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked_potato_armor_legacy Boots",
@@ -2176,14 +2281,14 @@
       "item.pokey_and_alexs_mod.tungsteningot": "Tungsten ingot",
       "block.pokey_and_alexs_mod.saltore": "Salt",
       "entity.pokey_alexs_mod.cheese": "Cheese",
-      "block.test.batterytest": "Тест батареи",
       "item.pokey_alex_mod.sxcredmane_aot_k_bphonk": "Attack of the Killer Beast (phonk)",
+      "block.test.batterytest": "Тест батареи",
       "item.test.drip_armor_armor_helmet": "Drip_armor Helmet",
       "block.pokey_and_alexs_mod.riceplant": "rice plant",
       "item.pokey_alex_mod.lighttungstenarmor_helmet": "Light tungsten helmet",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
-      "item.test.thornreethhelm_boots": "Шиповые ботинки",
       "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
+      "item.test.thornreethhelm_boots": "Шиповые ботинки",
       "item.pokey_alexs_mod.tungstenarmor_helmet": "Tungsten Helmet",
       "item.pokey_alex_mod.cookedpotatoarmor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
@@ -2214,8 +2319,8 @@
       "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
       "item.pokey_alex_mod.tungsteningot": "Tungsten ingot",
       "block.pokey_alexs_mod.cucumberplant": "Cucumber plant",
-      "fluid.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
       "item.pokey_and_alexs_mod.luminisom_shovel": "Luminisom Shovel",
+      "fluid.pokey_and_alexs_mod.lightfluidblock": "Testfluid",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
       "block.pokey_and_alexs_mod.reinforcedtungstenore": "Reinforcedtungstenore",
@@ -2226,7 +2331,6 @@
       "item.test.wood_log_armor_armor_boots": "Wood_log_armor Boots",
       "item.pokey_and_alexs_mod.cobblestonearmor_helmet": "Cobble stone Helmet",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
-      "item.pokey_alex_mod.test.desc": "music made by pokey",
       "item.pokey_and_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.pokey_alexs_mod.lighttungstenhoe": "Light_tungsten_armor Hoe",
       "item.pokey_alex_mod.sxcredmane_aot_k_bphonk.desc": "SXCREDMANE Attack of the Killer Beast (phonk)",
@@ -2392,7 +2496,6 @@
       "item.pokey_alex_mod.onenolyand_sxmpra_stepback": " Stepback!",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_leggings": "Luminisom Leggings",
-      "item.pokey_alex_mod.test": "Test",
       "item.pokey_alexs_mod.tungstenarmor_boots": "Tungsten Boots",
       "item.pokey_and_alexs_mod.luminisom_ingot": "Luminisom ingot",
       "itemGroup.tabmusicdicslist": "Mod Music dics",
@@ -2433,8 +2536,8 @@
       "item.pokey_alex_mod.lighttungstenarmor_leggings": "Light tungsten Leggings",
       "item.pokey_alex_mod.lighttungstenarmor_boots": "Light tungsten Boots",
       "item.pokey_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
-      "block.pokey_and_alexs_mod.lightfluidblock": "light fluid",
       "item.pokey_alex_mod.cheeseitem": "Cheeseitem",
+      "block.pokey_and_alexs_mod.lightfluidblock": "light fluid",
       "item.pokey_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "entity.pokey_alexs_mod.thecreator": "Thecreator",
@@ -2501,6 +2604,7 @@
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.pokey_alexs_mod.woodlogarmor_boots": "Wood log Boots",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
+      "effect.pokey_alex_mod.electracution": "electrocution",
       "item.minecraft.lingering_potion.effect.testpotionitem": "Lingering Potion of Testpotionitem",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_and_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -2729,7 +2833,6 @@
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.pokey_alex_mod.lighttungstenarmor_helmet": "Light tungsten helmet",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_leggings": "Luminisom Leggings",
-      "item.pokey_alex_mod.test": "Test",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
@@ -2805,7 +2908,6 @@
       "item.pokey_and_alexs_mod.cobblestonearmor_helmet": "Cobble stone Helmet",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
       "item.pokey_and_alexs_mod.test": "Test",
-      "item.pokey_alex_mod.test.desc": "music made by pokey",
       "item.pokey_and_alexs_mod.lighttungstenaxe": "Light tungsten Axe",
       "item.pokey_alexs_mod.lighttungstenhoe": "Light_tungsten_armor Hoe",
       "biome.pokey_and_alexs_mod.ersm": "emarald ritch salt mines",
@@ -3117,6 +3219,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "effects",
+        "children": []
       }
     ]
   },

@@ -20,8 +20,6 @@ public class PokeyAlexModModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "clasic_legacy_sounds_player"),
 				new SoundEvent(new ResourceLocation("pokey_alex_mod", "clasic_legacy_sounds_player")));
-		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "clasic_legacy_sounds_music"),
-				new SoundEvent(new ResourceLocation("pokey_alex_mod", "clasic_legacy_sounds_music")));
 		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "crusaders_crossbow_sounds"),
 				new SoundEvent(new ResourceLocation("pokey_alex_mod", "crusaders_crossbow_sounds")));
 		REGISTRY.put(new ResourceLocation("pokey_alex_mod", "tlt_the_living_tombstone"),

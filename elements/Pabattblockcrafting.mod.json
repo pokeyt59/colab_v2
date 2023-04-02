@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:pa_conduct_ingot"
+      },
+      {
+        "value": "TAG:pa_non_conduct_ingot_tag"
+      },
+      {
+        "value": "TAG:pa_conduct_ingot"
+      },
+      {
+        "value": "TAG:pa_stone_tag"
+      },
+      {
+        "value": "TAG:pa_conduct_ingot"
+      },
+      {
+        "value": "TAG:pa_stone_tag"
+      },
+      {
+        "value": "TAG:pa_stone_tag"
+      },
+      {
+        "value": "TAG:pa_stone_tag"
+      },
+      {
+        "value": "TAG:pa_stone_tag"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pabattblock"
+    },
+    "name": "pabattblockcrafting",
+    "namespace": "mod"
+  }
+}

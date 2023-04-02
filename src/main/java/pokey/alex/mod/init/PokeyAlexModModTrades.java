@@ -64,7 +64,8 @@ public class PokeyAlexModModTrades {
 							new ItemStack(PokeyAlexModModItems.RICE.get(), 48),
 							new ItemStack(PokeyAlexModModItems.REINFORCEDTUNGSTEN_ARMOR_LEGGINGS.get()), 10, 5, 0.05f));
 			event.getTrades().get(1)
-					.add(new BasicItemListing(new ItemStack(Blocks.JUNGLE_SAPLING, 25), new ItemStack(PokeyAlexModModItems.TEST.get()),
+					.add(new BasicItemListing(new ItemStack(Blocks.JUNGLE_SAPLING, 25),
+							new ItemStack(PokeyAlexModModItems.ONENOLYAND_SXMPRA_STEPBACK.get()),
 							new ItemStack(PokeyAlexModModItems.REINFORCEDTUNGSTEN_ARMOR_BOOTS.get()), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.ARMORER) {

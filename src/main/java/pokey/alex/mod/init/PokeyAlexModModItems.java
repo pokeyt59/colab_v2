@@ -13,7 +13,6 @@ import pokey.alex.mod.item.TungstenhoeItem;
 import pokey.alex.mod.item.TungstenaxeItem;
 import pokey.alex.mod.item.TungstenarmorItem;
 import pokey.alex.mod.item.TheOhHellosSoldierpoetkingItem;
-import pokey.alex.mod.item.TestItem;
 import pokey.alex.mod.item.TLTitsrainingmenremixItem;
 import pokey.alex.mod.item.SaltItem;
 import pokey.alex.mod.item.SXCREDMANEAotKBphonkItem;
@@ -70,7 +69,6 @@ public class PokeyAlexModModItems {
 	public static final RegistryObject<Item> LUMINISONMNUGGETRAW = REGISTRY.register("luminisonmnuggetraw", () -> new LuminisonmnuggetrawItem());
 	public static final RegistryObject<Item> RICE = REGISTRY.register("rice", () -> new RiceItem());
 	public static final RegistryObject<Item> RICEBOWLFOOD = REGISTRY.register("ricebowlfood", () -> new RicebowlfoodItem());
-	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 	public static final RegistryObject<Item> LIGHTFLUIDBUCKET = REGISTRY.register("lightfluidbucket", () -> new LightfluidbucketItem());
 	public static final RegistryObject<Item> CUCUMBER = REGISTRY.register("cucumber", () -> new CucumberItem());
 	public static final RegistryObject<Item> SALT = REGISTRY.register("salt", () -> new SaltItem());

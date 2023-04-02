@@ -1,7 +1,7 @@
 
 package pokey.alex.mod.item;
 
-import pokey.alex.mod.procedures.PoisinProcedure;
+import pokey.alex.mod.procedures.UnpesturisedcheesepoisonchanceProcedure;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
@@ -26,7 +26,7 @@ public class CheeseunpesturisedItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		PoisinProcedure.execute(entity);
+		UnpesturisedcheesepoisonchanceProcedure.execute(entity);
 		return retval;
 	}
 }

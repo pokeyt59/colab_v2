@@ -1,6 +1,7 @@
 
 package pokey.alex.mod.block;
 
+import pokey.alex.mod.procedures.ELECTRONSProcedure;
 import pokey.alex.mod.init.PokeyAlexModModBlocks;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -14,8 +15,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -25,7 +28,7 @@ import java.util.Collections;
 
 public class PabattblockBlock extends Block {
 	public PabattblockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.ANVIL).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -51,6 +54,12 @@ public class PabattblockBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		ELECTRONSProcedure.execute(entity);
 	}
 
 	@OnlyIn(Dist.CLIENT)

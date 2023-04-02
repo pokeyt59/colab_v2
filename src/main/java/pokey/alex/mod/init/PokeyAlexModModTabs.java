@@ -29,7 +29,7 @@ public class PokeyAlexModModTabs {
 		TAB_MUSICDICSLIST = new CreativeModeTab("tabmusicdicslist") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(PokeyAlexModModItems.TEST.get());
+				return new ItemStack(PokeyAlexModModItems.ONENOLYAND_SXMPRA_STEPBACK.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

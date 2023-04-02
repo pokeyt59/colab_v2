@@ -9,16 +9,6 @@
       }
     ]
   },
-  "clasic_legacy_sounds_music": {
-    "category": "record",
-    "subtitle": "subtitles.clasic_legacy_sounds_music",
-    "sounds": [
-      {
-        "name": "pokey_alex_mod:mod_music_place_hype_kick",
-        "stream": true
-      }
-    ]
-  },
   "crusaders_crossbow_sounds": {
     "category": "player",
     "subtitle": "subtitles.crusaders_crossbow_sounds",

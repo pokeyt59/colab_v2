@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "pa_conduct_ingot"
+    },
+    "1": {
+      "tag": "pa_non_conduct_ingot_tag"
+    },
+    "2": {
+      "tag": "pa_conduct_ingot"
+    },
+    "3": {
+      "tag": "pa_stone_tag"
+    },
+    "4": {
+      "tag": "pa_conduct_ingot"
+    },
+    "5": {
+      "tag": "pa_stone_tag"
+    },
+    "6": {
+      "tag": "pa_stone_tag"
+    },
+    "7": {
+      "tag": "pa_stone_tag"
+    },
+    "8": {
+      "tag": "pa_stone_tag"
+    }
+  },
+  "result": {
+    "item": "pokey_alex_mod:pabattblock",
+    "count": 1
+  }
+}

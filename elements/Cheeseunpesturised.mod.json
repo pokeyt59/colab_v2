@@ -30,7 +30,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "Poisin"
+      "name": "Unpesturisedcheesepoisonchance"
     },
     "isFood": true,
     "nutritionalValue": 6,

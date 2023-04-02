@@ -1,0 +1,24 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Chickenfeatheringot"
+      },
+      {
+        "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pa_non_conduct_ingot_tag",
+    "namespace": "forge"
+  }
+}
