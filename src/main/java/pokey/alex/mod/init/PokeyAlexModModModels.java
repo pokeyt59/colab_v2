@@ -5,6 +5,7 @@
 package pokey.alex.mod.init;
 
 import pokey.alex.mod.client.model.Modelpokeythecreator;
+import pokey.alex.mod.client.model.Modelcustom_model;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,5 +17,6 @@ public class PokeyAlexModModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelpokeythecreator.LAYER_LOCATION, Modelpokeythecreator::createBodyLayer);
+		event.registerLayerDefinition(Modelcustom_model.LAYER_LOCATION, Modelcustom_model::createBodyLayer);
 	}
 }
