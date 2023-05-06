@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "pokey_alex_mod:blocks/battery_block"
+    "layer0": "pokey_alex_mod:blocks/battery_blockv2"
   }
 }

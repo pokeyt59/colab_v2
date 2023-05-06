@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "tool",
   "definition": {
-    "renderType": 2,
+    "renderType": 0,
     "texture": "battery_on_a_stick_icon",
-    "customModelName": "pa_batt_on_stick:default",
-    "name": "Pabattonstick",
+    "customModelName": "Normal",
+    "name": "battery on a stick",
     "specialInfo": [
       "lighting may not strike twice but it's pretty dam close when you hit somthing"
     ],

@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "battery_block",
+    "texture": "battery_blockv2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Pabattblock",
+    "name": "battery bock",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

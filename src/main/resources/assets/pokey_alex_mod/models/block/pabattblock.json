@@ -9,6 +9,6 @@
     }
   },
   "textures": {
-    "particle": "pokey_alex_mod:blocks/battery_block"
+    "particle": "pokey_alex_mod:blocks/battery_blockv2"
   }
 }

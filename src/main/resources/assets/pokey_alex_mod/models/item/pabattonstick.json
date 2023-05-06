@@ -1,10 +1,6 @@
 {
-  "forge_marker": 1,
-  "parent": "forge:item/default",
-  "loader": "forge:obj",
-  "model": "pokey_alex_mod:models/item/pa_batt_on_stick.obj",
+  "parent": "item/handheld",
   "textures": {
-    "m_c6da3d30-0d00-3002-3590-c717c0b6b465": "pokey_alex_mod:blocks/battery_on_a_stick",
-    "particle": "pokey_alex_mod:items/battery_on_a_stick_icon"
+    "layer0": "pokey_alex_mod:items/battery_on_a_stick_icon"
   }
 }
