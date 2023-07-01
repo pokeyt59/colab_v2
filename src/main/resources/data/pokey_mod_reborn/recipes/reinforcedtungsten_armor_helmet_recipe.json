@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_mod_reborn:reinforcedtungsteningot"
+    },
+    "1": {
+      "item": "pokey_mod_reborn:reinforcedtungsteningot"
+    },
+    "2": {
+      "item": "pokey_mod_reborn:reinforcedtungsteningot"
+    },
+    "3": {
+      "item": "pokey_mod_reborn:reinforcedtungsteningot"
+    },
+    "5": {
+      "item": "pokey_mod_reborn:reinforcedtungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_mod_reborn:reinforcedtungsten_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "children": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "pokey_mod_reborn:models/item/pa_batt_block.obj",
+      "emissive_ambient": true
+    }
+  },
+  "textures": {
+    "particle": "pokey_mod_reborn:blocks/battery_blockv2"
+  },
+  "render_type": "solid"
+}

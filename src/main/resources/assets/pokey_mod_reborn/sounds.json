@@ -1,0 +1,169 @@
+{
+  "clasic_legacy_sounds_player": {
+    "category": "player",
+    "subtitle": "subtitles.clasic_legacy_sounds_player",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:potato_armor_equip_sound",
+        "stream": false
+      }
+    ]
+  },
+  "crusaders_crossbow_sounds": {
+    "category": "player",
+    "subtitle": "subtitles.crusaders_crossbow_sounds",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:crusaders_crossbow_shoot",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:crusaders_crossbow_shoot_crit",
+        "stream": false
+      }
+    ]
+  },
+  "tlt_the_living_tombstone": {
+    "category": "record",
+    "subtitle": "subtitles.tlt_the_living_tombstone",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:its_raining_men_remix_-_tlt_ft.eilemonty_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "onenoly": {
+    "category": "record",
+    "subtitle": "subtitles.onenoly",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:step_back_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "drowning_pool": {
+    "category": "record",
+    "subtitle": "subtitles.drowning_pool",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:drowning_pool_-_bodies_comrpessed",
+        "stream": true
+      }
+    ]
+  },
+  "richaad_eb": {
+    "category": "record",
+    "subtitle": "subtitles.richaad_eb",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:devil_trigger_full_version_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "sxcredmane": {
+    "category": "record",
+    "subtitle": "subtitles.sxcredmane",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:attack_of_the_killer_beast_phonk_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "the_oh_hellos": {
+    "category": "record",
+    "subtitle": "subtitles.the_oh_hellos",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:soldier_poet_king_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "soldier_death_sound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:soldier_death_1",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_death_2",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_death_3",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_death_4",
+        "stream": false
+      }
+    ]
+  },
+  "soldier_pain_sound": {
+    "category": "neutral",
+    "subtitle": "subtitles.soldier_pain_sound",
+    "sounds": [
+      {
+        "name": "pokey_mod_reborn:soldier_pain_1",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_2",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_3",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_4",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_5",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_6",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_7",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_8",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_9",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_10",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_11",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_12",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_13",
+        "stream": false
+      },
+      {
+        "name": "pokey_mod_reborn:soldier_pain_14",
+        "stream": false
+      }
+    ]
+  }
+}

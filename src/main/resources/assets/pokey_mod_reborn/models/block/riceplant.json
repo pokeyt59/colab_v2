@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "pokey_mod_reborn:blocks/rice_bottom",
+    "particle": "pokey_mod_reborn:blocks/rice_bottom"
+  },
+  "render_type": "cutout"
+}

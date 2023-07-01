@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 30.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "pokey_mod_reborn:saltore"
+  },
+  "result": "pokey_mod_reborn:salt"
+}

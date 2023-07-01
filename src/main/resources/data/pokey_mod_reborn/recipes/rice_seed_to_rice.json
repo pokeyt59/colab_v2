@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pokey_mod_reborn:riceplant"
+    }
+  ],
+  "result": {
+    "item": "pokey_mod_reborn:rice",
+    "count": 4
+  }
+}

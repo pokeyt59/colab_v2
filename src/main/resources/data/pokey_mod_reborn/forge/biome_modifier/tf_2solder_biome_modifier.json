@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "pokey_mod_reborn:tf_2solder",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

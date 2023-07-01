@@ -1,0 +1,13 @@
+newmtl m_c6da3d30-0d00-3002-3590-c717c0b6b465
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd pokey_mod_reborn:blocks/battery_on_a_stick
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

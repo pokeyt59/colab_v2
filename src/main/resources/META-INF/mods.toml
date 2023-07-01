@@ -1,11 +1,11 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="pokey_alex_mod"
+modId="pokey_mod_reborn"
 version="3.26.37.9"
-displayName="pokey and alex's mod"
+displayName="pokey's mod reborn"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/pokey_yt-and-alexs-mod"
 logoFile="logo.png"
@@ -14,10 +14,10 @@ description='''
 a neat little collab mod. if you wish to be thanked in the channle for a month donate to my cash app at  $pokeyyt 
 '''
 
-[[dependencies.pokey_alex_mod]]
+[[dependencies.pokey_mod_reborn]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 

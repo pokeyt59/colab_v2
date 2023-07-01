@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "pokey_mod_reborn:saltore",
+  "step": "underground_ores"
+}

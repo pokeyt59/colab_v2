@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "1": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "2": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "3": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "4": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "5": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "6": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "7": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "8": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_mod_reborn:reinforcedtungsteningot",
+    "count": 4
+  }
+}

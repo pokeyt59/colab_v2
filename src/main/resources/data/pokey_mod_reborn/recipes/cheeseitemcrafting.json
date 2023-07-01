@@ -1,0 +1,10 @@
+{
+  "group": "cheese_item_crafting",
+  "type": "minecraft:smelting",
+  "experience": 59,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": "pokey_mod_reborn:cheeseitem"
+}

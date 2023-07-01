@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pokey_mod_reborn:items/luminisom_hoe_v2"
+  }
+}

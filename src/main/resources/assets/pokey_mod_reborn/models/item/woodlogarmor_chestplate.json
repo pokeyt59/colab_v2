@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pokey_mod_reborn:items/wood_armor_breast_plate_v2"
+  }
+}

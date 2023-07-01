@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "2": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "3": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "5": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_mod_reborn:lighttungstenarmor_boots",
+    "count": 1
+  }
+}

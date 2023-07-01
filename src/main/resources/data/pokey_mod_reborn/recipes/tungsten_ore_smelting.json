@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 78,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "pokey_mod_reborn:tungstenore"
+  },
+  "result": "pokey_mod_reborn:tungsteningot"
+}

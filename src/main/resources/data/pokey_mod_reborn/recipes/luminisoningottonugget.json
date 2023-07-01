@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "1": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "2": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "3": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "4": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "5": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "6": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "7": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    },
+    "8": {
+      "item": "pokey_mod_reborn:luminisonmnuggetraw"
+    }
+  },
+  "result": {
+    "item": "pokey_mod_reborn:luminisom_ingot",
+    "count": 1
+  }
+}

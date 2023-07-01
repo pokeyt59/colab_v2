@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "2": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "3": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "4": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "5": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "6": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "7": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "8": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    }
+  },
+  "result": {
+    "item": "pokey_mod_reborn:lighttungstenarmor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "pokey_mod_reborn:thecreatorsden",
+  "spawners": {
+    "type": "pokey_mod_reborn:thecreator",
+    "weight": 1,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

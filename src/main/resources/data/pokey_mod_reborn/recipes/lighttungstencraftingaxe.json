@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "1": {
+      "item": "pokey_mod_reborn:chickenfeatheringot"
+    },
+    "2": {
+      "item": "pokey_mod_reborn:tungsteningot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pokey_mod_reborn:lighttungstenaxe",
+    "count": 1
+  }
+}
